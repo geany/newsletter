@@ -1,0 +1,70 @@
+\documentclass[%
+paper=a4,%
+fontsize=11pt,%
+twoside=false,%
+DIV18,
+headsepline,
+plainheadsepline,
+footsepline,
+plainfootsepline,
+parskip=half,%
+openany,%
+]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+
+\title{Geany Newsletter \\ \small{Volume 1} \\ \includegraphics{img/geany.png}}
+\date{\today}
+\begin{document}
+\maketitle{}
+\tableofcontents{}
+
+\section{Geany 0.20 has been released}
+
+On January, 6th version 0.20 of Geany "Disra" has been released. As always
+the release containing a number of bug fixes as well as
+improvements/new features.
+
+Some of the highlights:
+
+\begin{itemize}
+	\item Improve compatibility with GVFS using GIO to save documents (Alexey Antipov).
+	\item Fix sometimes crashing when closing a modified document and choosing Save.
+	\item Reorganise Find in Files dialog and add Files pattern to filter search results.
+	\item Show mimetype icon in sidebar Documents list and notebook popup menu (Colomban Wendling).
+	\item Add per-document indent width setting (Jiří Techet).
+	\item Fix passing quoted arguments when using 'Send Selection to'. This means e.g. sed 's/\textbackslash{}./(dot)/g' now works.
+	\item Add alternative color scheme based on Python colors (View->Editor->Color Schemes - not all filetypes supported yet).
+	\item Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
+	\item Add Forth filetype (Thomas Huth).
+	\item Add Lisp filetype (Mário Silva).
+	\item Add Erlang filetype (Taylor Venable).
+	\item Add translations: kk.
+	\item Update translations: cs, de, en\_GB, es, fi, fr, hu, ja, nl, pt, sl, sv, tr, zh\_CN.
+\end{itemize}
+
+\section{Geany-Plugins 0.20 have been released}
+
+
+\section{Geany-Development}
+\subsection{Update to Scintilla 2.22}
+
+Right after the release of Geany 0.20 with Subversion r5521 the
+updated Scintilla has been merged from unstable branch into trunk.
+
+\subsection{Further patches}
+
+\section{Plugins}
+
+It was a quiet active time right after the 0.20 release on plugin
+development side.
+
+
+\subsection{New plugins to Geany-Plugins-project}
+
+
+
+\end{document}
