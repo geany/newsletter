@@ -15,7 +15,6 @@ openany,%
 \usepackage{lmodern}
 \usepackage[english]{babel}
 \usepackage{graphicx}
-
 \title{Geany Newsletter \\[1ex]
 	\small{Volume 1} \\[1ex]
 	\includegraphics{img/geany.png}}
@@ -24,6 +23,14 @@ openany,%
 \maketitle{}
 \tableofcontents{}
 
+\section*{Editorial}
+
+Welcome to the 1st Geany newsletter with highlight of the last weeks
+during Geany development and using. Maybe its not giving a complete
+overview on news, but trying to collect the most important ones.
+Have fun and happy coding!
+
+\newpage{}
 \section{Geany 0.20 has been released}
 
 On January, 6th version 0.20 of Geany "Disra" has been released. As always
@@ -49,6 +56,78 @@ Some of the highlights:
 \end{itemize}
 
 \section{Geany-Plugins 0.20 have been released}
+
+Short after release of Geany also the plugins collection
+Geany-Plugins has been released with version 0.20. This collection
+includes a number of useful plugins, not shipped with Geany itself.
+This release has been done after about 6 month of developing work
+and is collecting a number of changes.
+
+\subsection{New plugins}
+\subsubsection{UpdateChecker}
+
+\textbf{UpdateChecker} is implementing a way of checking for new
+releases of Geany and noticing the user in case of it has been
+recognized one. Its based on \texttt{libsoup} and can be configured to check
+during startup or on manual request.
+
+\subsubsection{WebHelper}
+
+\textbf{WebHelper} is a plugin for Geany that provides some web
+development facilities, such as a web page preview and some
+debugging tools (web inspector). To do so the plugin is implementing
+a couple of features:
+
+\begin{itemize}
+	\item A basic web view, allowing to display any web page (using WebKit);
+	\item Possible automatic reloading of the web view upon document saving;
+	\item A web inspector/debugging tool for the web view's content (including a
+		JavaScript console, a viewer and editor of processed HTML and CSS, a network
+		usage analysis tool and many more, thanks to WebKit).
+\end{itemize}
+
+\subsection{Updates \& Bugfixes}
+
+Also there have been a lot of bugfixes and updates on plugins. For
+further details please check the Release notes and/or the ChangeLog
+of plugins.
+
+\subsubsection{GeanyExtraSel}
+\begin{itemize}
+	\item Respect 'Smart' home key (Geany does now).
+	\item Fixed Scintilla Shift+movement key convertion of rectangle selection.
+	\item Virtual spaces support.
+	\item Per-file column mode.
+	\item Added "Set Anchor", "Select to Anchor" and "Rectangle Select to Anchor".
+\end{itemize}
+\subsubsection{GeanyGenDoc}
+\begin{itemize}
+	\item Bump dependency on CTPL to 0.3.
+	\item Add a popup menu for common actions in the documentation type selector.
+	\item Fix indentation of inserted documentation blocs.
+	\item Documentation type now defaults to Doxygen (rather than nothing).
+	\item Add policy PASS to completely ignore a symbol.
+	\item Add basic rules for PHP.
+	\item Fix build against GTK+ 2.16.
+	\item Don't copy the system configuration file to the user's one when hitting
+      "Edit Current Language Configuration", only write it when saving changes.
+\end{itemize}
+
+\subsubsection{GeanyLaTeX}
+\begin{itemize}
+	\item Move LaTeX-menu to a separate menu inside Geany main menu.
+	\item Add a feature to auto-capitalize letters on typing on begin of a sentence.
+	\item Add a way to put an icon for LaTeX-wizard into Geany's main toolbar.
+	\item Added a dialog for inserting BibTeX references based on available *.bib-files.
+\end{itemize}
+
+\subsubsection{TreeBrowser}
+\begin{itemize}
+	\item Added bookmarks support.
+	\item Added keybindings support.
+	\item Added mime type icons in the tree.
+	\item Many bugfixes and code improvements.
+\end{itemize}
 
 \section{Geany-Development}
 \subsection{Update to Scintilla 2.22}
