@@ -26,23 +26,23 @@ openany,%
 
 \section*{Editorial}
 
-Welcome to the 1st Geany newsletter with highlight of the last weeks
-during Geany development and using. Maybe its not giving a complete
-overview on news, but trying to collect the most important ones.
+Welcome to the first Geany newsletter with highlights of the last few weeks
+during Geany development and use. This newsletter is not intended to give a complete
+overview of Geany news, but is trying to collect the most important items.
 Have fun and happy coding!
 
 \newpage{}
 \section{Geany 0.20 has been released}
 
-On January, 6th version 0.20 of Geany "Disra" has been released. As always
+On January, 6th version 0.20 of Geany "Disra" was released. As always
 the release containing a number of bug fixes as well as
-improvements/new features.
+improvements and new features.
 
 Some of the highlights:
 
 \begin{itemize}
 	\item Improve compatibility with GVFS using GIO to save documents (Alexey Antipov).
-	\item Fix sometimes crashing when closing a modified document and choosing Save.
+	\item Fix occasional crashes when closing a modified document and choosing Save.
 	\item Reorganise Find in Files dialog and add Files pattern to filter search results.
 	\item Show mimetype icon in sidebar Documents list and notebook popup menu (Colomban Wendling).
 	\item Add per-document indent width setting (Jiří Techet).
@@ -58,29 +58,29 @@ Some of the highlights:
 
 \section{Geany-Plugins 0.20 have been released}
 
-Short after release of Geany also the plugins collection
-Geany-Plugins has been released with version 0.20. This collection
+Shortly after the release of Geany the Geany-Plugins collection
+was released with version 0.20. This collection
 includes a number of useful plugins, not shipped with Geany itself.
-This release has been done after about 6 month of developing work
-and is collecting a number of changes.
+This release is the result of about 6 months of development work
+and so it has quite a number of changes and some new plugins:
 
 \subsection{New plugins}
 \subsubsection{UpdateChecker}
 
-\textbf{UpdateChecker} is implementing a way of checking for new
-releases of Geany and noticing the user in case of it has been
-recognized one. Its based on \texttt{libsoup} and can be configured to check
+\textbf{UpdateChecker} implements a check for new
+releases of Geany and notifies the user when one is
+available. Its based on \texttt{libsoup} and can be configured to check
 during startup or on manual request.
 
 \subsubsection{WebHelper}
 
-\textbf{WebHelper} is a plugin for Geany that provides some web
+\textbf{WebHelper} is a plugin that provides some web
 development facilities, such as a web page preview and some
-debugging tools (web inspector). To do so the plugin is implementing
-a couple of features:
+debugging tools (web inspector). The plugin is implements
+the following features:
 
 \begin{itemize}
-	\item A basic web view, allowing to display any web page (using WebKit);
+	\item A basic web view, allowing the display of any web page (using WebKit);
 	\item Possible automatic reloading of the web view upon document saving;
 	\item A web inspector/debugging tool for the web view's content (including a
 		JavaScript console, a viewer and editor of processed HTML and CSS, a network
@@ -91,16 +91,17 @@ a couple of features:
 
 Also there have been a lot of bugfixes and updates on plugins. For
 further details please check the Release notes and/or the ChangeLog
-of plugins.
+of plugins. A few selected changes are:
 
 \subsubsection{GeanyExtraSel}
 \begin{itemize}
 	\item Respect 'Smart' home key (Geany does now).
-	\item Fixed Scintilla Shift+movement key convertion of rectangle selection.
+	\item Fixed Scintilla Shift+movement key conversion of rectangle selection.
 	\item Virtual spaces support.
 	\item Per-file column mode.
 	\item Added "Set Anchor", "Select to Anchor" and "Rectangle Select to Anchor".
 \end{itemize}
+
 \subsubsection{GeanyGenDoc}
 \begin{itemize}
 	\item Bump dependency on CTPL to 0.3.
@@ -117,7 +118,7 @@ of plugins.
 \subsubsection{GeanyLaTeX}
 \begin{itemize}
 	\item Move LaTeX-menu to a separate menu inside Geany main menu.
-	\item Add a feature to auto-capitalize letters on typing on begin of a sentence.
+	\item Add a feature to auto-capitalize letters on typing the beginning of a sentence.
 	\item Add a way to put an icon for LaTeX-wizard into Geany's main toolbar.
 	\item Added a dialog for inserting BibTeX references based on available *.bib-files.
 \end{itemize}
@@ -146,15 +147,15 @@ development side.
 \subsection{New plugins to Geany-Plugins-project}
 \subsubsection{Tableconvert}
 
-After a little chaos with naming of plugin the new plugin \texttt{Tableconvert}
+After a little chaos with naming, the new plugin \texttt{Tableconvert}
 has been added to the development version of the Geany-Plugins. Its
-offering a way to convert tabulator separated lists as e.g. imported
-from Microsoft Excel or Libreoffice Calc into a table. Currently the
-plugin is supporting HTML and \LaTeX{} for doing this.
+offering a way to convert tab separated lists (e.g. imported
+from Microsoft Excel or Libreoffice Calc) into a table. Currently the
+plugin is supporting HTML and \LaTeX{} tables.
 
 \subsubsection{Debugger}
 
-With \texttt{Debugger} it has been added a second binding to gdb to
+The \texttt{Debugger} plugin has added a second binding for gdb to
 the Geany-Plugins project.
 
 \end{document}
