@@ -9,7 +9,15 @@ if ($listing = scandir(NEWSLETTER_DIRECTORY))
 		if (preg_match('/^vol_/',$item))
 		{
 			$number = split('_',$item); $number = $number[1];
-			print '<li><a href="'.$item.'/newsletter_'.$number.'.html">Newsletter Vol. '.$number.'</a></li>';
+			print '<li>';
+			print 'Newsletter Vol. '.$number;
+			print '&nbsp';
+			print '<a href="'.$item.'/newsletter_'.$number.'.html">HTML</a>';
+			print '&nbsp';
+			print '<a href="'.$item.'/newsletter_'.$number.'.pdf">PDF</a>';
+			print '&nbsp';
+			print '<a href="'.$item.'/newsletter_'.$number.'.txt">Plain Text</a>';
+			print '</li>';
 		}
 	}
 	print '</ul>';
