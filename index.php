@@ -17,6 +17,11 @@ if (isset($_GET['site']))
 		define('CONTENTFILE', CONTENTPATH . $_GET['site'] . '.html');
 	}
 
+	elseif (file_exists(CONTENTPATH . $_GET['site'] . '.php'))
+	{
+		define('CONTENTFILE', CONTENTPATH . $_GET['site'] . '.php');
+	}
+
 	else
 	{
 		define('CONTENTFILE', CONTENTPATH . '404.html');
@@ -25,7 +30,7 @@ if (isset($_GET['site']))
 
 else
 {
-	define('CONTENTFILE', CONTENTPATH . 'start.html');
+	define('CONTENTFILE', CONTENTPATH . 'newsletters.php');
 }
 
 print '<?xml version="1.0"?>';
