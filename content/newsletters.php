@@ -8,7 +8,7 @@ if ($listing = scandir(NEWSLETTER_DIRECTORY))
 	{
 		if (preg_match('/^vol_/',$item))
 		{
-			$number = split('_',$item); $number = $number[1];
+			$number = explode('_',$item); $number = $number[1];
 			print '<li>';
 			print 'Newsletter Vol. '.$number;
 			print '&nbsp';
