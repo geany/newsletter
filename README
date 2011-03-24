@@ -1,3 +1,15 @@
+Prerequisites
+=============
+
+You will need some docutils installed, at least one of the following commands
+should be present on your machine:
+
+ rst2html
+ rst2latex
+ rst2pdf
+ rst2odt
+
+
 How to compile
 ==============
 
