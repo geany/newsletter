@@ -13,8 +13,7 @@ latex:
 		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).tex
 
 odt:
-	rst2odt --stylesheet=style.css \
-		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).odt
+	rst2odt vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).odt
 
 clean:
 	rm -f vol_$(VOL)/newsletter_$(VOL).html
