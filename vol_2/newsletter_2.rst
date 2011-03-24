@@ -1,8 +1,17 @@
 Geany Newsletter #2
 -------------------
 
+
+About Geany
+===========
+
+
 Geany Universe
 ==============
+
+
+People behind Geany -- Interview
+=================================
 
 
 Geany local
