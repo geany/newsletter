@@ -1,7 +1,0 @@
-Topic collection for issue II
-target date: 2nd Sunday in April (2011-04-10)
-
-* Small teaser text for pdf/html version which is describing Geany a
-  bit (reader's feedback via mail)
-* Interview with some developer/contributor to Geany
-* Geany at Chemnitzer Linuxtage 
