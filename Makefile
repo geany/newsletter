@@ -8,8 +8,7 @@ pdf:
 	rst2pdf vol_$(VOL)/newsletter_$(VOL).rst -o vol_$(VOL)/newsletter_$(VOL).pdf
 
 latex:
-	rst2latex --stylesheet=style.css \
-		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).tex
+	rst2latex vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).tex
 
 odt:
 	rst2odt vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).odt
