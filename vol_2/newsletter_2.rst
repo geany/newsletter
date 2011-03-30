@@ -6,6 +6,26 @@ About Geany
 ===========
 
 
+Geany Development
+=================
+
+Real-time tag parsing
+^^^^^^^^^^^^^^^^^^^^^
+
+Automatic identation width detection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Fixes at template encoding
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Plugins
+=======
+
+Significant updates on Split Window Plugin
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
 Geany Universe
 ==============
 
