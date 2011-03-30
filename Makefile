@@ -5,8 +5,7 @@ html:
 		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).html
 
 pdf:
-	rst2pdf -s style.css \
-		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).pdf
+	rst2pdf vol_$(VOL)/newsletter_$(VOL).rst -o vol_$(VOL)/newsletter_$(VOL).pdf
 
 latex:
 	rst2latex --stylesheet=style.css \
