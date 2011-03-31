@@ -1,20 +1,44 @@
-all: html pdf latex odt
+#!/usr/bin/make -f
 
-html:
-	rst2html --stylesheet=style.css \
-		vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).html
+# build the current volume if none provided
+VOL			?= 2
 
-pdf:
-	rst2pdf vol_$(VOL)/newsletter_$(VOL).rst -o vol_$(VOL)/newsletter_$(VOL).pdf
+NAME		=	vol_$(VOL)/newsletter_$(VOL)
+OUTPUT_HTML	=	$(NAME).html
+OUTPUT_PDF	=	$(NAME).pdf
+OUTPUT_ODT	=	$(NAME).odt
+OUTPUT_TEX	=	$(NAME).tex
+OUTPUTS		=	$(OUTPUT_HTML) \
+				$(OUTPUT_PDF) \
+				$(OUTPUT_ODT) \
+				$(OUTPUT_TEX)
 
-latex:
-	rst2latex vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).tex
+.PHONY: all clean html pdf odt tex
 
-odt:
-	rst2odt vol_$(VOL)/newsletter_$(VOL).rst > vol_$(VOL)/newsletter_$(VOL).odt
+.SUFFIXES: .rst .html .pdf .tex .odt
+
+all: $(OUTPUTS)
+
+# convenience aliases
+html:	$(OUTPUT_HTML)
+pdf:	$(OUTPUT_PDF)
+odt:	$(OUTPUT_ODT)
+tex:	$(OUTPUT_TEX)
 
 clean:
-	rm -f vol_$(VOL)/newsletter_$(VOL).html
-	rm -f vol_$(VOL)/newsletter_$(VOL).pdf
-	rm -f vol_$(VOL)/newsletter_$(VOL).odt
-	rm -f vol_$(VOL)/newsletter_$(VOL).tex
+	rm -f $(OUTPUTS)
+
+.rst.html:
+	rst2html --stylesheet=style.css $< > $@
+
+.rst.pdf:
+	rst2pdf $< -o $@
+
+.rst.tex:
+	rst2latex $< > $@
+
+.rst.odt:
+	rst2odt $< > $@
+
+# extra dependencies we cannot add to suffix rules
+$(OUTPUT_HTML): style.css
