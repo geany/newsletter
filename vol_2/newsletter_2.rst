@@ -33,13 +33,14 @@ This can be configured (and disabled) in the preferences by the
 Automatic indentation width detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Geany now have the ability to detect the indentation width used by a
-file when opening it, making easier to work with files using different
-indentation widths. However, this auto-detection don't work (yet) if the
-file uses a tabs-only indentation type.
+Geany now has the ability to detect the indentation width used by a
+file when opening it, making it easier to work with files which use
+different indentation widths. The auto-detection, however, doesn't yet
+work if the file uses a tabs-only indentation type.
 
-To enable this auto-detection, go to the preferences under `Editor ->
-Indentation` and check `Detect width from file`.
+To enable automatic detection of indentation width, open the Preferences
+dialog and check `Detect width from file` in the `Editor->Indentation`
+section.
 
 Fixes at template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
