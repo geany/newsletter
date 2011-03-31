@@ -21,8 +21,16 @@ Geany Development
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
-Automatic identation width detection
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Automatic indentation width detection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Geany now have the ability to detect the indentation width used by a
+file when opening it, making easier to work with files using different
+indentation widths. However, this auto-detection don't work (yet) if the
+file uses a tabs-only indentation type.
+
+To enable this auto-detection, go to the preferences under `Editor ->
+Indentation` and check `Detect width from file`.
 
 Fixes at template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
