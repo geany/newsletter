@@ -21,6 +21,15 @@ Geany Development
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
+Parsing of the symbols (also known as tags) in file currently being
+edited can now be done directly in memory. This change allowed to make
+tag parsing for the current document happen in real time when the content
+changes; so keeping the symbol list reflecting the actual content of the
+document rather than the state when it was last saved.
+
+This can be configured (and disabled) in the preferences by the
+`Symbol list update frequency` option under `Editor -> Completions`.
+
 Automatic indentation width detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
