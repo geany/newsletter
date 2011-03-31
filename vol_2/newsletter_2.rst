@@ -35,6 +35,9 @@ Indentation` and check `Detect width from file`.
 Fixes at template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The encoding of template files is now properly auto-detected, fixing
+loading of any template using an encoding incompatible with UTF-8.
+
 
 Plugins
 =======
