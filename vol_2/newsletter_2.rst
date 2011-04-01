@@ -55,6 +55,37 @@ Plugins
 Significant updates on Split Window Plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+There has been quite a few improvements and bug fixes done in the Split
+Window plugin that ships with Geany which allows viewing two documents at the
+same time.
+
+Code folding is now supported in the split editor as of revision 5626.
+
+Since revision 5633, the terminology used in the Split Window menu under the
+Tools menu has been improved to avoid ambiguity regarding the direction in
+which the split will take place.  Rather than using the word Horizontal for
+when the editors are laid out horizontally (the splitter is vertical), the
+words "Side by Side" are now used.  Likewise, when the editors are laid out
+vertically (the splitter is horizontal), the words "Top and Bottom" are now
+used.
+
+Previously, when the Split Window was active and the document currently being
+viewed in it was closed in the main documents notebook, the Split Window
+plugin would unsplit, even if there was other documents which could be viewed
+instead.  As of revision 5634, when this happens, the Split Window plugin will
+switch to view the current document in the main documents notebook instead.  If
+there are no more docouments open, the Split Window plugin will unsplit.
+
+Probably the most significant improvement to the Split Window plugin is that
+it will now work in Microsoft Windows.  Previously, the plugin was using trick
+to work around a bug in the Scintilla widget Geany uses for its editor.  A
+side effect of this workaround was that it caused serious issues in Windows and
+so the plugin was disabled for the Windows build.  We fixed the bug in
+Scintilla and sent the fix to the Scintilla project where it was merged
+upstream.  Geany is no longer required to use the previously mentioned trick,
+and so the plugin will be re-enabled for the Windows build, with equivalent
+functionality as it has on other platforms.
+
 
 Geany Universe
 ==============
