@@ -59,6 +59,9 @@ Significant updates on Split Window Plugin
 Geany Universe
 ==============
 
+New Geany Wiki
+^^^^^^^^^^^^^^
+
 
 People behind Geany -- Interview
 =================================
