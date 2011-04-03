@@ -19,6 +19,24 @@ More information about Geany can be found at
 Geany Development
 =================
 
+
+Update to Scintilla 2.25
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+With svn r5682 another update on used Scintilla has been done so
+Geany's development version is now powered by Scintilla 2.25 in
+favor of the previous used 2.22.
+
+As with every update of Scintilla there have been a lot of
+improvements. This is including changes on Scintilla itself as e.g.
+fixing an issue with marking of a word when double clicking or
+fixing some memory leaks and unneeded redraws of editor window as
+well on used lexer e.g. for SQL.
+
+A detailed list of changes done with Scintilla can be found at
+`Scintilla ChangeLog
+<http://www.scintilla.org/ScintillaHistory.html>`_.
+
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
