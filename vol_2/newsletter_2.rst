@@ -52,6 +52,14 @@ loading of any template using an encoding incompatible with UTF-8.
 Plugins
 =======
 
+New plugins
+^^^^^^^^^^^
+
+geanycfp
+********
+
+
+
 Significant updates on Split Window Plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
