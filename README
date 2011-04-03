@@ -16,7 +16,9 @@ How to compile
 Compiling the newsletter is as simple as is couldn't be. Just define an
 evironment variable named VOL and run make either wihtout parameters to
 compile all, or with one of the parameters html, pdf, latex, odt to compile
-just that file. Examples:
+just that file. Note this will only work with Newsletters greater than Vol. 2
+
+Examples:
 
  VOL=2 make                                  # compile all newsletters for vol_2
  VOL=2 make pdf                              # compile pdf from vol_2
