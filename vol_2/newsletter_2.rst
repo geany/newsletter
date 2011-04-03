@@ -1,6 +1,7 @@
 Geany Newsletter #2
 -------------------
 
+.. contents::
 
 About Geany
 ===========
