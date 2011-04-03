@@ -32,7 +32,7 @@ clean:
 	rm -f $(OUTPUTS)
 
 .rst.html:
-	rst2html --stylesheet=style.css $< > $@
+	rst2html --stylesheet=style.css --toc-top-backlinks $< > $@
 
 .rst.pdf:
 	rst2pdf $< -o $@
