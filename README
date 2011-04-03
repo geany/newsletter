@@ -1,3 +1,19 @@
+Different branches of this repo
+===============================
+
+master:  Reflects the current development branch where e.g. new
+         newsletter versions are getting created in.
+
+website: Contains the content, which is currently published on the
+         webserver.
+
+In order to bring something 'live' you have to choices:
+
+1. Make usage of git cherry-pick <object> or
+2. Merge complete branch master into website branch via e.g.
+   git checkout website && git merge master
+
+
 Prerequisites
 =============
 
