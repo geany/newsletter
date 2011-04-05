@@ -37,6 +37,7 @@ A detailed list of changes done with Scintilla can be found at
 `Scintilla ChangeLog
 <http://www.scintilla.org/ScintillaHistory.html>`_.
 
+
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -76,8 +77,6 @@ New plugins
 
 geanycfp
 ********
-
-
 
 Significant updates on Split Window Plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -128,7 +127,6 @@ People behind Geany -- Interview
 Geany local
 ===========
 
-
 Geany at Chemnitzer LinuxTage (March, 19th-20th)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -139,3 +137,16 @@ visited and people came not only to ask questions or report a bug
 but also to tell what they are using Geany for. So Dominic, Enrico
 and Frank had a lot of questions to answer and a lot of feedback to
 take care about.
+
+About this newsletter
+=====================
+
+This newsletter has been created in cooperative work of people from
+Geany community. Contributers to this newsletter and infrastructure
+behind, ordered by alphabet:
+
+Colomban Wendling
+Dominic Hopf
+Enrico Tröger
+Frank Lanitz
+Matthew Brush
