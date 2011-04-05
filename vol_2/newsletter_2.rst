@@ -41,7 +41,7 @@ A detailed list of changes done with Scintilla can be found at
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
-Parsing of the symbols (also known as tags) in file currently being
+Parsing of the symbols (also known as tags) in the file currently being
 edited can now be done directly in memory. This change allowed to make
 tag parsing for the current document happen in real time when the content
 changes; so keeping the symbol list reflecting the actual content of the
