@@ -78,6 +78,43 @@ New plugins
 geanycfp
 ********
 
+Back in January William Frasser added with geanycfp a new plugin
+which is adding a couple of new functions to Geany's plugin pool
+which might are interesting for users.
+
+Numbered Bookmarks:
+
+The plugin is adding a option to store bookmarks to files and
+directly access them via keybinding.
+
+To set a numbered bookmark press Ctrl+Shift+(a number from 0 to 9).
+You will see a marker apear next to the line number. If you press
+Ctrl+Shift+(a number) on a line that already has that bookmark
+number then it removes the bookmark, otherwise it will move the
+bookmark there if it was set on a different line, or create it if it
+had not already been set.
+
+Macros:
+
+Macros are well known from other tools. Users of Photoshop are
+always telling how amazing the batch processing is working over
+there on manipulating images. However, something similar is adding
+the plugin to Geany with its macro feature: The plugin can record
+small actions and rerun them after pressing e.g. a keybinding. This
+could be very helpful if you e.g. need to remove the last two letters
+of a line and search & replace or rectangle selection are not able
+to solve the request.
+
+Remembering fold states:
+
+Per default, Geany is not remembering the status of folding when
+reloading a file e.g. on startup. This can be annoying if you have a
+huge number of nested structures as e.g. inside an XML-document. The
+feature is helping you to remember these states so you don't need to
+fold up after loading.
+
+
+
 Significant updates on Split Window Plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
