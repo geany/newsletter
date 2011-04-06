@@ -23,14 +23,14 @@ Geany Development
 Update to Scintilla 2.25
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-With svn r5682 another update on used Scintilla has been done so
+With svn r5682 another update to Scintilla has been done so
 Geany's development version is now powered by Scintilla 2.25 in
-favor of the previous used 2.22.
+favor of the version previously used: 2.22.
 
 As with every update of Scintilla there have been a lot of
-improvements. This is including changes on Scintilla itself as e.g.
-fixing an issue with marking of a word when double clicking or
-fixing some memory leaks and unneeded redraws of editor window as
+improvements. This includes changes to Scintilla itself, for
+example: fixing an issue with marking of a word when double clicking
+or fixing some memory leaks and unneeded redraws of editor window as
 well on used lexer e.g. for SQL.
 
 A detailed list of changes done with Scintilla can be found at
@@ -42,8 +42,8 @@ Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
 Parsing of the symbols (also known as tags) in the file currently being
-edited can now be done directly in memory. This change allowed to make
-tag parsing for the current document happen in real time when the content
+edited can now be done directly in memory. This change means that
+tag parsing for the current document happens in real time when the content
 changes; so keeping the symbol list reflecting the actual content of the
 document rather than the state when it was last saved.
 
@@ -62,7 +62,7 @@ To enable automatic detection of indentation width, open the Preferences
 dialog and check `Detect width from file` in the `Editor->Indentation`
 section.
 
-Fixes at template encoding
+Fixes to template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The encoding of template files is now properly auto-detected, fixing
@@ -80,12 +80,12 @@ geanycfp
 
 Back in January William Frasser added with geanycfp a new plugin
 which is adding a couple of new functions to Geany's plugin pool
-which might are interesting for users.
+which might be interesting to users.
 
 Numbered Bookmarks:
 
-The plugin is adding a option to store bookmarks to files and
-directly access them via keybinding.
+The plugin adds an option to store bookmarks to files and
+directly access them via a keybinding.
 
 To set a numbered bookmark press Ctrl+Shift+(a number from 0 to 9).
 You will see a marker apear next to the line number. If you press
@@ -97,7 +97,7 @@ had not already been set.
 Macros:
 
 Macros are well known from other tools. Users of Photoshop are
-always telling how amazing the batch processing is working over
+always saying how amazing the batch processing is working over
 there on manipulating images. However, something similar is adding
 the plugin to Geany with its macro feature: The plugin can record
 small actions and rerun them after pressing e.g. a keybinding. This
@@ -134,13 +134,13 @@ used.
 
 Previously, when the Split Window was active and the document currently being
 viewed in it was closed in the main documents notebook, the Split Window
-plugin would unsplit, even if there was other documents which could be viewed
+plugin would unsplit, even if there were other documents which could be viewed
 instead.  As of revision 5634, when this happens, the Split Window plugin will
 switch to view the current document in the main documents notebook instead.  If
 there are no more docouments open, the Split Window plugin will unsplit.
 
 Probably the most significant improvement to the Split Window plugin is that
-it will now work in Microsoft Windows.  Previously, the plugin was using trick
+it will now work on Microsoft Windows.  Previously, the plugin was using trick
 to work around a bug in the Scintilla widget Geany uses for its editor.  A
 side effect of this workaround was that it caused serious issues in Windows and
 so the plugin was disabled for the Windows build.  We fixed the bug in
@@ -167,20 +167,20 @@ Geany local
 Geany at Chemnitzer LinuxTage (March, 19th-20th)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Together with the guys of Xfce Geany was present with a booth on
-annual Chemnitzer LinuxTage in March, a convention about all topics
-around Linux, BSD and free software in general. The booth was well
-visited and people came not only to ask questions or report a bug
-but also to tell what they are using Geany for. So Dominic, Enrico
-and Frank had a lot of questions to answer and a lot of feedback to
-take care about.
+Together with the guys of Xfce, Geany was present with a booth at
+the annual Chemnitzer LinuxTage event in March, a convention about
+all topics around Linux, BSD and free software in general. The booth
+was well visited and people came not only to ask questions or report
+a bug but also to tell us what they are using Geany for. So Dominic,
+Enrico and Frank had a lot of questions to answer and a lot of feedback
+to take care about.
 
 About this newsletter
 =====================
 
 This newsletter has been created in cooperative work of people from
-Geany community. Contributers to this newsletter and infrastructure
-behind, ordered by alphabet:
+Geany community. Contributers to this newsletter and the infrastructure
+behind it, ordered by alphabet:
 
 Colomban Wendling
 Dominic Hopf
