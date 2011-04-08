@@ -77,7 +77,7 @@ print '<?xml version="1.0"?>';
 	<div id="footer">
 		<p>&copy; Dominic Hopf<br />
 		Contact <a href="http://dominichopf.de/">Dominic Hopf</a> or the
-		<a href="http://www.geany.org/Support/MailingList">Geany Team</a>
+		<a href="http://www.geany.org/Main/Authors">Geany Team</a>
 		for questions.</p>
 	</div>
 </body>
