@@ -41,10 +41,10 @@ A detailed list of changes done with Scintilla can be found at
 Real-time tag parsing
 ^^^^^^^^^^^^^^^^^^^^^
 
-Parsing of the symbols (also known as tags) in the file currently being
+Parsing of symbols (also known as tags) in the file currently being
 edited can now be done directly in memory. This change means that
 tag parsing for the current document happens in real time when the content
-changes; so keeping the symbol list reflecting the actual content of the
+changes; so the symbol list reflects the actual content of the
 document rather than the state when it was last saved.
 
 This can be configured (and disabled) in the preferences by the
@@ -78,17 +78,17 @@ New plugins
 geanycfp
 ********
 
-Back in January William Frasser added with geanycfp a new plugin
-which is adding a couple of new functions to Geany's plugin pool
+Back in January, William Frasser added with geanycfp a new plugin
+which added a couple of new functions to Geany's plugin pool
 which might be interesting to users.
 
 Numbered Bookmarks:
 
-The plugin adds an option to store bookmarks to files and
+The plugin adds an option to store bookmarks in files and
 directly access them via a keybinding.
 
 To set a numbered bookmark press Ctrl+Shift+(a number from 0 to 9).
-You will see a marker apear next to the line number. If you press
+You will see a marker appear next to the line number. If you press
 Ctrl+Shift+(a number) on a line that already has that bookmark
 number then it removes the bookmark, otherwise it will move the
 bookmark there if it was set on a different line, or create it if it
@@ -97,9 +97,9 @@ had not already been set.
 Macros:
 
 Macros are well known from other tools. Users of Photoshop are
-always saying how amazing the batch processing is working over
-there on manipulating images. However, something similar is adding
-the plugin to Geany with its macro feature: The plugin can record
+always saying how amazing the batch processing is for
+manipulating images. However, this plugin adds something similar
+to Geany with its macro feature: the plugin can record
 small actions and rerun them after pressing e.g. a keybinding. This
 could be very helpful if you e.g. need to remove the last two letters
 of a line and search & replace or rectangle selection are not able
@@ -107,10 +107,10 @@ to solve the request.
 
 Remembering fold states:
 
-Per default, Geany is not remembering the status of folding when
+By default, Geany does not remember the status of folding when
 reloading a file e.g. on startup. This can be annoying if you have a
-huge number of nested structures as e.g. inside an XML-document. The
-feature is helping you to remember these states so you don't need to
+huge number of nested structures e.g. inside an XML-document. This
+feature helps you to remember these states so you don't need to
 fold up after loading.
 
 
@@ -118,7 +118,7 @@ fold up after loading.
 Significant updates on Split Window Plugin
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-There has been quite a few improvements and bug fixes done in the Split
+There have been quite a few improvements and bug fixes done in the Split
 Window plugin that ships with Geany which allows viewing two documents at the
 same time.
 
@@ -137,7 +137,7 @@ viewed in it was closed in the main documents notebook, the Split Window
 plugin would unsplit, even if there were other documents which could be viewed
 instead.  As of revision 5634, when this happens, the Split Window plugin will
 switch to view the current document in the main documents notebook instead.  If
-there are no more docouments open, the Split Window plugin will unsplit.
+there are no more documents open, the Split Window plugin will unsplit.
 
 Probably the most significant improvement to the Split Window plugin is that
 it will now work on Microsoft Windows.  Previously, the plugin was using trick
@@ -173,17 +173,18 @@ all topics around Linux, BSD and free software in general. The booth
 was well visited and people came not only to ask questions or report
 a bug but also to tell us what they are using Geany for. So Dominic,
 Enrico and Frank had a lot of questions to answer and a lot of feedback
-to take care about.
+to respond to.
 
 About this newsletter
 =====================
 
-This newsletter has been created in cooperative work of people from
-Geany community. Contributers to this newsletter and the infrastructure
-behind it, ordered by alphabet:
+This newsletter has been created in cooperation by people from
+Geany's international community. Contributers to this newsletter and
+the infrastructure behind it, ordered by alphabet:
 
 Colomban Wendling
 Dominic Hopf
 Enrico Tröger
 Frank Lanitz
 Matthew Brush
+Russell Dickenson
