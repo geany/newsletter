@@ -162,7 +162,7 @@ Plugin Focus
 Save Actions
 ************
 
-The Save Actions plugin adds options available to you when saving files, 
+The Save Actions plugin adds options available to you when saving files,
 including: Auto Save, Instant Save and Backup Copy. Each of the options
 can be enabled idepdendently of the others but they can be even more
 powerful when used in combination. Read on, discover their functions, and
@@ -171,7 +171,7 @@ more productive.
 
 Auto Save
 
-.. image:: img/issue2_saveactions_1.png
+.. image:: ../img/issue2_saveactions_1.png
 
 Auto Save provides an option to automatically save either the current
 file or all open files at a defined interval. It can be very useful if you
@@ -181,7 +181,7 @@ a longer or shorter interval.
 
 Instant Save
 
-.. image:: img/issue2_saveactions_2.png
+.. image:: ../img/issue2_saveactions_2.png
 
 Instant Save aims to make it easier to make use of Geany's file-specific
 features with newly-created files. With this plugin activated you can
@@ -192,18 +192,18 @@ Python support is available when the file's created.
 
 Backup Copy
 
-.. image:: img/issue2_saveactions_3.png
+.. image:: ../img/issue2_saveactions_3.png
 
-Backup Copy will keep backup copies of files as you save them. Instead of 
-cluttering the file's own directory, the backups are stored in a specific 
-directory. So that you can identify when each backup was created, the backup 
+Backup Copy will keep backup copies of files as you save them. Instead of
+cluttering the file's own directory, the backups are stored in a specific
+directory. So that you can identify when each backup was created, the backup
 files have the current date and time added to the end of their names, with
 the date and time format being configurable. To make finding your backups
 even easier there is even an option to recreate the directory structure in
 which the current file is stored.
 
-When combined with the Auto Save option, the Backup Copy option can provide 
-a basic form of versioning with a backup copy of your file(s) every time 
+When combined with the Auto Save option, the Backup Copy option can provide
+a basic form of versioning with a backup copy of your file(s) every time
 they were saved. A version control system such as git, Subversion or Mercurial
 is definitely recommended instead when possible.
 
