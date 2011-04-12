@@ -150,6 +150,71 @@ and so the plugin will be re-enabled for the Windows build, with equivalent
 functionality as it has on other platforms.
 
 
+Let us introduce you...
+=======================
+
+This section is intended to introduce particular plugins or
+features on a regular basis.
+
+Plugin Focus
+^^^^^^^^^^^^
+
+Save Actions
+************
+
+The Save Actions plugin adds options available to you when saving files, 
+including: Auto Save, Instant Save and Backup Copy. Each of the options
+can be enabled idepdendently of the others but they can be even more
+powerful when used in combination. Read on, discover their functions, and
+judge for yourself if this plugin might make your use of Geany easier and
+more productive.
+
+Auto Save
+
+.. image:: img/issue2_saveactions_1.png
+
+Auto Save provides an option to automatically save either the current
+file or all open files at a defined interval. It can be very useful if you
+tend to forget to save because it works in the background. The default
+interval is 300 seconds, which is 5 minutes, but you might prefer to set
+a longer or shorter interval.
+
+Instant Save
+
+.. image:: img/issue2_saveactions_2.png
+
+Instant Save aims to make it easier to make use of Geany's file-specific
+features with newly-created files. With this plugin activated you can
+specify what file type new files are to be treated as. If you often work
+with Python for example, and are testing code snippets, you can activate
+the plugin, configure new files to be treated as Python and Geany's full
+Python support is available when the file's created.
+
+Backup Copy
+
+.. image:: img/issue2_saveactions_3.png
+
+Backup Copy will keep backup copies of files as you save them. Instead of 
+cluttering the file's own directory, the backups are stored in a specific 
+directory. So that you can identify when each backup was created, the backup 
+files have the current date and time added to the end of their names, with
+the date and time format being configurable. To make finding your backups
+even easier there is even an option to recreate the directory structure in
+which the current file is stored.
+
+When combined with the Auto Save option, the Backup Copy option can provide 
+a basic form of versioning with a backup copy of your file(s) every time 
+they were saved. A version control system such as git, Subversion or Mercurial
+is definitely recommended instead when possible.
+
+
+Feature Focus
+^^^^^^^^^^^^^
+
+FIXME
+*****
+
+
 Geany Universe
 ==============
 
