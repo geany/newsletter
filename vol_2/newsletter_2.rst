@@ -164,7 +164,7 @@ Save Actions
 
 The Save Actions plugin adds options available to you when saving files,
 including: Auto Save, Instant Save and Backup Copy. Each of the options
-can be enabled idepdendently of the others but they can be even more
+can be enabled interdependently of the others but they can be even more
 powerful when used in combination. Read on, discover their functions, and
 judge for yourself if this plugin might make your use of Geany easier and
 more productive.
