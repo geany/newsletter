@@ -149,6 +149,9 @@ upstream.  Geany is no longer required to use the previously mentioned trick,
 and so the plugin will be re-enabled for the Windows build, with equivalent
 functionality as it has on other platforms.
 
+A view onto GeanyVC usage
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 Let us introduce you...
 =======================
