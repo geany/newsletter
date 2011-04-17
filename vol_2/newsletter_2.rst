@@ -62,6 +62,7 @@ To enable automatic detection of indentation width, open the Preferences
 dialog and check `Detect width from file` in the `Editor->Indentation`
 section.
 
+
 Fixes to template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -77,12 +78,23 @@ New plugins
 
 geanycfp
 ********
+Back in January, William Frasser added with
+geanycfp a new plugin which added a couple of new functions to
+Geany's plugin pool which might be interesting to users.
 
-Back in January, William Frasser added with geanycfp a new plugin
-which added a couple of new functions to Geany's plugin pool
-which might be interesting to users.
+Remembering fold states:
 
-Numbered Bookmarks:
+By default, Geany does not remember the status of folding when
+reloading a file e.g. on startup. This can be annoying if you have a
+huge number of nested structures e.g. inside an XML-document. This
+feature helps you to remember these states so you don't need to fold
+up after loading.
+
+After some time this plugin has bee splitted up into
+GeanyNumberedBookmarks and GeanyMacro.
+
+GeanyNumberedBookmarks
+######################
 
 The plugin adds an option to store bookmarks in files and
 directly access them via a keybinding.
@@ -94,7 +106,9 @@ number then it removes the bookmark, otherwise it will move the
 bookmark there if it was set on a different line, or create it if it
 had not already been set.
 
-Macros:
+
+GeanyMacro
+##########
 
 Macros are well known from other tools. Users of Photoshop are
 always saying how amazing the batch processing is for
@@ -105,13 +119,7 @@ could be very helpful if you e.g. need to remove the last two letters
 of a line and search & replace or rectangle selection are not able
 to solve the request.
 
-Remembering fold states:
 
-By default, Geany does not remember the status of folding when
-reloading a file e.g. on startup. This can be annoying if you have a
-huge number of nested structures e.g. inside an XML-document. This
-feature helps you to remember these states so you don't need to
-fold up after loading.
 
 
 
