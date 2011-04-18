@@ -62,6 +62,7 @@ To enable automatic detection of indentation width, open the Preferences
 dialog and check `Detect width from file` in the `Editor->Indentation`
 section.
 
+
 Fixes to template encoding
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -77,12 +78,23 @@ New plugins
 
 geanycfp
 ********
+Back in January, William Frasser added with
+geanycfp a new plugin which added a couple of new functions to
+Geany's plugin pool which might be interesting to users.
 
-Back in January, William Frasser added with geanycfp a new plugin
-which added a couple of new functions to Geany's plugin pool
-which might be interesting to users.
+Remembering fold states:
 
-Numbered Bookmarks:
+By default, Geany does not remember the status of folding when
+reloading a file e.g. on startup. This can be annoying if you have a
+huge number of nested structures e.g. inside an XML-document. This
+feature helps you to remember these states so you don't need to fold
+up after loading.
+
+After some time this plugin has bee splitted up into
+GeanyNumberedBookmarks and GeanyMacro.
+
+GeanyNumberedBookmarks
+######################
 
 The plugin adds an option to store bookmarks in files and
 directly access them via a keybinding.
@@ -94,7 +106,9 @@ number then it removes the bookmark, otherwise it will move the
 bookmark there if it was set on a different line, or create it if it
 had not already been set.
 
-Macros:
+
+GeanyMacro
+##########
 
 Macros are well known from other tools. Users of Photoshop are
 always saying how amazing the batch processing is for
@@ -105,13 +119,7 @@ could be very helpful if you e.g. need to remove the last two letters
 of a line and search & replace or rectangle selection are not able
 to solve the request.
 
-Remembering fold states:
 
-By default, Geany does not remember the status of folding when
-reloading a file e.g. on startup. This can be annoying if you have a
-huge number of nested structures e.g. inside an XML-document. This
-feature helps you to remember these states so you don't need to
-fold up after loading.
 
 
 
@@ -149,6 +157,9 @@ upstream.  Geany is no longer required to use the previously mentioned trick,
 and so the plugin will be re-enabled for the Windows build, with equivalent
 functionality as it has on other platforms.
 
+A view onto GeanyVC usage
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 
 Let us introduce you...
 =======================
@@ -162,9 +173,9 @@ Plugin Focus
 Save Actions
 ************
 
-The Save Actions plugin adds options available to you when saving files, 
+The Save Actions plugin adds options available to you when saving files,
 including: Auto Save, Instant Save and Backup Copy. Each of the options
-can be enabled idepdendently of the others but they can be even more
+can be enabled interdependently of the others but they can be even more
 powerful when used in combination. Read on, discover their functions, and
 judge for yourself if this plugin might make your use of Geany easier and
 more productive.
@@ -194,16 +205,16 @@ Backup Copy
 
 .. image:: ../img/issue2_saveactions_3.png
 
-Backup Copy will keep backup copies of files as you save them. Instead of 
-cluttering the file's own directory, the backups are stored in a specific 
-directory. So that you can identify when each backup was created, the backup 
+Backup Copy will keep backup copies of files as you save them. Instead of
+cluttering the file's own directory, the backups are stored in a specific
+directory. So that you can identify when each backup was created, the backup
 files have the current date and time added to the end of their names, with
 the date and time format being configurable. To make finding your backups
 even easier there is even an option to recreate the directory structure in
 which the current file is stored.
 
-When combined with the Auto Save option, the Backup Copy option can provide 
-a basic form of versioning with a backup copy of your file(s) every time 
+When combined with the Auto Save option, the Backup Copy option can provide
+a basic form of versioning with a backup copy of your file(s) every time
 they were saved. A version control system such as git, Subversion or Mercurial
 is definitely recommended instead when possible.
 
