@@ -171,7 +171,7 @@ more productive.
 
 Auto Save
 
-.. image:: img/issue2_saveactions_1.png
+.. image:: ../img/issue2_saveactions_1.png
 
 Auto Save provides an option to automatically save either the current
 file or all open files at a defined interval. It can be very useful if you
@@ -181,7 +181,7 @@ a longer or shorter interval.
 
 Instant Save
 
-.. image:: img/issue2_saveactions_2.png
+.. image:: ../img/issue2_saveactions_2.png
 
 Instant Save aims to make it easier to make use of Geany's file-specific
 features with newly-created files. With this plugin activated you can
@@ -192,7 +192,7 @@ Python support is available when the file's created.
 
 Backup Copy
 
-.. image:: img/issue2_saveactions_3.png
+.. image:: ../img/issue2_saveactions_3.png
 
 Backup Copy will keep backup copies of files as you save them. Instead of 
 cluttering the file's own directory, the backups are stored in a specific 
@@ -211,8 +211,37 @@ is definitely recommended instead when possible.
 Feature Focus
 ^^^^^^^^^^^^^
 
-FIXME
-*****
+Append Toolbar to the Menu
+**************************
+
+The popularity of the netbook means that many people are looking at screens
+which are less than the desktop PC sizes of 15 inch and above. A netbook's
+screen format is usually widescreen, so vertical space is more limited than
+horizontal space. If you navigate to Edit > Preferences you'll find an option
+titled "Append Toolbar to the Menu". Checking this option will result in the
+toolbar being moved from below the menu bar to beside it, resulting in more
+vertical space being available.
+
+Before
+
+.. image:: ../img/issue2_appendtoolbartothemenu_1.png
+
+After
+
+.. image:: ../img/issue2_appendtoolbartothemenu_2.png
+
+
+Other screen-space-saving tips
+******************************
+
+Geany has several other options which increase the amount of room available
+for the editing pane. In the View menu you'll find an option titled "Toggle
+all Additional Widgets" which hides all elements of the user interface except
+for the menu bar and scrollbars. Also in the View menu is an option titled
+"Fullscreen" which maximises the Geany window to take up the entire screen,
+also turning off the window's titlebar and borders. This view can be
+especially useful if you want to minimise distractions from other
+applications.
 
 
 Geany Universe
