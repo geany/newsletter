@@ -181,6 +181,7 @@ judge for yourself if this plugin might make your use of Geany easier and
 more productive.
 
 Auto Save
+#########
 
 .. image:: ../img/issue2_saveactions_1.png
 
@@ -191,6 +192,7 @@ interval is 300 seconds, which is 5 minutes, but you might prefer to set
 a longer or shorter interval.
 
 Instant Save
+############
 
 .. image:: ../img/issue2_saveactions_2.png
 
@@ -202,6 +204,7 @@ the plugin, configure new files to be treated as Python and Geany's full
 Python support is available when the file's created.
 
 Backup Copy
+###########
 
 .. image:: ../img/issue2_saveactions_3.png
 
