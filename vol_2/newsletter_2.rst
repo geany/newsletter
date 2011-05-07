@@ -90,7 +90,7 @@ huge number of nested structures e.g. inside an XML-document. This
 feature helps you to remember these states so you don't need to fold
 up after loading.
 
-After some time this plugin has been splitted up into
+After some time this plugin has been split up into
 GeanyNumberedBookmarks and GeanyMacro.
 
 GeanyNumberedBookmarks
@@ -290,9 +290,9 @@ This newsletter has been created in cooperation by people from
 Geany's international community. Contributers to this newsletter and
 the infrastructure behind it, ordered by alphabet:
 
-Colomban Wendling
-Dominic Hopf
-Enrico Tröger
-Frank Lanitz
-Matthew Brush
+Colomban Wendling, 
+Dominic Hopf, 
+Enrico Tröger, 
+Frank Lanitz, 
+Matthew Brush, 
 Russell Dickenson
