@@ -16,6 +16,10 @@ More information about Geany can be found at
 `geany.org <http://www.geany.org/>`_.
 
 
+Geany 0.20.1
+============
+
+
 Geany Universe
 ==============
 
