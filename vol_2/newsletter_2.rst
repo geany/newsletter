@@ -50,6 +50,7 @@ document rather than the state when it was last saved.
 This can be configured (and disabled) in the preferences by the
 `Symbol list update frequency` option under `Editor -> Completions`.
 
+
 Automatic indentation width detection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -89,6 +90,7 @@ reloading a file e.g. on startup. This can be annoying if you have a
 huge number of nested structures e.g. inside an XML-document. This
 feature helps you to remember these states so you don't need to fold
 up after loading.
+
 
 After some time this plugin has been split up into
 GeanyNumberedBookmarks and GeanyMacro.
@@ -157,9 +159,31 @@ upstream.  Geany is no longer required to use the previously mentioned trick,
 and so the plugin will be re-enabled for the Windows build, with equivalent
 functionality as it has on other platforms.
 
+
 A view onto GeanyVC usage
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+GeanyVC is one of the oldest plugins of Geany and its adding
+bindings for couple of popular version control systems to Geany as
+for example svn or git. To get a feeling which bindings are getting
+used to understand we started a little doodle poll a couple of weeks
+ago. The output was interesting and a little surprising: Until End
+of April 33 people took place on this poll and the 1st surprise did
+happen. None of these are using GeanyVC for working with neither CVS
+nor svk. In terms of CVS this has been a real surprise at it was one
+of the most popular version control systems during the last decades.
+SVK always took place a role inside 2nd row as its trying to add
+some offline functionality to svn but keeping svn inside core. With
+introducing git and adding a number of new features into Subversion
+with version e.g. 1.6 the biggest advantages were also went away.
+
+However, the most users do use the plugin for working with git
+(~90%) followed by subversion as you can see from the tiny chart
+
+.. image:: ../img/issue2_geanyvc.png
+
+Baazar and Mercurial are also getting used, but only seeming to have
+a minor role inside GeanyVC's universe.
 
 Let us introduce you...
 =======================
@@ -290,9 +314,9 @@ This newsletter has been created in cooperation by people from
 Geany's international community. Contributers to this newsletter and
 the infrastructure behind it, ordered by alphabet:
 
-Colomban Wendling, 
-Dominic Hopf, 
-Enrico Tröger, 
-Frank Lanitz, 
-Matthew Brush, 
+Colomban Wendling,
+Dominic Hopf,
+Enrico Tröger,
+Frank Lanitz,
+Matthew Brush,
 Russell Dickenson
