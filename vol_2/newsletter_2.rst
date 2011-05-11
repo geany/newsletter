@@ -282,13 +282,6 @@ especially useful if you want to minimise distractions from other
 applications.
 
 
-Geany Universe
-==============
-
-New Geany Wiki
-^^^^^^^^^^^^^^
-
-
 People behind Geany -- Interview
 =================================
 
