@@ -79,21 +79,15 @@ New plugins
 
 geanycfp
 ********
-Back in January, William Frasser added with
-geanycfp a new plugin which added a couple of new functions to
-Geany's plugin pool which might be interesting to users.
 
-Remembering fold states:
-
-By default, Geany does not remember the status of folding when
-reloading a file e.g. on startup. This can be annoying if you have a
-huge number of nested structures e.g. inside an XML-document. This
-feature helps you to remember these states so you don't need to fold
-up after loading.
-
+Back in January, William Frasser added with geanycfp a set functions
+which are adding a couple of new functions to Geany's plugin pool
+might be interesting to users.
 
 After some time this plugin has been split up into
-GeanyNumberedBookmarks and GeanyMacro.
+GeanyNumberedBookmarks and GeanyMacro, but this process is not yet
+finished.
+
 
 GeanyNumberedBookmarks
 ######################
@@ -121,8 +115,16 @@ could be very helpful if you e.g. need to remove the last two letters
 of a line and search & replace or rectangle selection are not able
 to solve the request.
 
+Other features
+##############
 
+Remembering fold states:
 
+By default, Geany does not remember the status of folding when
+reloading a file e.g. on startup. This can be annoying if you have a
+huge number of nested structures e.g. inside an XML-document. This
+feature helps you to remember these states so you don't need to fold
+up after loading.
 
 
 Significant updates on Split Window Plugin
@@ -134,30 +136,32 @@ same time.
 
 Code folding is now supported in the split editor as of revision 5626.
 
-Since revision 5633, the terminology used in the Split Window menu under the
-Tools menu has been improved to avoid ambiguity regarding the direction in
-which the split will take place.  Rather than using the word Horizontal for
-when the editors are laid out horizontally (the splitter is vertical), the
-words "Side by Side" are now used.  Likewise, when the editors are laid out
-vertically (the splitter is horizontal), the words "Top and Bottom" are now
-used.
+Since revision 5633, the terminology used in the Split Window menu
+under the Tools menu has been improved to avoid ambiguity regarding
+the direction in which the split will take place.  Rather than using
+the word Horizontal for when the editors are laid out horizontally
+(the splitter is vertical), the words "Side by Side" are now used.
+Likewise, when the editors are laid out vertically (the splitter is
+horizontal), the words "Top and Bottom" are now used.
 
-Previously, when the Split Window was active and the document currently being
-viewed in it was closed in the main documents notebook, the Split Window
-plugin would unsplit, even if there were other documents which could be viewed
-instead.  As of revision 5634, when this happens, the Split Window plugin will
-switch to view the current document in the main documents notebook instead.  If
-there are no more documents open, the Split Window plugin will unsplit.
+Previously, when the Split Window was active and the document
+currently being viewed in it was closed in the main documents
+notebook, the Split Window plugin would unsplit, even if there were
+other documents which could be viewed instead.  As of revision 5634,
+when this happens, the Split Window plugin will switch to view the
+current document in the main documents notebook instead.  If there
+are no more documents open, the Split Window plugin will unsplit.
 
-Probably the most significant improvement to the Split Window plugin is that
-it will now work on Microsoft Windows.  Previously, the plugin was using trick
-to work around a bug in the Scintilla widget Geany uses for its editor.  A
-side effect of this workaround was that it caused serious issues in Windows and
-so the plugin was disabled for the Windows build.  We fixed the bug in
-Scintilla and sent the fix to the Scintilla project where it was merged
-upstream.  Geany is no longer required to use the previously mentioned trick,
-and so the plugin will be re-enabled for the Windows build, with equivalent
-functionality as it has on other platforms.
+Probably the most significant improvement to the Split Window plugin
+is that it will now work on Microsoft Windows.  Previously, the
+plugin was using trick to work around a bug in the Scintilla widget
+Geany uses for its editor.  A side effect of this workaround was
+that it caused serious issues in Windows and so the plugin was
+disabled for the Windows build.  We fixed the bug in Scintilla and
+sent the fix to the Scintilla project where it was merged upstream.
+Geany is no longer required to use the previously mentioned trick,
+and so the plugin will be re-enabled for the Windows build, with
+equivalent functionality as it has on other platforms.
 
 
 A view onto GeanyVC usage
@@ -185,11 +189,13 @@ However, the most users do use the plugin for working with git
 Baazar and Mercurial are also getting used, but only seeming to have
 a minor role inside GeanyVC's universe.
 
+
 Let us introduce you...
 =======================
 
 This section is intended to introduce particular plugins or
 features on a regular basis.
+
 
 Plugin Focus
 ^^^^^^^^^^^^
@@ -204,6 +210,7 @@ powerful when used in combination. Read on, discover their functions, and
 judge for yourself if this plugin might make your use of Geany easier and
 more productive.
 
+
 Auto Save
 #########
 
@@ -214,6 +221,7 @@ file or all open files at a defined interval. It can be very useful if you
 tend to forget to save because it works in the background. The default
 interval is 300 seconds, which is 5 minutes, but you might prefer to set
 a longer or shorter interval.
+
 
 Instant Save
 ############
@@ -226,6 +234,7 @@ specify what file type new files are to be treated as. If you often work
 with Python for example, and are testing code snippets, you can activate
 the plugin, configure new files to be treated as Python and Geany's full
 Python support is available when the file's created.
+
 
 Backup Copy
 ###########
