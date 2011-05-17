@@ -291,10 +291,6 @@ especially useful if you want to minimise distractions from other
 applications.
 
 
-People behind Geany -- Interview
-=================================
-
-
 Geany local
 ===========
 

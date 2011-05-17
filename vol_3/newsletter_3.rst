@@ -25,3 +25,7 @@ Geany Universe
 
 New Geany Wiki
 ^^^^^^^^^^^^^^
+
+
+People behind Geany -- Interview
+=================================
