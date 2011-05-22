@@ -165,27 +165,26 @@ equivalent functionality as it has on other platforms.
 A view onto GeanyVC usage
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-GeanyVC is one of the oldest plugins of Geany. It adds
-bindings for a couple of popular version control systems to Geany
-like SVN and GIT. To get an impression which bindings are getting
-used to understand we started a little doodle poll a couple of weeks
-ago. The output was interesting and a little surprising: until end
-of April, 33 people took place on this poll and the first surprise did
-happen. Nobody seems to be using GeanyVC for working with CVS
-and SVK. In terms of CVS this has been a real surprise at it was one
-of the most popular version control systems during the last decades.
-SVK always took place a role inside second row as it was trying to add
-some offline functionality to SVN but keeping SVN inside core. With
-introducing GIT and adding a number of new features into Subversion
-with version e.g. 1.6 the biggest advantages were also went away.
+GeanyVC is one of the oldest plugins of Geany and adds bindings for some
+popular version control systems to Geany such as Subversion and git. To get
+a feeling which bindings are being used we started a little Doodle poll a
+couple of weeks ago. The output was interesting and a little surprising:
+Until the end of April 2011, 33 people took part in the poll and the first
+surprise was that none of these are using GeanyVC for working with either
+CVS or svk. In terms of CVS this has been a real surprise as it was one of
+the most popular version control systems during the last decades. SVK always
+took place a role inside 2nd row as its trying to add some offline
+functionality to svn but keeping svn inside core. With the introduction of
+git and a number of new features being added to Subversion with version 1.6,
+the biggest advantages were also went away.
 
-However, the most users do use the plugin for working with GIT
-(~90%) followed by SVN as you can see from the tiny chart
+However, most users do use the plugin for working with git (~90%) followed
+by Subversion as you can see from the tiny chart.
 
 .. image:: ../img/issue2_geanyvc.png
 
-Bazaar and Mercurial are also getting used, but only seeming to have
-a minor role in GeanyVC's universe.
+Bazaar and Mercurial are also getting used, but only seem to have a minor
+role in GeanyVC's universe.
 
 
 Let us introduce you...
