@@ -101,6 +101,7 @@ number then it removes the bookmark, otherwise it will move the
 bookmark there if it was set on a different line, or create it if it
 had not already been set.
 
+
 GeanyMacro
 ##########
 
@@ -112,6 +113,7 @@ small actions and rerun them after pressing e.g. a keybinding. This
 could be very helpful for example if you need to remove the last two
 letters of a line and search & replace or rectangle selection are not
 able to solve the request.
+
 
 Other features
 ##############
