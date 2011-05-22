@@ -80,7 +80,7 @@ New plugins
 geanycfp
 ********
 
-Back in January, William Frasser added with geanycfp a set functions
+Back in January, William Fraser added with geanycfp a set functions
 which are adding a couple of new functions to Geany's plugin pool
 might be interesting to users.
 
@@ -186,8 +186,8 @@ However, the most users do use the plugin for working with git
 
 .. image:: ../img/issue2_geanyvc.png
 
-Baazar and Mercurial are also getting used, but only seeming to have
-a minor role inside GeanyVC's universe.
+Bazaar and Mercurial are also getting used, but only seeming to have
+a minor role in GeanyVC's universe.
 
 
 Let us introduce you...
@@ -285,9 +285,9 @@ Geany has several other options which increase the amount of room available
 for the editing pane. In the View menu you'll find an option titled "Toggle
 all Additional Widgets" which hides all elements of the user interface except
 for the menu bar and scrollbars. Also in the View menu is an option titled
-"Fullscreen" which maximises the Geany window to take up the entire screen,
+"Fullscreen" which maximizes the Geany window to take up the entire screen,
 also turning off the window's titlebar and borders. This view can be
-especially useful if you want to minimise distractions from other
+especially useful if you want to minimize distractions from other
 applications.
 
 
@@ -297,7 +297,7 @@ Geany local
 Geany at Chemnitzer LinuxTage (March, 19th-20th)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Together with the guys of Xfce, Geany was present with a booth at
+Together with the guys of Xfce, Geany was presented with a booth at
 the annual Chemnitzer LinuxTage event in March, a convention about
 all topics around Linux, BSD and free software in general. The booth
 was well visited and people came not only to ask questions or report
@@ -309,7 +309,7 @@ About this newsletter
 =====================
 
 This newsletter has been created in cooperation by people from
-Geany's international community. Contributers to this newsletter and
+Geany's international community. Contributors to this newsletter and
 the infrastructure behind it, ordered by alphabet:
 
 Colomban Wendling,
