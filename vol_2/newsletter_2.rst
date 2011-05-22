@@ -23,8 +23,8 @@ Geany Development
 Update to Scintilla 2.25
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-With SVN r5682 another update to Scintilla has been done so
-Geany's development version is now powered by Scintilla 2.25 in
+With Subversion revision 5682 another update to Scintilla has been done
+so Geany's development version is now powered by Scintilla 2.25 in
 favor of the version previously used: 2.22.
 
 As with every update of Scintilla there have been a lot of
@@ -166,19 +166,19 @@ A view onto GeanyVC usage
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 GeanyVC is one of the oldest plugins of Geany and adds bindings for some
-popular version control systems to Geany such as Subversion and git. To get
+popular version control systems to Geany such as Subversion and GIT. To get
 a feeling which bindings are being used we started a little Doodle poll a
 couple of weeks ago. The output was interesting and a little surprising:
 Until the end of April 2011, 33 people took part in the poll and the first
 surprise was that none of these are using GeanyVC for working with either
-CVS or svk. In terms of CVS this has been a real surprise as it was one of
+CVS or SVK. In terms of CVS this has been a real surprise as it was one of
 the most popular version control systems during the last decades. SVK always
 took place a role inside 2nd row as its trying to add some offline
-functionality to svn but keeping svn inside core. With the introduction of
-git and a number of new features being added to Subversion with version 1.6,
-the biggest advantages were also went away.
+functionality to Subversion but keeping Subversion inside core. With the
+introduction of GIT and a number of new features being added to
+Subversion with version 1.6, the biggest advantages were also went away.
 
-However, most users do use the plugin for working with git (~90%) followed
+However, most users do use the plugin for working with GIT (~90%) followed
 by Subversion as you can see from the tiny chart.
 
 .. image:: ../img/issue2_geanyvc.png
@@ -248,7 +248,7 @@ recreate the directory structure in which the current file is stored.
 
 When combined with the Auto Save option, the Backup Copy option can
 provide a basic form of versioning with a backup copy of your file(s)
-every time they were saved. A version control system such as git,
+every time they were saved. A version control system such as GIT,
 Subversion or Mercurial is definitely recommended instead when possible.
 
 
