@@ -1,7 +1,7 @@
 <?php
 define('NEWSLETTER_DIRECTORY','./');
 
-if ($listing = scandir(NEWSLETTER_DIRECTORY))
+if ($listing = scandir(NEWSLETTER_DIRECTORY, 1))
 {
 	print '<ul>';
 	foreach ($listing as $item)
