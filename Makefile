@@ -48,7 +48,7 @@ clean:
 		pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 1; \
 		maxpasses=`expr $$maxpasses - 1`; \
 	done; \
-	rm "$$file.log" "$$file.toc" "$$file.out" "$$file.aux"
+	rm -f "$$file.log" "$$file.toc" "$$file.out" "$$file.aux"
 
 .rst.tex:
 	(rst2latex $(RST2LATEX_FLAGS) $< | \
