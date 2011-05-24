@@ -42,8 +42,8 @@ clean:
 .tex.pdf:
 	maxpasses=5; \
 	file=`basename $< .tex`; \
-	cd `dirname $<` && \
-	pdflatex $(PDFLATEX_FLAGS) "$$file.tex" > /dev/null && \
+	cd `dirname $<` || exit 1; \
+	pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 1; \
 	while test $$maxpasses -gt 0 && grep -q -i 'rerun' $$file.log; do \
 		pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 1; \
 		maxpasses=`expr $$maxpasses - 1`; \
