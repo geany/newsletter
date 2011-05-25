@@ -18,7 +18,6 @@ OUTPUTS		=	$(OUTPUT_HTML) \
 
 PDFLATEX_FLAGS	= -interaction batchmode
 RST2LATEX_FLAGS	= --template=template.tex \
-				  --latex-preamble='% avoids weird fonts' \
 				  --no-section-numbering
 
 .PHONY: all clean html pdf odt tex
