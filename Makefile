@@ -51,8 +51,8 @@ clean:
 	rm -f "$$file.log" "$$file.toc" "$$file.out" "$$file.aux"
 
 .rst.tex:
-	(rst2latex $(RST2LATEX_FLAGS) $< | \
-	 sed -f rst2latex.sed) > $@
+	rst2latex $(RST2LATEX_FLAGS) $< > $@ || rm -f $@
+	sed -f rst2latex.sed -i $@ || rm -f $@
 
 .rst.odt:
 	rst2odt $< > $@
