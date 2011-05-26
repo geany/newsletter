@@ -51,7 +51,7 @@ clean:
 
 .rst.tex:
 	rst2latex $(RST2LATEX_FLAGS) $< > $@ || rm -f $@
-	sed -f rst2latex.sed -i $@ || rm -f $@
+	sed -r -f rst2latex.sed -i $@ || rm -f $@
 
 .rst.odt:
 	rst2odt $< > $@

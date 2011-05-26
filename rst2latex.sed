@@ -9,3 +9,7 @@
 	n
 	i \\\newpage
 }
+
+# center images and reduce them to something moderated fitting the page
+# also force an empty line before: fixes placement after \paragraph and with previous text
+s/(.*\\includegraphics)(.*)/~\\\\\\centerline{\1[width=\\textwidth,height=0.30\\textheight,keepaspectratio=true]\2}/
