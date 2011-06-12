@@ -1,9 +1,5 @@
 #!/usr/bin/make -f
 
-# build the current volume if none provided
-# This is only working for newsletter since issue 2 as issue 1 has
-# been created in a different way.
-
 VOL			?= 2
 
 NAME		=	vol_$(VOL)/newsletter_$(VOL)
