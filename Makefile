@@ -4,7 +4,7 @@
 # This is only working for newsletter since issue 2 as issue 1 has
 # been created in a different way.
 
-VOL			?= 2
+VOL			?= 3
 
 NAME		=	vol_$(VOL)/newsletter_$(VOL)
 OUTPUT_HTML	=	$(NAME).html
