@@ -19,6 +19,17 @@ More information about Geany can be found at
 Geany 0.20.1
 ============
 
+Geany Development
+=================
+
+Bumping depedencies for GTK and glib
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Starting with svn r5839 Geany is starting to depend on GTK >= 2.12
+and GLib >= 2.16 to make usage of some new features added with this
+version and to avoid maintain duplicate code and complicated
+structures of #ifdef.
+
 
 Geany Universe
 ==============
