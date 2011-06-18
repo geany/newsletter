@@ -58,9 +58,12 @@ WebHelper
 WebHelper is a plugin that provides some web development facilities, such as a
 web page preview and some debugging tools (web inspector). The plugin
 implements the following features:
-* A basic web view, allowing the display of any web page (using WebKit);
-* Possible automatic reloading of the web view upon document saving;
-* A web inspector/debugging tool for the web view’s content (including a JavaScript console, a viewer and editor of processed HTML and CSS, a network usage analysis tool and many more, thanks to WebKit).
+
+    * A basic web view, allowing the display of any web page (using WebKit);
+    * Possible automatic reloading of the web view upon document saving;
+    * A web inspector/debugging tool for the web view’s content (including a
+      JavaScript console, a viewer and editor of processed HTML and CSS, a
+      network usage analysis tool and many more, thanks to WebKit).
 
 Updates & Bugfixes
 ^^^^^^^^^^^^^^^^^^
