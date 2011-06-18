@@ -128,7 +128,7 @@ plans and favourite Geany plugin.
 Columban Wendling
 ^^^^^^^^^^^^^^^^^
 
-Thankyou to Columban Wendling for agreeing to an interview and
+Thankyou to Colomban Wendling for agreeing to an interview and
 congratulations for being the very first. Now on to the questions...
 
 
@@ -145,7 +145,7 @@ projects?*
 	Philosophy, naivety... Actually I don't "develop for free" if it
 	only means "without being paid", I develop for free "as in
 	freedom" software because I like the ideology behind it. Not
-	being paid is only a  concern in the way I need to do some other
+	being paid is only a concern in the way I need to do some other
 	stuff beside to get money in.
 
 	What I probably prefer in free software is the fact one can
@@ -183,7 +183,7 @@ projects?*
 
 *What do you use Geany for?*
 
-    Every one of my programming tasks, and some other text editing.
+	Every one of my programming tasks, and some other text editing.
 
 *Do you use any editors other than Geany? (Of course the answer here
 should be "Absolutely not!" but I'm asking it anyway. :)*
