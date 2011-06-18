@@ -25,10 +25,9 @@ Geany Development
 Bumping depedencies for GTK and glib
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Starting with svn r5839 Geany is starting to depend on GTK >= 2.12
-and GLib >= 2.16 to make usage of some new features added with this
-version and to avoid maintain duplicate code and complicated
-structures of #ifdef.
+Starting with SVN r5839 Geany depends on GTK >= 2.12 and GLib >= 2.16 to
+make use of some new features introduced with these releases and to avoid
+maintaining duplicate code and complicated #ifdef structures.
 
 
 Geany Universe
