@@ -22,7 +22,7 @@ Geany 0.20.1
 Geany Development
 =================
 
-Bumping depedencies for GTK and glib
+Bumping dependencies for GTK and glib
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Starting with SVN r5839 Geany depends on GTK >= 2.12 and GLib >= 2.16 to
