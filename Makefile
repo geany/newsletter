@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-VOL			?= 2
+VOL			?= 3
 
 NAME		=	vol_$(VOL)/newsletter_$(VOL)
 OUTPUT_HTML	=	$(NAME).html
