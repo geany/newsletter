@@ -1,3 +1,4 @@
 *.toc
 *.log
 *.aux
+vol_*/newsletter_*.tex
