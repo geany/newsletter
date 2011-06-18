@@ -219,11 +219,15 @@ using any of the options available at the very top of the tab:
   Browser. As you type the path it will offer autocompletion of the folder’s
   name.
 
+.. image:: ../img/issue1_filebrowser.png
+
 Also at the top of the tab is the Filter input box in which you can enter a
 file specification of those files you want to appear in the File Browser. The
 file specifications must be quite simple - e.g. g\*.py or \*.xml. Regular
 expressions are not supported. To clear the filter either click on the icon at
 the right of the Filter input box or empty the Filter box and press [Enter].
+
+
 
 Feature Focus
 ^^^^^^^^^^^^^
