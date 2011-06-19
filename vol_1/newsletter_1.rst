@@ -25,7 +25,7 @@ Some of the highlights:
     * Reorganize Find in Files dialog and add Files pattern to filter searchresults.
     * Show mimetype icon in sidebar Documents list and notebook popup menu (Colomban Wendling).
     * Add per-document indent width setting (Jiri Techet).
-    * Fix passing quoted arguments when using ’Send Selection to’. This means e.g. sed ’s/\./(dot)/g’ now works.
+    * Fix passing quoted arguments when using "Send Selection to". This means e.g. sed ’s/\./(dot)/g’ now works.
     * Add alternative color scheme based on Python colors (View-Editor-ColorSchemes - not all filetypes supported yet).
     * Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
     * Add Forth filetype (Thomas Huth).
@@ -72,10 +72,11 @@ Also there have been a lot of bugfixes and updates on plugins. For further
 details please check the Release notes and/or the ChangeLog of plugins. A few
 selected changes are:
 
+
 GeanyExtraSel
 *************
 
-    * Respect ’Smart’ home key (Geany does now).
+    * Respect "Smart" home key (Geany does now).
     * Fixed Scintilla Shift+movement key conversion of rectangle selection.
     * Virtual spaces support.
     * Per-file column mode.
@@ -111,11 +112,13 @@ TreeBrowser
     * Added mime type icons in the tree.
     * Many bugfixes and code improvements.
 
+
 Geany-Development
 =================
 
 After the 0.20 release the development has slowed down a bit but nevertheless,
 some changes did happen:
+
 
 Update to Scintilla 2.22
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -134,11 +137,13 @@ At the end of January 2011 a patch was committed to Geany trunk which enabled
 COBOL support inside Geany. Now it’s possible to use features like syntax
 highlighting for this language.
 
+
 Plugins
 =======
 
 It was a quite active time right after the 0.20 release on the plugin
 development side.
+
 
 New plugins to Geany-Plugins-project
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -150,6 +155,7 @@ After a little chaos with naming, the new plugin Tableconvert was added to the
 development version of the Geany-Plugins. It offers a way to convert tab
 separated lists (e.g. imported from Microsoft Excel or LibreOffice Calc) into a
 table. Currently the plugin supports HTML and LATEX tables.
+
 
 Debugger
 ********
@@ -164,6 +170,7 @@ With GeanyPG Hans Alves submitted a new plugin to geany-plugins project which
 adds support for signing, encrypting and decryption of text files opened in
 Geany.
 
+
 Geany Universe
 ==============
 
@@ -173,7 +180,7 @@ New Mailing List – geany-newsletter-commits
 When the geany-newsletter project was started, a new commit mailing was
 created. The goal of this list is to notify all interested people whenever a
 new commit has taken place inside the geany-newsletter git repository. As
-always you can find the list via http://www.geany.org/Support/MailingList
+always you can find the list via http://www.geany.org/Support/MailingList.
 
 New team member – Colomban Wendling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -194,8 +201,9 @@ On the coming weekend (around March 19th, 20th) there will be a local Linux and
 FOSS convention in Chemnitz, Germany. Some of the Geany guys will be around and
 have a little booth at the event. So if you are nearby, come join us for a
 chat. You will find us next to the Xfce guys.
-Details for this convention can be find on their homepage at http://
-chemnitzer.linux-tage.de/2011/
+Details for this convention can be find on their homepage at
+http://chemnitzer.linux-tage.de/2011/
+
 
 Let us introduce you....
 ========================
@@ -256,6 +264,7 @@ applicable to the type of file being edited. This means that you can focus on
 the content of what you’re editing instead of having to worry about getting the
 comment markers right. This is precisely Geany’s aim: to make coding easier and
 faster without getting in your way.
+
 
 Contact
 =======
