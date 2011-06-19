@@ -209,3 +209,16 @@ should be "Absolutely not!" but I'm asking it anyway. :)*
 
 	GNU/Linux (with GNOME), and occasionally Windows (but only when
 	I'm forced to use Windows).
+
+
+About this newsletter
+=====================
+
+This newsletter has been created in cooperation by people from
+Geany's international community. Contributors to this newsletter and
+the infrastructure behind it, ordered by alphabet:
+
+Colomban Wendling,
+Enrico Tröger,
+Frank Lanitz,
+Russell Dickenson
