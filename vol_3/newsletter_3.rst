@@ -22,10 +22,10 @@ Geany 0.20.1
 Geany Development
 =================
 
-Bumping dependencies for GTK and glib
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Bumping dependencies for GTK2 and GLib
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Starting with SVN r5839 Geany depends on GTK >= 2.12 and GLib >= 2.16 to
+Starting with SVN r5839 Geany depends on GTK2 >= 2.12 and GLib >= 2.16 to
 make use of some new features introduced with these releases and to avoid
 maintaining duplicate code and complicated #ifdef structures.
 
@@ -128,7 +128,7 @@ plans and favourite Geany plugin.
 Columban Wendling
 ^^^^^^^^^^^^^^^^^
 
-Thankyou to Colomban Wendling for agreeing to an interview and
+Thank you to Colomban Wendling for agreeing to an interview and
 congratulations for being the very first. Now on to the questions...
 
 
