@@ -30,6 +30,20 @@ make use of some new features introduced with these releases and to avoid
 maintaining duplicate code and complicated #ifdef structures.
 
 
+Plugins
+=======
+
+Bumping dependencies for Geany-Plugins project at Geany 0.21 and GTK2 2.12
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Starting with SVN 2095 the general section of combined Geany-Plugins
+project project is depending on Geany 0.21 and similar to Geany
+itself on GTK2 >= 2.12.
+
+
+New Plugins
+^^^^^^^^^^^
+
 Geany Universe
 ==============
 
