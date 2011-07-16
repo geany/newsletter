@@ -154,7 +154,7 @@ Tableconvert
 After a little chaos with naming, the new plugin Tableconvert was added to the
 development version of the Geany-Plugins. It offers a way to convert tab
 separated lists (e.g. imported from Microsoft Excel or LibreOffice Calc) into a
-table. Currently the plugin supports HTML and LATEX tables.
+table. Currently the plugin supports HTML and LaTeX tables.
 
 
 Debugger
