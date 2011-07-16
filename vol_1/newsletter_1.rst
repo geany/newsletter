@@ -21,18 +21,24 @@ features.
 Some of the highlights:
 
     * Improve compatibility with GVfs using GIO to save documents (Alexey Antipov).
-    * Fix occasional crashes when closing a modified document and choosingSave.
-    * Reorganize Find in Files dialog and add Files pattern to filter searchresults.
-    * Show mimetype icon in sidebar Documents list and notebook popup menu (Colomban Wendling).
+    * Fix occasional crashes when closing a modified document and choosing
+      "Save".
+    * Reorganize Find in Files dialog and add Files pattern to filter search
+      results.
+    * Show mimetype icon in sidebar Documents list and notebook popup menu
+      (Colomban Wendling).
     * Add per-document indent width setting (Jiri Techet).
-    * Fix passing quoted arguments when using "Send Selection to". This means e.g. sed ’s/\./(dot)/g’ now works.
-    * Add alternative color scheme based on Python colors (View-Editor-ColorSchemes - not all filetypes supported yet).
+    * Fix passing quoted arguments when using "Send Selection to". This
+      means e.g. sed ’s/\./(dot)/g’ now works.
+    * Add alternative color scheme based on Python colors (View-Editor-Color
+      Schemes - not all filetypes supported yet).
     * Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
     * Add Forth filetype (Thomas Huth).
     * Add Lisp filetype (Mário Silva).
     * Add Erlang filetype (Taylor Venable).
     * Add translations: kk.
-    * Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl, sv, tr, zh_CN.
+    * Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl,
+      sv, tr, zh_CN.
 
 Geany-Plugins 0.20 have been released
 =====================================
