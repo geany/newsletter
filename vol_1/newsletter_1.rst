@@ -61,8 +61,8 @@ check during startup or on request.
 WebHelper
 *********
 
-WebHelper is a plugin that provides some web development facilities, such as a
-web page preview and some debugging tools (web inspector). The plugin
+WebHelper is a plugin that provides some web development facilities, such
+as a web page preview and some debugging tools (web inspector). The plugin
 implements the following features:
 
     * A basic web view, allowing the display of any web page (using WebKit);
@@ -169,6 +169,7 @@ Debugger
 The Debugger plugin has added a second binding for gdb to the Geany-Plugins
 project.
 
+
 GeanyPG
 *******
 
@@ -243,7 +244,6 @@ file specification of those files you want to appear in the File Browser. The
 file specifications must be quite simple - e.g. g\*.py or \*.xml. Regular
 expressions are not supported. To clear the filter either click on the icon at
 the right of the Filter input box or empty the Filter box and press [Enter].
-
 
 
 Feature Focus
