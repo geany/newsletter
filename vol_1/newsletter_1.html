@@ -1,446 +1,397 @@
-<?xml version="1.0" encoding="iso-8859-1" ?> 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<!--http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd-->  
-<html xmlns="http://www.w3.org/1999/xhtml"  
-> 
-<head><title>Geany Newsletter
-Volume 1
-CC-BY</title> 
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /> 
-<meta name="generator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
-<meta name="originator" content="TeX4ht (http://www.cse.ohio-state.edu/~gurari/TeX4ht/)" /> 
-<!-- xhtml,html --> 
-<meta name="src" content="newsletter_1.tex" /> 
-<meta name="date" content="2011-03-13 00:45:00" /> 
-<link rel="stylesheet" type="text/css" href="newsletter_1.css" /> 
-</head><body 
->
-<div class="maketitle">
-                                                                                               
-                                                                                               
-                                                                                               
-                                                                                               
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<title>Geany Newsletter #1</title>
+<style type="text/css">
 
-<h2 class="titleHead">Geany Newsletter<br />
-Volume 1<br />
-CC-BY</h2>
-<div class="author" ><span 
-class="ecrm-1728">The Geany-Newsletter team</span></div><br />
-<div class="date" ><span 
-class="ecrm-1728">March 13, 2011</span></div>
+html { font-family: sans-serif; }
+
+
+div.document
+{
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+}
+
+
+h1 { font-size: 1.4em }
+h2 { font-size: 1.3em }
+h3 { font-size: 1.2em }
+h4 { font-size: 1.1em }
+h5 { font-size: 1.0em }
+h6 { font-size: 0.9em }
+
+
+a:link, a:visited
+{
+	color: #9e8100;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #a40000;
+	text-decoration: underline;
+}
+
+
+div#contents
+{
+	width: 30%; float: left;
+	margin-bottom: 10px; margin-right: 20px;
+	padding-top: 10px; padding-bottom: 10px;
+	padding-left: 1em;
+	background-color: #eeeeef;
+	font-size: 10pt;
+	position: static;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	overflow: hidden;
+}
+
+
+div#contents ul
+{
+	list-style-type: none;
+	margin-left: -26pt;
+	list-style-type: none;
+	list-style-position: outside;
+	margin-bottom: 1em; margin-left: 0;
+	padding-left: 10px;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="geany-newsletter-1">
+<h1 class="title">Geany Newsletter #1</h1>
+
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#editorial" id="id1">Editorial</a></li>
+<li><a class="reference internal" href="#geany-0-20-has-been-released" id="id2">Geany 0.20 has been released</a></li>
+<li><a class="reference internal" href="#geany-plugins-0-20-have-been-released" id="id3">Geany-Plugins 0.20 have been released</a><ul>
+<li><a class="reference internal" href="#new-plugins" id="id4">New plugins</a><ul>
+<li><a class="reference internal" href="#updatechecker" id="id5">UpdateChecker</a></li>
+<li><a class="reference internal" href="#webhelper" id="id6">WebHelper</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#updates-bugfixes" id="id7">Updates &amp; Bugfixes</a><ul>
+<li><a class="reference internal" href="#geanyextrasel" id="id8">GeanyExtraSel</a></li>
+<li><a class="reference internal" href="#geanygendoc" id="id9">GeanyGenDoc</a></li>
+<li><a class="reference internal" href="#geanylatex" id="id10">GeanyLaTeX</a></li>
+<li><a class="reference internal" href="#treebrowser" id="id11">TreeBrowser</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#geany-development" id="id12">Geany-Development</a><ul>
+<li><a class="reference internal" href="#update-to-scintilla-2-22" id="id13">Update to Scintilla 2.22</a></li>
+<li><a class="reference internal" href="#further-patches" id="id14">Further patches</a><ul>
+<li><a class="reference internal" href="#support-for-cobol" id="id15">Support for COBOL</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plugins" id="id16">Plugins</a><ul>
+<li><a class="reference internal" href="#new-plugins-to-geany-plugins-project" id="id17">New plugins to Geany-Plugins-project</a><ul>
+<li><a class="reference internal" href="#tableconvert" id="id18">Tableconvert</a></li>
+<li><a class="reference internal" href="#debugger" id="id19">Debugger</a></li>
+<li><a class="reference internal" href="#geanypg" id="id20">GeanyPG</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#geany-universe" id="id21">Geany Universe</a><ul>
+<li><a class="reference internal" href="#new-mailing-list-geany-newsletter-commits" id="id22">New Mailing List – geany-newsletter-commits</a></li>
+<li><a class="reference internal" href="#new-team-member-colomban-wendling" id="id23">New team member – Colomban Wendling</a></li>
+<li><a class="reference internal" href="#geany-local" id="id24">Geany local</a><ul>
+<li><a class="reference internal" href="#geany-at-chemnitzer-linuxtage-2011-march-19th-20th" id="id25">Geany at Chemnitzer Linuxtage 2011 (March 19th, 20th)</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#let-us-introduce-you" id="id26">Let us introduce you....</a><ul>
+<li><a class="reference internal" href="#plugin-focus" id="id27">Plugin Focus</a><ul>
+<li><a class="reference internal" href="#file-browser" id="id28">File Browser</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#feature-focus" id="id29">Feature Focus</a><ul>
+<li><a class="reference internal" href="#comments-formatting" id="id30">Comments formatting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#contact" id="id31">Contact</a></li>
+</ul>
 </div>
-<h3 class="likesectionHead"><a 
- id="x1-1000"></a>Contents</h3>
-<div class="tableofcontents">
-<span class="sectionToc" >1 <a 
-href="#x1-30001" id="QQ2-1-3">Geany 0.20 has been released</a></span>
-<br /><span class="sectionToc" >2 <a 
-href="#x1-40002" id="QQ2-1-4">Geany-Plugins 0.20 have been released</a></span>
-<br />&#x00A0;<span class="subsectionToc" >2.1 <a 
-href="#x1-50002.1" id="QQ2-1-5">New plugins</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.1.1 <a 
-href="#x1-60002.1.1" id="QQ2-1-6">UpdateChecker</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.1.2 <a 
-href="#x1-70002.1.2" id="QQ2-1-7">WebHelper</a></span>
-<br />&#x00A0;<span class="subsectionToc" >2.2 <a 
-href="#x1-80002.2" id="QQ2-1-8">Updates &amp; Bugfixes</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.2.1 <a 
-href="#x1-90002.2.1" id="QQ2-1-9">GeanyExtraSel</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.2.2 <a 
-href="#x1-100002.2.2" id="QQ2-1-10">GeanyGenDoc</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.2.3 <a 
-href="#x1-110002.2.3" id="QQ2-1-11">GeanyLaTeX</a></span>
-                                                                                               
-                                                                                               
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >2.2.4 <a 
-href="#x1-120002.2.4" id="QQ2-1-12">TreeBrowser</a></span>
-<br /><span class="sectionToc" >3 <a 
-href="#x1-130003" id="QQ2-1-13">Geany-Development</a></span>
-<br />&#x00A0;<span class="subsectionToc" >3.1 <a 
-href="#x1-140003.1" id="QQ2-1-14">Update to Scintilla 2.22</a></span>
-<br />&#x00A0;<span class="subsectionToc" >3.2 <a 
-href="#x1-150003.2" id="QQ2-1-15">Further patches</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >3.2.1 <a 
-href="#x1-160003.2.1" id="QQ2-1-16">Support for COBOL</a></span>
-<br /><span class="sectionToc" >4 <a 
-href="#x1-170004" id="QQ2-1-17">Plugins</a></span>
-<br />&#x00A0;<span class="subsectionToc" >4.1 <a 
-href="#x1-180004.1" id="QQ2-1-18">New plugins to Geany-Plugins-project</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >4.1.1 <a 
-href="#x1-190004.1.1" id="QQ2-1-19">Tableconvert</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >4.1.2 <a 
-href="#x1-200004.1.2" id="QQ2-1-20">Debugger</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >4.1.3 <a 
-href="#x1-210004.1.3" id="QQ2-1-21">GeanyPG</a></span>
-<br /><span class="sectionToc" >5 <a 
-href="#x1-220005" id="QQ2-1-22">Geany Universe</a></span>
-<br />&#x00A0;<span class="subsectionToc" >5.1 <a 
-href="#x1-230005.1" id="QQ2-1-23">New Mailing List &#8211; geany-newsletter-commits</a></span>
-<br />&#x00A0;<span class="subsectionToc" >5.2 <a 
-href="#x1-240005.2" id="QQ2-1-24">New team member &#8211; Colomban Wendling</a></span>
-<br />&#x00A0;<span class="subsectionToc" >5.3 <a 
-href="#x1-250005.3" id="QQ2-1-25">Geany local</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >5.3.1 <a 
-href="#x1-260005.3.1" id="QQ2-1-26">Geany at Chemnitzer Linuxtage 2011 (March 19th, 20th)</a></span>
-<br /><span class="sectionToc" >6 <a 
-href="#x1-270006" id="QQ2-1-27">Let us introduce you....</a></span>
-<br />&#x00A0;<span class="subsectionToc" >6.1 <a 
-href="#x1-280006.1" id="QQ2-1-28">Plugin Focus</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >6.1.1 <a 
-href="#x1-290006.1.1" id="QQ2-1-29">File Browser</a></span>
-<br />&#x00A0;<span class="subsectionToc" >6.2 <a 
-href="#x1-300006.2" id="QQ2-1-30">Feature Focus</a></span>
-<br />&#x00A0;&#x00A0;<span class="subsubsectionToc" >6.2.1 <a 
-href="#x1-310006.2.1" id="QQ2-1-31">Comments formatting</a></span>
-<br /><span class="sectionToc" >7 <a 
-href="#x1-320007" id="QQ2-1-32">Contact</a></span>
+<div class="section" id="editorial">
+<h1><a class="toc-backref" href="#contents">Editorial</a></h1>
+<p>Welcome to the first Geany newsletter with highlights of the last few weeks
+during Geany development and use. This newsletter is not intended to give a
+complete overview of Geany news, but is trying to collect the most important
+items. Have fun and happy coding!</p>
 </div>
-<!--l. 32--><p class="noindent" >
-                                                                                               
-                                                                                               
-</p>
-<h3 class="likesectionHead"><a 
- id="x1-2000"></a>Editorial</h3>
-<!--l. 36--><p class="noindent" >Welcome to the first Geany newsletter with highlights of the last few weeks during Geany development
-and use. This newsletter is not intended to give a complete overview of Geany news, but is trying to
-collect the most important items. Have fun and happy coding!
-</p><!--l. 42--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><span class="titlemark">1  </span> <a 
- id="x1-30001"></a>Geany 0.20 has been released</h3>
-<!--l. 44--><p class="noindent" >On January 2011, the 6th version 0.20 of Geany "Disra" was released. As always the release contained a
-number of bug fixes as well as improvements and new features.
-</p><!--l. 47--><p class="noindent" >Some of the highlights:
-</p>
-      <ul class="itemize1">
-      <li class="itemize">Improve compatibility with GVfs using GIO to save documents (Alexey Antipov).
-      </li>
-      <li class="itemize">Fix occasional crashes when closing a modified document and choosing Save.
-      </li>
-      <li class="itemize">Reorganize Find in Files dialog and add Files pattern to filter search results.
-      </li>
-      <li class="itemize">Show  mimetype  icon  in  sidebar  Documents  list  and  notebook  popup  menu  (Colomban
-      Wendling).
-      </li>
-      <li class="itemize">Add per-document indent width setting (Ji&#x0159;� Techet).
-      </li>
-      <li class="itemize">Fix  passing  quoted  arguments  when  using  &#8217;Send  Selection  to&#8217;.  This  means  e.g.  sed
-      &#8217;s/\./(dot)/g&#8217; now works.
-      </li>
-      <li class="itemize">Add alternative color scheme based on Python colors (View-&#x003E;Editor-&#x003E;Color Schemes - not
-      all filetypes supported yet).
-                                                                                               
-                                                                                               
-      </li>
-      <li class="itemize">Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
-      </li>
-      <li class="itemize">Add Forth filetype (Thomas Huth).
-      </li>
-      <li class="itemize">Add Lisp filetype (M�rio Silva).
-      </li>
-      <li class="itemize">Add Erlang filetype (Taylor Venable).
-      </li>
-      <li class="itemize">Add translations: kk.
-      </li>
-      <li class="itemize">Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl, sv, tr, zh_CN.</li></ul>
-<!--l. 65--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><span class="titlemark">2  </span> <a 
- id="x1-40002"></a>Geany-Plugins 0.20 have been released</h3>
-<!--l. 67--><p class="noindent" >Shortly after the release of Geany the Geany-Plugins collection was released with version 0.20. This
-collection includes a number of useful plugins, not shipped with Geany itself. This release is the result of
-about 6 months of development work and so it has quite a number of changes and some new
-plugins:
-</p><!--l. 73--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">2.1  </span> <a 
- id="x1-50002.1"></a>New plugins</h4>
-                                                                                               
-                                                                                               
-<!--l. 74--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.1.1  </span> <a 
- id="x1-60002.1.1"></a>UpdateChecker</h5>
-<!--l. 76--><p class="noindent" ><span 
-class="ecbx-1200">UpdateChecker </span>implements a check for new releases of Geany and notifies the user when
-one is available. It&#8217;s based on <span 
-class="ectt-1200">libsoup </span>and can be configured to check during startup or on
-request.
-</p><!--l. 81--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.1.2  </span> <a 
- id="x1-70002.1.2"></a>WebHelper</h5>
-<!--l. 83--><p class="noindent" ><span 
-class="ecbx-1200">WebHelper </span>is a plugin that provides some web development facilities, such as a web page
-preview and some debugging tools (web inspector). The plugin implements the following
-features:
-</p>
-      <ul class="itemize1">
-      <li class="itemize">A basic web view, allowing the display of any web page (using WebKit);
-      </li>
-      <li class="itemize">Possible automatic reloading of the web view upon document saving;
-      </li>
-      <li class="itemize">A web inspector/debugging tool for the web view&#8217;s content (including a JavaScript console,
-      a viewer and editor of processed HTML and CSS, a network usage analysis tool and many
-      more, thanks to WebKit).</li></ul>
-<!--l. 96--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">2.2  </span> <a 
- id="x1-80002.2"></a>Updates &amp; Bugfixes</h4>
-<!--l. 98--><p class="noindent" >Also there have been a lot of bugfixes and updates on plugins. For further details please check the
-Release notes and/or the ChangeLog of plugins. A few selected changes are:
-                                                                                               
-                                                                                               
-</p><!--l. 102--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.2.1  </span> <a 
- id="x1-90002.2.1"></a>GeanyExtraSel</h5>
-      <ul class="itemize1">
-      <li class="itemize">Respect &#8217;Smart&#8217; home key (Geany does now).
-      </li>
-      <li class="itemize">Fixed Scintilla Shift+movement key conversion of rectangle selection.
-      </li>
-      <li class="itemize">Virtual spaces support.
-      </li>
-      <li class="itemize">Per-file column mode.
-      </li>
-      <li class="itemize">Added "Set Anchor", "Select to Anchor" and "Rectangle Select to Anchor".</li></ul>
-<!--l. 111--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.2.2  </span> <a 
- id="x1-100002.2.2"></a>GeanyGenDoc</h5>
-      <ul class="itemize1">
-      <li class="itemize">Bump dependency on CTPL to 0.3.
-      </li>
-      <li class="itemize">Add a popup menu for common actions in the documentation type selector.
-      </li>
-      <li class="itemize">Fix indentation of inserted documentation blocs.
-      </li>
-      <li class="itemize">Documentation type now defaults to Doxygen (rather than nothing).
-      </li>
-      <li class="itemize">Add policy PASS to completely ignore a symbol.
-                                                                                               
-                                                                                               
-      </li>
-      <li class="itemize">Add basic rules for PHP.
-      </li>
-      <li class="itemize">Fix build against GTK+ 2.16.
-      </li>
-      <li class="itemize">Don&#8217;t  copy  the  system  configuration  file  to  the  user&#8217;s  one  when  hitting  "Edit  Current
-      Language Configuration", only write it when saving changes.</li></ul>
-<!--l. 124--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.2.3  </span> <a 
- id="x1-110002.2.3"></a>GeanyLaTeX</h5>
-      <ul class="itemize1">
-      <li class="itemize">Move LaTeX-menu to a separate menu inside Geany main menu.
-      </li>
-      <li class="itemize">Add a feature to auto-capitalize letters on typing the beginning of a sentence.
-      </li>
-      <li class="itemize">Add a way to put an icon for LaTeX-wizard into Geany&#8217;s main toolbar.
-      </li>
-      <li class="itemize">Added a dialog for inserting BibTeX references based on available *.bib-files.</li></ul>
-<!--l. 132--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">2.2.4  </span> <a 
- id="x1-120002.2.4"></a>TreeBrowser</h5>
-      <ul class="itemize1">
-      <li class="itemize">Added bookmarks support.
-      </li>
-      <li class="itemize">Added keybindings support.
-                                                                                               
-                                                                                               
-      </li>
-      <li class="itemize">Added mime type icons in the tree.
-      </li>
-      <li class="itemize">Many bugfixes and code improvements.</li></ul>
-<!--l. 140--><p class="noindent" >
-                                                                                               
-                                                                                               
-</p>
-<h3 class="sectionHead"><span class="titlemark">3  </span> <a 
- id="x1-130003"></a>Geany-Development</h3>
-<!--l. 144--><p class="noindent" >After the 0.20 release the development has slowed down a bit but nevertheless, some changes did
-happen:
-</p><!--l. 147--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">3.1  </span> <a 
- id="x1-140003.1"></a>Update to Scintilla 2.22</h4>
-<!--l. 149--><p class="noindent" >Right after the release of Geany 0.20 with Subversion r5521 an updated version of Scintilla was been
-merged from the unstable branch into trunk. Geany trunk is now running with version 2.22 of the
-Scintilla editing component.
-</p><!--l. 154--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">3.2  </span> <a 
- id="x1-150003.2"></a>Further patches</h4>
-<!--l. 155--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">3.2.1  </span> <a 
- id="x1-160003.2.1"></a>Support for COBOL</h5>
-<!--l. 157--><p class="noindent" >At the end of January 2011 a patch was committed to Geany trunk which enabled COBOL support
-inside Geany. Now it&#8217;s possible to use features like syntax highlighting for this language.
-                                                                                               
-                                                                                               
-</p><!--l. 162--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><span class="titlemark">4  </span> <a 
- id="x1-170004"></a>Plugins</h3>
-<!--l. 164--><p class="noindent" >It was a quite active time right after the 0.20 release on the plugin development side.
-</p><!--l. 167--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">4.1  </span> <a 
- id="x1-180004.1"></a>New plugins to Geany-Plugins-project</h4>
-<!--l. 168--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">4.1.1  </span> <a 
- id="x1-190004.1.1"></a>Tableconvert</h5>
-<!--l. 170--><p class="noindent" >After a little chaos with naming, the new plugin <span 
-class="ecbx-1200">Tableconvert </span>was added to the development version of
-the Geany-Plugins. It offers a way to convert tab separated lists (e.g. imported from Microsoft
-Excel or LibreOffice Calc) into a table. Currently the plugin supports HTML and <span class="LATEX">L<span class="A">A</span><span class="TEX">T<span 
-class="E">E</span>X</span></span>
-tables.
-</p><!--l. 176--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">4.1.2  </span> <a 
- id="x1-200004.1.2"></a>Debugger</h5>
-<!--l. 178--><p class="noindent" >The <span 
-class="ecbx-1200">Debugger </span>plugin has added a second binding for gdb to the Geany-Plugins project.
-                                                                                               
-                                                                                               
-</p><!--l. 181--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">4.1.3  </span> <a 
- id="x1-210004.1.3"></a>GeanyPG</h5>
-<!--l. 183--><p class="noindent" >With <span 
-class="ecbx-1200">GeanyPG </span>Hans Alves submitted a new plugin to geany-plugins project which adds support for
-signing, encrypting and decryption of text files opened in Geany.
-</p><!--l. 187--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><span class="titlemark">5  </span> <a 
- id="x1-220005"></a>Geany Universe</h3>
-<!--l. 189--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">5.1  </span> <a 
- id="x1-230005.1"></a>New Mailing List &#8211; geany-newsletter-commits</h4>
-<!--l. 191--><p class="noindent" >When the <span 
-class="ecbx-1200">geany-newsletter </span>project was started, a new commit mailing was created. The goal of this
-list is to notify all interested people whenever a new commit has taken place inside the geany-newsletter
-git repository. As always you can find the list via <a 
-href="http://www.geany.org/Support/MailingList" class="url" ><span 
-class="ectt-1200">http://www.geany.org/Support/MailingList</span></a>
-</p><!--l. 197--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">5.2  </span> <a 
- id="x1-240005.2"></a>New team member &#8211; Colomban Wendling</h4>
-<!--l. 199--><p class="noindent" >In March 2011, Colomban Wendling joined the Geany core team. Over the last few years he has
-submitted a lot of patches. He did a great job during the last month - e.g. building up a
-tagmanager-in-memory patchset as well as providing a big number of patches and providing support on
-both the mailing list as well as IRC. Welcome Colomban!
-                                                                                               
-                                                                                               
-</p><!--l. 205--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">5.3  </span> <a 
- id="x1-250005.3"></a>Geany local</h4>
-<!--l. 206--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">5.3.1  </span> <a 
- id="x1-260005.3.1"></a>Geany at Chemnitzer Linuxtage 2011 (March 19th, 20th)</h5>
-<!--l. 208--><p class="noindent" >On the coming weekend (around March 19th, 20th) there will be a local Linux and FOSS convention
-in Chemnitz, Germany. Some of the Geany guys will be around and have a little booth at
-the event. So if you are nearby, come join us for a chat. You will find us next to the Xfce
-guys.
-</p><!--l. 213--><p class="noindent" >Details for this convention can be find on their homepage at <a 
-href="http://chemnitzer.linux-tage.de/2011/" class="url" ><span 
-class="ectt-1200">http://chemnitzer.linux-tage.de/2011/</span></a>
-</p><!--l. 216--><p class="noindent" >
-                                                                                               
-                                                                                               
-</p>
-<h3 class="sectionHead"><span class="titlemark">6  </span> <a 
- id="x1-270006"></a>Let us introduce you....</h3>
-<!--l. 220--><p class="noindent" >This section is intended to introduce particular plugins or features on a regular basis.
-</p><!--l. 223--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">6.1  </span> <a 
- id="x1-280006.1"></a>Plugin Focus</h4>
-<!--l. 224--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">6.1.1  </span> <a 
- id="x1-290006.1.1"></a>File Browser</h5>
-<!--l. 226--><p class="noindent" >The <span 
-class="ecbx-1200">File Browser </span>plugins adds to the sidebar a tab with which you can browser files and folders. By
-default it shows the contents of the folder containing the first file opened in Geany. You can
-navigate to other drives and folders using any of the options available at the very top of the
-tab:
-</p><!--l. 232--><p class="noindent" ><span 
-class="ecbx-1200">Up: </span>Navigates to one folder higher in the file system.
-</p><!--l. 234--><p class="noindent" ><span 
-class="ecbx-1200">Home: </span>Navigates to your Home folder.
-</p><!--l. 236--><p class="noindent" ><span 
-class="ecbx-1200">Set path from document: </span>Sets the active folder to the one containing the current active
-document.
-</p><!--l. 239--><p class="noindent" ><span 
-class="ecbx-1200">Folder input box: </span>Here you can enter any path you want to see in the File Browser. As you type the
-path it will offer autocompletion of the folder&#8217;s name.
-</p>
-<div class="center" 
->
-<!--l. 243--><p class="noindent" >
-
-</p><!--l. 244--><p class="noindent" ><img 
-src="../img/issue1_filebrowser.png" alt="PIC"  
- /></p></div>
-                                                                                               
-                                                                                               
-<!--l. 248--><p class="noindent" >Also at the top of the tab is the Filter input box in which you can enter a file specification of those files
-you want to appear in the File Browser. The file specifications must be quite simple - e.g. <span 
-class="ectt-1200">g*.py </span>or
-<span 
-class="ectt-1200">*.xml</span>. Regular expressions are not supported. To clear the filter either click on the icon at the right of
-the Filter input box or empty the Filter box and press [Enter].
-</p><!--l. 257--><p class="noindent" >
-</p>
-<h4 class="subsectionHead"><span class="titlemark">6.2  </span> <a 
- id="x1-300006.2"></a>Feature Focus</h4>
-<!--l. 259--><p class="noindent" >
-</p>
-<h5 class="subsubsectionHead"><span class="titlemark">6.2.1  </span> <a 
- id="x1-310006.2.1"></a>Comments formatting</h5>
-<!--l. 261--><p class="noindent" >When writing source code or in a markup language, it&#8217;s often necessary to mark one or more lines as a
-comment. Geany offers several functions from the Edit &#x003E; Format sub-menu which make this very
-easy:
-</p>
-      <ul class="itemize1">
-      <li class="itemize">Comment Line(s)
-      </li>
-      <li class="itemize">Uncomment Line(s)
-      </li>
-      <li class="itemize">Toggle Line Commentation</li></ul>
-<!--l. 272--><p class="noindent" >To use these options on a single line, put the cursor on that line and select the menu option.
-To use them on a block of code, select the whole block then select the menu option. The
-Toggle Line Commentation menu option will, as its name suggests, add comment markers
-to a normal line/section of code and, if the line/section is already a comment, remove the
-comment markers. What&#8217;s great about these options is that they insert or remove the comment
-markers applicable to the type of file being edited. This means that you can focus on the
-content of what you&#8217;re editing instead of having to worry about getting the comment markers
-right. This is precisely Geany&#8217;s aim: to make coding easier and faster without getting in your
-way.
-                                                                                               
-                                                                                               
-</p><!--l. 285--><p class="noindent" >
-</p>
-<h3 class="sectionHead"><span class="titlemark">7  </span> <a 
- id="x1-320007"></a>Contact</h3>
-<!--l. 287--><p class="noindent" >If you like to contribute to the newsletter, make a request or complaint about content please contact
-<a 
-href="mailto:frank@geany.org" >frank@geany.org</a> via email.
-</p>
- 
-</body></html> 
-
-                                                                                               
-
-
+<div class="section" id="geany-0-20-has-been-released">
+<h1><a class="toc-backref" href="#contents">Geany 0.20 has been released</a></h1>
+<p>On January 2011, the 6th version 0.20 of Geany &quot;Disra&quot; was released. As always
+the release contained a number of bug fixes as well as improvements and new
+features.
+Some of the highlights:</p>
+<blockquote>
+<ul class="simple">
+<li>Improve compatibility with GVfs using GIO to save documents (Alexey Antipov).</li>
+<li>Fix occasional crashes when closing a modified document and choosing
+&quot;Save&quot;.</li>
+<li>Reorganize Find in Files dialog and add Files pattern to filter search
+results.</li>
+<li>Show mimetype icon in sidebar Documents list and notebook popup menu
+(Colomban Wendling).</li>
+<li>Add per-document indent width setting (Jiri Techet).</li>
+<li>Fix passing quoted arguments when using &quot;Send Selection to&quot;. This
+means e.g. sed ’s/./(dot)/g’ now works.</li>
+<li>Add alternative color scheme based on Python colors (View-Editor-Color
+Schemes - not all filetypes supported yet).</li>
+<li>Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).</li>
+<li>Add Forth filetype (Thomas Huth).</li>
+<li>Add Lisp filetype (Mário Silva).</li>
+<li>Add Erlang filetype (Taylor Venable).</li>
+<li>Add translations: kk.</li>
+<li>Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl,
+sv, tr, zh_CN.</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="geany-plugins-0-20-have-been-released">
+<h1><a class="toc-backref" href="#contents">Geany-Plugins 0.20 have been released</a></h1>
+<p>Shortly after the release of Geany the Geany-Plugins collection was released
+with version 0.20. This collection includes a number of useful plugins, not
+shipped with Geany itself. This release is the result of about 6 months of
+development work and so it has quite a number of changes and some new plugins:</p>
+<div class="section" id="new-plugins">
+<h2><a class="toc-backref" href="#contents">New plugins</a></h2>
+<div class="section" id="updatechecker">
+<h3><a class="toc-backref" href="#contents">UpdateChecker</a></h3>
+<p>UpdateChecker implements a check for new releases of Geany and notifies the
+user when one is available. It’s based on libsoup and can be configured to
+check during startup or on request.</p>
+</div>
+<div class="section" id="webhelper">
+<h3><a class="toc-backref" href="#contents">WebHelper</a></h3>
+<p>WebHelper is a plugin that provides some web development facilities, such
+as a web page preview and some debugging tools (web inspector). The plugin
+implements the following features:</p>
+<blockquote>
+<ul class="simple">
+<li>A basic web view, allowing the display of any web page (using WebKit);</li>
+<li>Possible automatic reloading of the web view upon document saving;</li>
+<li>A web inspector/debugging tool for the web view’s content (including a
+JavaScript console, a viewer and editor of processed HTML and CSS, a
+network usage analysis tool and many more, thanks to WebKit).</li>
+</ul>
+</blockquote>
+</div>
+</div>
+<div class="section" id="updates-bugfixes">
+<h2><a class="toc-backref" href="#contents">Updates &amp; Bugfixes</a></h2>
+<p>Also there have been a lot of bugfixes and updates on plugins. For further
+details please check the Release notes and/or the ChangeLog of plugins. A few
+selected changes are:</p>
+<div class="section" id="geanyextrasel">
+<h3><a class="toc-backref" href="#contents">GeanyExtraSel</a></h3>
+<blockquote>
+<ul class="simple">
+<li>Respect &quot;Smart&quot; home key (Geany does now).</li>
+<li>Fixed Scintilla Shift+movement key conversion of rectangle selection.</li>
+<li>Virtual spaces support.</li>
+<li>Per-file column mode.</li>
+<li>Added &quot;Set Anchor&quot;, &quot;Select to Anchor&quot; and &quot;Rectangle Select to Anchor&quot;.</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="geanygendoc">
+<h3><a class="toc-backref" href="#contents">GeanyGenDoc</a></h3>
+<blockquote>
+<ul class="simple">
+<li>Bump dependency on CTPL to 0.3.</li>
+<li>Add a popup menu for common actions in the documentation type selector.</li>
+<li>Fix indentation of inserted documentation blocs.</li>
+<li>Documentation type now defaults to Doxygen (rather than nothing).</li>
+<li>Add policy PASS to completely ignore a symbol.</li>
+<li>Add basic rules for PHP.</li>
+<li>Fix build against GTK+ 2.16.</li>
+<li>Don’t copy the system configuration file to the user’s one when hitting
+&quot;Edit Current Language Configuration&quot;, only write it when saving changes.</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="geanylatex">
+<h3><a class="toc-backref" href="#contents">GeanyLaTeX</a></h3>
+<blockquote>
+<ul class="simple">
+<li>Move LaTeX-menu to a separate menu inside Geany main menu.</li>
+<li>Add a feature to auto-capitalize letters on typing the beginning of a
+sentence.</li>
+<li>Add a way to put an icon for LaTeX-wizard into Geany’s main toolbar.</li>
+<li>Added a dialog for inserting BibTeX references based on available *.bib- files.</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="treebrowser">
+<h3><a class="toc-backref" href="#contents">TreeBrowser</a></h3>
+<blockquote>
+<ul class="simple">
+<li>Added bookmarks support.</li>
+<li>Added keybindings support.</li>
+<li>Added mime type icons in the tree.</li>
+<li>Many bugfixes and code improvements.</li>
+</ul>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="section" id="geany-development">
+<h1><a class="toc-backref" href="#contents">Geany-Development</a></h1>
+<p>After the 0.20 release the development has slowed down a bit but nevertheless,
+some changes did happen:</p>
+<div class="section" id="update-to-scintilla-2-22">
+<h2><a class="toc-backref" href="#contents">Update to Scintilla 2.22</a></h2>
+<p>Right after the release of Geany 0.20 with Subversion r5521 an updated version
+of Scintilla was been merged from the unstable branch into trunk. Geany trunk
+is now running with version 2.22 of the Scintilla editing component.</p>
+</div>
+<div class="section" id="further-patches">
+<h2><a class="toc-backref" href="#contents">Further patches</a></h2>
+<div class="section" id="support-for-cobol">
+<h3><a class="toc-backref" href="#contents">Support for COBOL</a></h3>
+<p>At the end of January 2011 a patch was committed to Geany trunk which enabled
+COBOL support inside Geany. Now it’s possible to use features like syntax
+highlighting for this language.</p>
+</div>
+</div>
+</div>
+<div class="section" id="plugins">
+<h1><a class="toc-backref" href="#contents">Plugins</a></h1>
+<p>It was a quite active time right after the 0.20 release on the plugin
+development side.</p>
+<div class="section" id="new-plugins-to-geany-plugins-project">
+<h2><a class="toc-backref" href="#contents">New plugins to Geany-Plugins-project</a></h2>
+<div class="section" id="tableconvert">
+<h3><a class="toc-backref" href="#contents">Tableconvert</a></h3>
+<p>After a little chaos with naming, the new plugin Tableconvert was added to the
+development version of the Geany-Plugins. It offers a way to convert tab
+separated lists (e.g. imported from Microsoft Excel or LibreOffice Calc) into a
+table. Currently the plugin supports HTML and LaTeX tables.</p>
+</div>
+<div class="section" id="debugger">
+<h3><a class="toc-backref" href="#contents">Debugger</a></h3>
+<p>The Debugger plugin has added a second binding for gdb to the Geany-Plugins
+project.</p>
+</div>
+<div class="section" id="geanypg">
+<h3><a class="toc-backref" href="#contents">GeanyPG</a></h3>
+<p>With GeanyPG Hans Alves submitted a new plugin to geany-plugins project which
+adds support for signing, encrypting and decryption of text files opened in
+Geany.</p>
+</div>
+</div>
+</div>
+<div class="section" id="geany-universe">
+<h1><a class="toc-backref" href="#contents">Geany Universe</a></h1>
+<div class="section" id="new-mailing-list-geany-newsletter-commits">
+<h2><a class="toc-backref" href="#contents">New Mailing List – geany-newsletter-commits</a></h2>
+<p>When the geany-newsletter project was started, a new commit mailing was
+created. The goal of this list is to notify all interested people whenever a
+new commit has taken place inside the geany-newsletter git repository. As
+always you can find the list via <a class="reference external" href="http://www.geany.org/Support/MailingList">http://www.geany.org/Support/MailingList</a>.</p>
+</div>
+<div class="section" id="new-team-member-colomban-wendling">
+<h2><a class="toc-backref" href="#contents">New team member – Colomban Wendling</a></h2>
+<p>In March 2011, Colomban Wendling joined the Geany core team. Over the last few
+years he has submitted a lot of patches. He did a great job during the last
+month - e.g. building up a tagmanager-in-memory patchset as well as providing a
+big number of patches and providing support on both the mailing list as well as
+IRC. Welcome Colomban!</p>
+</div>
+<div class="section" id="geany-local">
+<h2><a class="toc-backref" href="#contents">Geany local</a></h2>
+<div class="section" id="geany-at-chemnitzer-linuxtage-2011-march-19th-20th">
+<h3><a class="toc-backref" href="#contents">Geany at Chemnitzer Linuxtage 2011 (March 19th, 20th)</a></h3>
+<p>On the coming weekend (around March 19th, 20th) there will be a local Linux and
+FOSS convention in Chemnitz, Germany. Some of the Geany guys will be around and
+have a little booth at the event. So if you are nearby, come join us for a
+chat. You will find us next to the Xfce guys.
+Details for this convention can be find on their homepage at
+<a class="reference external" href="http://chemnitzer.linux-tage.de/2011/">http://chemnitzer.linux-tage.de/2011/</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="let-us-introduce-you">
+<h1><a class="toc-backref" href="#contents">Let us introduce you....</a></h1>
+<p>This section is intended to introduce particular plugins or features on a
+regular basis.</p>
+<div class="section" id="plugin-focus">
+<h2><a class="toc-backref" href="#contents">Plugin Focus</a></h2>
+<div class="section" id="file-browser">
+<h3><a class="toc-backref" href="#contents">File Browser</a></h3>
+<p>The File Browser plugins adds to the sidebar a tab with which you can browser
+files and folders. By default it shows the contents of the folder containing
+the first file opened in Geany. You can navigate to other drives and folders
+using any of the options available at the very top of the tab:</p>
+<ul class="simple">
+<li>Up: Navigates to one folder higher in the file system.</li>
+<li>Home: Navigates to your Home folder.</li>
+<li>Set path from document: Sets the active folder to the one containing the
+current active document.</li>
+<li>Folder input box: Here you can enter any path you want to see in the File
+Browser. As you type the path it will offer autocompletion of the folder’s
+name.</li>
+</ul>
+<img alt="../img/issue1_filebrowser.png" src="../img/issue1_filebrowser.png" />
+<p>Also at the top of the tab is the Filter input box in which you can enter a
+file specification of those files you want to appear in the File Browser. The
+file specifications must be quite simple - e.g. g*.py or *.xml. Regular
+expressions are not supported. To clear the filter either click on the icon at
+the right of the Filter input box or empty the Filter box and press [Enter].</p>
+</div>
+</div>
+<div class="section" id="feature-focus">
+<h2><a class="toc-backref" href="#contents">Feature Focus</a></h2>
+<div class="section" id="comments-formatting">
+<h3><a class="toc-backref" href="#contents">Comments formatting</a></h3>
+<p>When writing source code or in a markup language, it’s often necessary to mark
+one or more lines as a comment. Geany offers several functions from the Edit
+-&gt; Format sub-menu which make this very easy:</p>
+<blockquote>
+<ul class="simple">
+<li>Comment Line(s)</li>
+<li>Uncomment Line(s)</li>
+<li>Toggle Line Commentation</li>
+</ul>
+</blockquote>
+<p>To use these options on a single line, put the cursor on that line and select
+the menu option. To use them on a block of code, select the whole block then
+select the menu option. The Toggle Line Commentation menu option will, as its
+name suggests, add comment markers to a normal line/section of code and, if the
+line/section is already a comment, remove the comment markers. What’s great
+about these options is that they insert or remove the comment markers
+applicable to the type of file being edited. This means that you can focus on
+the content of what you’re editing instead of having to worry about getting the
+comment markers right. This is precisely Geany’s aim: to make coding easier and
+faster without getting in your way.</p>
+</div>
+</div>
+</div>
+<div class="section" id="contact">
+<h1><a class="toc-backref" href="#contents">Contact</a></h1>
+<p>If you like to contribute to the newsletter, make a request or complaint about
+content please contact <a class="reference external" href="mailto:frank&#64;geany.org">frank&#64;geany.org</a> via email.</p>
+</div>
+</div>
+</body>
+</html>
