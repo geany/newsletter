@@ -4,8 +4,8 @@
  * 		Website newsletter.geany.org
  *
  *      (C) Copyright 2011 by Dominic Hopf <dmaphy@googlemail.com>
- *      Version: 1.0.0
- *      Last Change: 2011-03-13
+ *      Version: 1.0.1
+ *      Last Change: 2011-07-20
  */
 
 define('CONTENTPATH','./content/');
@@ -54,13 +54,13 @@ print '<?xml version="1.0"?>';
 
 	<div id="navigation">
 		<ul>
-			<a href="index.php?site=newsletters">Newsletters</a>
+			<a href="newsletters.php?site=newsletters">Newsletters</a>
 		</ul>
 
 		<hr />
 
 		<ul>
-			<li><a href="index.php?site=about">About</a></li>
+			<li><a href="newsletters.php?site=about">About</a></li>
 		</ul>
 
 		<hr />
