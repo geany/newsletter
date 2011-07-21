@@ -3,11 +3,10 @@ html { font-family: sans-serif; }
 body
 {
 	font-family: sans-serif;
-	width: 80%; height: 600px;
+	width: 80%;
 	margin-left: auto; margin-right: auto;
 	margin-top: 2%;
 }
-
 
 h1 { font-size: 1.4em }
 h2 { font-size: 1.3em }
@@ -29,13 +28,32 @@ a:hover
 	text-decoration: underline;
 }
 
+img { border-width: 0; }
+
+
+hr
+{
+	border-style: solid;
+	border-color: #babdb6;
+}
+
+table
+{
+	margin-top: 20px;
+}
+
+table, th, td
+{
+	border-style:1px solid;
+	border-color: #babdb6;
+}
+
+
 div.document
 {
 	width: 80%;
 	margin-left: auto; margin-right: auto;
 }
-
-img { border-width: 0; }
 
 div#header
 {
@@ -92,10 +110,6 @@ div#navigation hr
 {
 	width: 180px;
 	margin-left: -1em;
-/*
-
-	margin-right: -4em;
-*/
 }
 
 
@@ -169,24 +183,6 @@ code, blockquote, pre.literal-block
 	border-top-width: 0; border-bottom-width: 0;
 	border-style: solid; border-color: #babdb6;
 	overflow-x: auto;
-}
-
-
-hr
-{
-	border-style: solid;
-	border-color: #babdb6;
-}
-
-table
-{
-	margin-top: 20px;
-}
-
-table, th, td
-{
-	border-style:1px solid;
-	border-color: #babdb6;
 }
 
 
