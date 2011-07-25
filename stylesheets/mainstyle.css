@@ -1,5 +1,6 @@
 html { font-family: sans-serif; }
 
+
 body
 {
 	font-family: sans-serif;
@@ -7,6 +8,7 @@ body
 	margin-left: auto; margin-right: auto;
 	margin-top: 2%;
 }
+
 
 h1 { font-size: 1.4em }
 h2 { font-size: 1.3em }
@@ -28,6 +30,7 @@ a:hover
 	text-decoration: underline;
 }
 
+
 img { border-width: 0; }
 
 
@@ -36,6 +39,7 @@ hr
 	border-style: solid;
 	border-color: #babdb6;
 }
+
 
 table
 {
@@ -55,17 +59,19 @@ div.document
 	margin-left: auto; margin-right: auto;
 }
 
+
 div#header
 {
 	line-height: 48px;
 }
 
-div#contents
+
+div#contents, div#navigation
 {
 	width: 30%; float: left;
-	margin-bottom: 10px; margin-right: 20px;
-	padding: 1em;
-	background-color: #eeeeef;
+	margin-bottom: 10px; margin-right: 1em;
+	padding: 1.5em;
+	background-color: #F2F2F3;
 	font-size: 10pt;
 	position: static;
 	border-radius: 20px;
@@ -74,7 +80,7 @@ div#contents
 	overflow: hidden;
 }
 
-div#contents ul
+div#contents ul, div#navigation ul
 {
 	list-style-type: none;
 	margin-left: -26pt;
@@ -84,21 +90,6 @@ div#contents ul
 	padding-left: 0.4em;
 }
 
-div#navigation
-{
-	width: 180px; float: left;
-	margin-bottom: 10px; margin-right: 20px;
-	padding-top: 10px; padding-bottom: 10px;
-	padding-left: 1em;
-	background-color: #eeeeef;
-	font-size: 10pt;
-	position: static;
-	border-radius: 20px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-}
-
-
 div#navigation h1
 {
 	font-size: 1em;
@@ -107,19 +98,9 @@ div#navigation h1
 
 div#navigation hr
 {
-	width: 180px;
-	margin-left: -1em;
+	width: 100%;
+	margin: 0; padding: 0;
 }
-
-
-div#navigation ul
-{
-	list-style-type: none;
-	list-style-position: outside;
-	margin-bottom: 20px; margin-left: 0;
-	padding-left: 10px;
-}
-
 
 div#navigation ul li
 {
@@ -133,42 +114,9 @@ div#navigation a
 	text-decoration: none;
 }
 
-
-div#navigation a:link, a:visited
-{
-	color: #9e8100;
-}
-
-
-div#navigation a:hover
-{
-	color: #a40000;
-}
-
-
-div#content
+div.section, div#content
 {
 	overflow: auto;
-}
-
-
-div#content ul
-{
-	list-style-position: inside;
-}
-
-
-div#content a:link, a:visited
-{
-	color: #9e8100;
-	text-decoration: none;
-}
-
-
-div#content a:hover
-{
-	color: #a40000;
-	text-decoration: underline;
 }
 
 code, pre.literal-block
