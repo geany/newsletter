@@ -172,7 +172,7 @@ div#content a:hover
 	text-decoration: underline;
 }
 
-code, blockquote, pre.literal-block
+code, pre.literal-block
 {
 	display: block;
 	padding-left: 4px;
