@@ -83,11 +83,14 @@ div#contents, div#navigation
 div#contents ul, div#navigation ul
 {
 	list-style-type: none;
-	margin-left: -26pt;
-	list-style-type: none;
 	list-style-position: outside;
-	margin-bottom: 0.4em; margin-left: 0;
-	padding-left: 0.4em;
+	margin-bottom: 0.2em;
+	padding-left: 0.8em;
+}
+
+div#contents ul li, div#navigation ul li
+{
+	margin-top: 0.4em;
 }
 
 div#navigation h1
