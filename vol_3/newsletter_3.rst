@@ -67,28 +67,34 @@ Spell Check
 Although Geany is primarily an editor aimed at programming tasks,
 it's often used to write plain text. All of us would like to think
 that we can spell correctly but, especially for foreign words, a
-little help is always welcome. Geany's Spell Check plugin can help,
-either checking on demand or as you type. To check the spelling of
-the current document on demand, select Tools > Spell Check >
-[language] from the main menu. If you often use this feature
-consider creating a keyboard shortcut to make activating it easier.
-If you would prefer to have your spelling checked immediately,
+little help is always welcome: Geany's Spell Check plugin can help,
+either checking on demand or as you type.
+
+To check the spelling of the current document on demand, select
+Tools > Spell Check > [language] from the main menu. If you often
+use this feature consider creating a keyboard shortcut to make
+activating it easier.
+
+In case you would prefer to have your spelling checked immediately,
 enable the "Check spelling while typing" option in the plugin's
-preferences: Edit > Plugin Preferences > Spell Check. The default
-language used by Spell Check is configured in Spell Check's
-preferences.
+preferences: Edit > Plugin Preferences > Spell Check.
+
+The default language used by Spell Check is configured in Spell
+Check's preferences.
 
 .. image:: ../img/issue3_spellcheck.png
 
 The Spell Check plugin can offer suggestions for misspelled words in
 the Message window, in the context menu or both. Choose whichever
 option suits you best by checking the options in the plugin's
-preferences. Any suspect words are marked with a red squiggly
-underline. To correct these, right-click on them and highlight the
-"Spelling Suggestions" item in the context menu. From there you can
-either select from a list of suggested words, add the word to your
-personal dictionary or ignore it. You can install extra dictionaries
-in Myspell format which is especially useful if you're often using
+preferences.
+
+Any suspect words are marked with a red squiggly underline. To
+correct these, right-click on them and highlight the "Spelling
+Suggestions" item in the context menu. From there you can either
+select from a list of suggested words, add the word to your personal
+dictionary or ignore it. You can install extra dictionaries in
+Myspell format which is especially useful if you're often using
 words which are not in a standard dictionary.
 
 
