@@ -39,9 +39,6 @@ project project is depending on Geany 0.21 and similar to Geany
 itself on GTK2 >= 2.12.
 
 
-New Plugins
-^^^^^^^^^^^
-
 Geany Universe
 ==============
 
