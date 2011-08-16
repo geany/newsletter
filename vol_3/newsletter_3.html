@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.7: http://docutils.sourceforge.net/" />
+<title>Geany Newsletter #3</title>
+<style type="text/css">
+
+html { font-family: sans-serif; }
+
+
+body
+{
+	font-family: sans-serif;
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+	margin-top: 2%;
+}
+
+
+h1 { font-size: 1.4em }
+h2 { font-size: 1.3em }
+h3 { font-size: 1.2em }
+h4 { font-size: 1.1em }
+h5 { font-size: 1.0em }
+h6 { font-size: 0.9em }
+
+
+a:link, a:visited
+{
+	color: #9e8100;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #a40000;
+	text-decoration: underline;
+}
+
+
+img { border-width: 0; }
+
+
+hr
+{
+	border-style: solid;
+	border-color: #babdb6;
+}
+
+
+table
+{
+	margin-top: 20px;
+}
+
+table, th, td
+{
+	border-style:1px solid;
+	border-color: #babdb6;
+}
+
+
+div.document
+{
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+}
+
+
+div#header
+{
+	line-height: 48px;
+}
+
+
+div#contents, div#navigation
+{
+	width: 30%; float: left;
+	margin-bottom: 10px; margin-right: 1em;
+	padding: 1.5em;
+	background-color: #F2F2F3;
+	font-size: 10pt;
+	position: static;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	overflow: hidden;
+}
+
+div#contents ul, div#navigation ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+	margin-bottom: 0.2em;
+	padding-left: 0.8em;
+}
+
+div#contents ul li, div#navigation ul li
+{
+	margin-top: 0.4em;
+}
+
+div#navigation h1
+{
+	font-size: 1em;
+}
+
+
+div#navigation hr
+{
+	width: 100%;
+	margin: 0; padding: 0;
+}
+
+div#navigation ul li
+{
+	margin-bottom: 4px;
+}
+
+
+div#navigation a
+{
+	display: block;
+	text-decoration: none;
+}
+
+div.section, div#content
+{
+	overflow: auto;
+}
+
+code, pre.literal-block
+{
+	display: block;
+	padding-left: 4px;
+	margin-left: 25px; margin-top: 5px;
+	font-family: monospace;
+	background-color: #eeeeef;
+	border-left-width: 2px; border-right-width: 0;
+	border-top-width: 0; border-bottom-width: 0;
+	border-style: solid; border-color: #babdb6;
+	overflow-x: auto;
+}
+
+
+/*
+ * This is for the pages with a content section. The heading of the content
+ * generated from rst2html looks like this:
+ * <p class="topic-title first">
+ *		Contents
+ *	</p>
+ * So we format it as general h3 headers look like in the browser (tested with
+ * Midori, Firefox and Opera, all work fine).
+ * FIXME: ideally the mentioned code block should be a h3 header instead
+ */
+p.topic-title
+{
+	font-size: 1.17em;
+	font-weight: bold;
+	margin: 1em 0px;
+}
+
+
+div#footer
+{
+	clear: both;
+	text-align: center;
+	font-size: smaller;
+	margin-top: 3em;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="geany-newsletter-3">
+<h1 class="title">Geany Newsletter #3</h1>
+
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#about-geany" id="id1">About Geany</a></li>
+<li><a class="reference internal" href="#geany-development" id="id2">Geany Development</a><ul>
+<li><a class="reference internal" href="#bumping-dependencies-for-gtk2-and-glib" id="id3">Bumping dependencies for GTK2 and GLib</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#plugins" id="id4">Plugins</a><ul>
+<li><a class="reference internal" href="#bumping-dependencies-for-geany-plugins-project-at-geany-0-21-and-gtk2-2-12" id="id5">Bumping dependencies for Geany-Plugins project at Geany 0.21 and GTK2 2.12</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#geany-universe" id="id6">Geany Universe</a><ul>
+<li><a class="reference internal" href="#new-geany-wiki" id="id7">New Geany Wiki</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#let-us-introduce-you" id="id8">Let us introduce you...</a><ul>
+<li><a class="reference internal" href="#plugin-focus" id="id9">Plugin Focus</a><ul>
+<li><a class="reference internal" href="#spell-check" id="id10">Spell Check</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#feature-focus" id="id11">Feature Focus</a><ul>
+<li><a class="reference internal" href="#line-breaking-vs-line-wrapping" id="id12">Line Breaking vs Line Wrapping</a><ul>
+<li><a class="reference internal" href="#line-breaking" id="id13">Line Breaking</a></li>
+<li><a class="reference internal" href="#line-wrapping" id="id14">Line Wrapping</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#people-behind-geany-interview" id="id15">People behind Geany -- Interview</a><ul>
+<li><a class="reference internal" href="#columban-wendling" id="id16">Columban Wendling</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#about-this-newsletter" id="id17">About this newsletter</a></li>
+</ul>
+</div>
+<div class="section" id="about-geany">
+<h1><a class="toc-backref" href="#contents">About Geany</a></h1>
+<p>Geany is a small and lightweight Integrated Development Environment.
+It was developed to provide a small and fast IDE, which has only a
+few dependencies from other packages. Another goal was to be as
+independent as possible from a special Desktop Environment like KDE
+or GNOME - Geany only requires the GTK2 runtime libraries.</p>
+<p>More information about Geany can be found at
+<a class="reference external" href="http://www.geany.org/">geany.org</a>.</p>
+</div>
+<div class="section" id="geany-development">
+<h1><a class="toc-backref" href="#contents">Geany Development</a></h1>
+<div class="section" id="bumping-dependencies-for-gtk2-and-glib">
+<h2><a class="toc-backref" href="#contents">Bumping dependencies for GTK2 and GLib</a></h2>
+<p>Starting with SVN r5839 Geany depends on GTK2 &gt;= 2.12 and GLib &gt;= 2.16 to
+make use of some new features introduced with these releases and to avoid
+maintaining duplicate code and complicated #ifdef structures.</p>
+</div>
+</div>
+<div class="section" id="plugins">
+<h1><a class="toc-backref" href="#contents">Plugins</a></h1>
+<div class="section" id="bumping-dependencies-for-geany-plugins-project-at-geany-0-21-and-gtk2-2-12">
+<h2><a class="toc-backref" href="#contents">Bumping dependencies for Geany-Plugins project at Geany 0.21 and GTK2 2.12</a></h2>
+<p>Starting with SVN 2095 the general section of combined Geany-Plugins
+project project is depending on Geany 0.21 and similar to Geany
+itself on GTK2 &gt;= 2.12.</p>
+</div>
+</div>
+<div class="section" id="geany-universe">
+<h1><a class="toc-backref" href="#contents">Geany Universe</a></h1>
+<div class="section" id="new-geany-wiki">
+<h2><a class="toc-backref" href="#contents">New Geany Wiki</a></h2>
+<p>Since a couple of weeks Geany is now having a wiki, in which
+interesting facts around Geany can be collected. Some pages are
+still empty and some topics might be missing, but a start is done.
+Check out the pages at <a class="reference external" href="http://wiki.geany.org/">wiki.geany.org</a>.</p>
+</div>
+</div>
+<div class="section" id="let-us-introduce-you">
+<h1><a class="toc-backref" href="#contents">Let us introduce you...</a></h1>
+<p>This section is intended to introduce particular plugins or features
+on a regular basis.</p>
+<div class="section" id="plugin-focus">
+<h2><a class="toc-backref" href="#contents">Plugin Focus</a></h2>
+<div class="section" id="spell-check">
+<h3><a class="toc-backref" href="#contents">Spell Check</a></h3>
+<p>Although Geany is primarily an editor aimed at programming tasks,
+it's often used to write plain text. All of us would like to think
+that we can spell correctly but, especially for foreign words, a
+little help is always welcome: Geany's Spell Check plugin can help,
+either checking on demand or as you type.</p>
+<p>To check the spelling of the current document on demand, select
+Tools &gt; Spell Check &gt; [language] from the main menu. If you often
+use this feature consider creating a keyboard shortcut to make
+activating it easier.</p>
+<p>In case you would prefer to have your spelling checked immediately,
+enable the &quot;Check spelling while typing&quot; option in the plugin's
+preferences: Edit &gt; Plugin Preferences &gt; Spell Check.</p>
+<p>The default language used by Spell Check is configured in Spell
+Check's preferences.</p>
+<img alt="../img/issue3_spellcheck.png" src="../img/issue3_spellcheck.png" />
+<p>The Spell Check plugin can offer suggestions for misspelled words in
+the Message window, in the context menu or both. Choose whichever
+option suits you best by checking the options in the plugin's
+preferences.</p>
+<p>Any suspect words are marked with a red squiggly underline. To
+correct these, right-click on them and highlight the &quot;Spelling
+Suggestions&quot; item in the context menu. From there you can either
+select from a list of suggested words, add the word to your personal
+dictionary or ignore it. You can install extra dictionaries in
+Myspell format which is especially useful if you're often using
+words which are not in a standard dictionary.</p>
+</div>
+</div>
+<div class="section" id="feature-focus">
+<h2><a class="toc-backref" href="#contents">Feature Focus</a></h2>
+<div class="section" id="line-breaking-vs-line-wrapping">
+<h3><a class="toc-backref" href="#contents">Line Breaking vs Line Wrapping</a></h3>
+<p>In the Document menu are check boxes Line Breaking and Line
+Wrapping. Although their names are similar, they behave differently.</p>
+<div class="section" id="line-breaking">
+<h4><a class="toc-backref" href="#contents">Line Breaking</a></h4>
+<p>When the Line Breaking option is enabled and you type a word past
+the &quot;Line breaking column&quot; (set in Preferences), Geany will input a
+carriage return at the end of the line and put the cursor on the
+line below. This option is best used with plain text files when you
+you want to keep every line to a maximum length. It's not
+recommended for code since you might not notice the line break occur
+and later have to debug the result.</p>
+<p>Line Breaking is activated only when you move the cursor past the
+&quot;Line breaking column&quot; while editing. This means that an already
+long line will simply get longer if you add text before the &quot;Line
+breaking column&quot;. When this happens you can use the &quot;Reflow
+Lines/Block&quot; function (in the Edit &gt; Format menu) to adjust all
+lines so that they're within the line breaking column. Line Breaking
+must be enabled per document via the menu option Document &gt; Line
+Breaking.</p>
+</div>
+<div class="section" id="line-wrapping">
+<h4><a class="toc-backref" href="#contents">Line Wrapping</a></h4>
+<p>The Line Wrapping option is similar to Line Breaking but the lines
+are only wrapped visually; no carriage returns or line feeds are
+added. This option is best used when you want to be able to see the
+entire file within the current window. So that it's obvious which
+lines have been wrapped, a visual indicator is added to the end of
+each wrapped line. Line Wrapping is very CPU-intensive and can slow
+down Geany if it's enabled while editing a very large file.</p>
+<p>If you prefer to have Line Wrapping enabled by default, there is an
+option for this in the Preferences dialog box Editor &gt; Features.
+With this option enabled, you can disable Line Wrapping via the menu
+option Document &gt; Line Wrapping.</p>
+<img alt="../img/issue3_linewrapping.png" src="../img/issue3_linewrapping.png" />
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="people-behind-geany-interview">
+<h1><a class="toc-backref" href="#contents">People behind Geany -- Interview</a></h1>
+<p>This is the first in a series of interviews with Geany's
+contributors: core developers, plugin developers, translators, wiki
+maintainers and any other job we can think of. The purpose of the
+interviews is to get to know each of these people a little better:
+their hopes, dreams, plans and favourite Geany plugin.</p>
+<div class="section" id="columban-wendling">
+<h2><a class="toc-backref" href="#contents">Columban Wendling</a></h2>
+<p>Thank you to Colomban Wendling for agreeing to an interview and
+congratulations for being the very first. Now on to the questions...</p>
+<p><em>What motivates you to develop Geany?</em></p>
+<blockquote>
+I use Geany on a daily basis, so I'm concerned about its
+development and improvement. I'm also happy to give back a
+little bit of all the good Geany given me through the years I
+used it :)  And don't be silly: the FAME! :D</blockquote>
+<p><em>Why do you develop for free instead of devoting this time to paid
+projects?</em></p>
+<blockquote>
+<p>Philosophy, naivety... Actually I don't &quot;develop for free&quot; if it
+only means &quot;without being paid&quot;, I develop for free &quot;as in
+freedom&quot; software because I like the ideology behind it. Not
+being paid is only a concern in the way I need to do some other
+stuff beside to get money in.</p>
+<p>What I probably prefer in free software is the fact one can
+learn from reading the code. It was a great source of help and
+knowledge when I started learning programming, and it still is.
+A related thing is the ability to modify the software to better
+fit my needs, or simply to fix a bug that concerns me. It serves
+me from time to time (once I discover an annoying bug ^^) and
+allows me to send back the fix to upstream developers, hopefully
+helping other users.</p>
+<p>I won't give all the philosophy behind free software, I think
+you've got my point :)</p>
+</blockquote>
+<p><em>Do you do development on other projects that are of interest to you?</em></p>
+<blockquote>
+Not really beside my personal projects. As said above, I send
+patches from time to time to developers of software I use, but
+I'm not really involved in any other project than Geany.</blockquote>
+<p><em>Do you have a favourite Geany feature and if so, what is it?</em></p>
+<blockquote>
+Most probably the tag completion; but also that almost
+everything is configurable to fit ones needs.</blockquote>
+<p><em>Do you have a favourite Geany plugin and if so, what is it?</em></p>
+<blockquote>
+If I'd not fear to sound selfish, I'd say GeanyGenDoc :D
+Otherwise, SpellCheck without a doubt.</blockquote>
+<p><em>What do you do when you're not developing Geany?</em></p>
+<blockquote>
+I continue studying programming, or work on personal projects
+though it's almost the same thing.</blockquote>
+<p><em>What do you use Geany for?</em></p>
+<blockquote>
+Every one of my programming tasks, and some other text editing.</blockquote>
+<p><em>Do you use any editors other than Geany? (Of course the answer here
+should be &quot;Absolutely not!&quot; but I'm asking it anyway. :)</em></p>
+<blockquote>
+I use Nano for commit messages and administration tasks I need
+to do as root, but for all serious text editing I use Geany.</blockquote>
+<p><em>In which environments do you use Geany?</em></p>
+<blockquote>
+GNU/Linux (with GNOME), and occasionally Windows (but only when
+I'm forced to use Windows).</blockquote>
+</div>
+</div>
+<div class="section" id="about-this-newsletter">
+<h1><a class="toc-backref" href="#contents">About this newsletter</a></h1>
+<p>This newsletter has been created in cooperation by people from
+Geany's international community. Contributors to this newsletter and
+the infrastructure behind it, ordered by alphabet:</p>
+<p>Colomban Wendling,
+Enrico Tröger,
+Frank Lanitz,
+Russell Dickenson</p>
+</div>
+</div>
+</body>
+</html>
