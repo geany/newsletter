@@ -107,7 +107,8 @@ Line Breaking vs Line Wrapping
 In the Document menu are check boxes Line Breaking and Line
 Wrapping. Although their names are similar, they behave differently.
 
-''Line Breaking''
+Line Breaking
+#############
 
 When the Line Breaking option is enabled and you type a word past
 the "Line breaking column" (set in Preferences), Geany will input a
@@ -126,7 +127,8 @@ lines so that they're within the line breaking column. Line Breaking
 must be enabled per document via the menu option Document > Line
 Breaking.
 
-''Line Wrapping''
+Line Wrapping
+#############
 
 The Line Wrapping option is similar to Line Breaking but the lines
 are only wrapped visually; no carriage returns or line feeds are
