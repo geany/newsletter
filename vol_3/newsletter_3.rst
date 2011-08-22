@@ -34,9 +34,8 @@ Plugins
 Bumping dependencies for Geany-Plugins project at Geany 0.21 and GTK2 2.12
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Starting with SVN 2095 the general section of combined Geany-Plugins
-project project is depending on Geany 0.21 and similar to Geany
-itself on GTK2 >= 2.12.
+Starting with SVN 2095 the general section of the combined Geany-Plugins
+project depends on Geany 0.21 and similarly Geany depends on GTK2 >= 2.12.
 
 
 Geany Universe
@@ -45,10 +44,12 @@ Geany Universe
 New Geany Wiki
 ^^^^^^^^^^^^^^
 
-Since a couple of weeks Geany is now having a wiki, in which
-interesting facts around Geany can be collected. Some pages are
-still empty and some topics might be missing, but a start is done.
-Check out the pages at `wiki.geany.org <http://wiki.geany.org/>`_.
+Several weeks ago the Geany wiki was created, in which interesting 
+facts around Geany can be collected. Some pages are still empty and 
+some topics might be missing, but a good start has been made. Check 
+out the pages at `wiki.geany.org <http://wiki.geany.org/>`_. Please
+contribute whatever you can, including your favorite snippets, color
+schemes etc.
 
 
 Let us introduce you...
