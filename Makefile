@@ -32,7 +32,7 @@ clean:
 	rm -f $(OUTPUTS)
 
 .rst.html:
-	rst2html --stylesheet=style.css --toc-top-backlinks $< > $@
+	rst2html --stylesheet=stylesheets/mainstyle.css --toc-top-backlinks $< > $@
 
 .tex.pdf:
 	maxpasses=5; \
@@ -53,5 +53,5 @@ clean:
 	rst2odt $< > $@
 
 # extra dependencies we cannot add to suffix rules
-$(OUTPUT_HTML): style.css
+$(OUTPUT_HTML): stylesheets/mainstyle.css
 $(OUTPUT_TEX): template.tex rst2latex.sed

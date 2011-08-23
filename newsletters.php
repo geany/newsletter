@@ -48,7 +48,7 @@ print '<?xml version="1.0"?>';
 <body>
 	<div id="header">
 		<a href="./">
-		<img src="./images/geany.png" alt="Geany Logo" style="width: 48px; height: 48px; float: left; margin-right: 5%;" /></a>
+		<img src="./img/geany.png" alt="Geany Logo" style="width: 48px; height: 48px; float: left; margin-right: 5%;" /></a>
 		<h1>Geany Newsletters</h1>
 	</div>
 

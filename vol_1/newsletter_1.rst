@@ -20,25 +20,25 @@ the release contained a number of bug fixes as well as improvements and new
 features.
 Some of the highlights:
 
-    * Improve compatibility with GVfs using GIO to save documents (Alexey Antipov).
-    * Fix occasional crashes when closing a modified document and choosing
-      "Save".
-    * Reorganize Find in Files dialog and add Files pattern to filter search
-      results.
-    * Show mimetype icon in sidebar Documents list and notebook popup menu
-      (Colomban Wendling).
-    * Add per-document indent width setting (Jiri Techet).
-    * Fix passing quoted arguments when using "Send Selection to". This
-      means e.g. sed ’s/\./(dot)/g’ now works.
-    * Add alternative color scheme based on Python colors (View-Editor-Color
-      Schemes - not all filetypes supported yet).
-    * Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
-    * Add Forth filetype (Thomas Huth).
-    * Add Lisp filetype (Mário Silva).
-    * Add Erlang filetype (Taylor Venable).
-    * Add translations: kk.
-    * Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl,
-      sv, tr, zh_CN.
+* Improve compatibility with GVfs using GIO to save documents (Alexey Antipov).
+* Fix occasional crashes when closing a modified document and choosing
+  "Save".
+* Reorganize Find in Files dialog and add Files pattern to filter search
+  results.
+* Show mimetype icon in sidebar Documents list and notebook popup menu
+  (Colomban Wendling).
+* Add per-document indent width setting (Jiri Techet).
+* Fix passing quoted arguments when using "Send Selection to". This
+  means e.g. sed ’s/\./(dot)/g’ now works.
+* Add alternative color scheme based on Python colors (View-Editor-Color
+  Schemes - not all filetypes supported yet).
+* Auto-indent after an HTML/XML line without a closing tag (Eugene Arshinov).
+* Add Forth filetype (Thomas Huth).
+* Add Lisp filetype (Mário Silva).
+* Add Erlang filetype (Taylor Venable).
+* Add translations: kk.
+* Update translations: cs, de, en_GB, es, fi, fr, hu, ja, nl, pt, sl,
+  sv, tr, zh_CN.
 
 Geany-Plugins 0.20 have been released
 =====================================
@@ -65,11 +65,11 @@ WebHelper is a plugin that provides some web development facilities, such
 as a web page preview and some debugging tools (web inspector). The plugin
 implements the following features:
 
-    * A basic web view, allowing the display of any web page (using WebKit);
-    * Possible automatic reloading of the web view upon document saving;
-    * A web inspector/debugging tool for the web view’s content (including a
-      JavaScript console, a viewer and editor of processed HTML and CSS, a
-      network usage analysis tool and many more, thanks to WebKit).
+* A basic web view, allowing the display of any web page (using WebKit);
+* Possible automatic reloading of the web view upon document saving;
+* A web inspector/debugging tool for the web view’s content (including a
+  JavaScript console, a viewer and editor of processed HTML and CSS, a
+  network usage analysis tool and many more, thanks to WebKit).
 
 Updates & Bugfixes
 ^^^^^^^^^^^^^^^^^^
@@ -78,45 +78,44 @@ Also there have been a lot of bugfixes and updates on plugins. For further
 details please check the Release notes and/or the ChangeLog of plugins. A few
 selected changes are:
 
-
 GeanyExtraSel
 *************
 
-    * Respect "Smart" home key (Geany does now).
-    * Fixed Scintilla Shift+movement key conversion of rectangle selection.
-    * Virtual spaces support.
-    * Per-file column mode.
-    * Added "Set Anchor", "Select to Anchor" and "Rectangle Select to Anchor".
+* Respect "Smart" home key (Geany does now).
+* Fixed Scintilla Shift+movement key conversion of rectangle selection.
+* Virtual spaces support.
+* Per-file column mode.
+* Added "Set Anchor", "Select to Anchor" and "Rectangle Select to Anchor".
 
 GeanyGenDoc
 ***********
 
-    * Bump dependency on CTPL to 0.3.
-    * Add a popup menu for common actions in the documentation type selector.
-    * Fix indentation of inserted documentation blocs.
-    * Documentation type now defaults to Doxygen (rather than nothing).
-    * Add policy PASS to completely ignore a symbol.
-    * Add basic rules for PHP.
-    * Fix build against GTK+ 2.16.
-    * Don’t copy the system configuration file to the user’s one when hitting
-      "Edit Current Language Configuration", only write it when saving changes.
+* Bump dependency on CTPL to 0.3.
+* Add a popup menu for common actions in the documentation type selector.
+* Fix indentation of inserted documentation blocs.
+* Documentation type now defaults to Doxygen (rather than nothing).
+* Add policy PASS to completely ignore a symbol.
+* Add basic rules for PHP.
+* Fix build against GTK+ 2.16.
+* Don’t copy the system configuration file to the user’s one when hitting
+  "Edit Current Language Configuration", only write it when saving changes.
 
 GeanyLaTeX
 **********
 
-    * Move LaTeX-menu to a separate menu inside Geany main menu.
-    * Add a feature to auto-capitalize letters on typing the beginning of a
-      sentence.
-    * Add a way to put an icon for LaTeX-wizard into Geany’s main toolbar.
-    * Added a dialog for inserting BibTeX references based on available \*.bib- files.
+* Move LaTeX-menu to a separate menu inside Geany main menu.
+* Add a feature to auto-capitalize letters on typing the beginning of a
+  sentence.
+* Add a way to put an icon for LaTeX-wizard into Geany’s main toolbar.
+* Added a dialog for inserting BibTeX references based on available \*.bib- files.
 
 TreeBrowser
 ***********
 
-    * Added bookmarks support.
-    * Added keybindings support.
-    * Added mime type icons in the tree.
-    * Many bugfixes and code improvements.
+* Added bookmarks support.
+* Added keybindings support.
+* Added mime type icons in the tree.
+* Many bugfixes and code improvements.
 
 
 Geany-Development
@@ -211,7 +210,6 @@ chat. You will find us next to the Xfce guys.
 Details for this convention can be find on their homepage at
 http://chemnitzer.linux-tage.de/2011/
 
-
 Let us introduce you....
 ========================
 
@@ -256,9 +254,9 @@ When writing source code or in a markup language, it’s often necessary to mark
 one or more lines as a comment. Geany offers several functions from the Edit
 -> Format sub-menu which make this very easy:
 
-    * Comment Line(s)
-    * Uncomment Line(s)
-    * Toggle Line Commentation
+* Comment Line(s)
+* Uncomment Line(s)
+* Toggle Line Commentation
 
 To use these options on a single line, put the cursor on that line and select
 the menu option. To use them on a block of code, select the whole block then

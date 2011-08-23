@@ -1,12 +1,64 @@
+html { font-family: sans-serif; }
+
+
 body
 {
 	font-family: sans-serif;
-	width: 80%; height: 600px;
+	width: 80%;
 	margin-left: auto; margin-right: auto;
 	margin-top: 2%;
 }
 
+
+h1 { font-size: 1.4em }
+h2 { font-size: 1.3em }
+h3 { font-size: 1.2em }
+h4 { font-size: 1.1em }
+h5 { font-size: 1.0em }
+h6 { font-size: 0.9em }
+
+
+a:link, a:visited
+{
+	color: #9e8100;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #a40000;
+	text-decoration: underline;
+}
+
+
 img { border-width: 0; }
+
+
+hr
+{
+	border-style: solid;
+	border-color: #babdb6;
+}
+
+
+table
+{
+	margin-top: 20px;
+}
+
+table, th, td
+{
+	border-style:1px solid;
+	border-color: #babdb6;
+}
+
+
+div.document
+{
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+}
+
 
 div#header
 {
@@ -14,20 +66,32 @@ div#header
 }
 
 
-div#navigation
+div#contents, div#navigation
 {
-	width: 180px; float: left;
-	margin-bottom: 10px; margin-right: 20px;
-	padding-top: 10px; padding-bottom: 10px;
-	padding-left: 1em;
-	background-color: #eeeeef;
+	width: 30%; float: left;
+	margin-bottom: 10px; margin-right: 1em;
+	padding: 1.5em;
+	background-color: #F2F2F3;
 	font-size: 10pt;
 	position: static;
 	border-radius: 20px;
 	-moz-border-radius: 20px;
 	-webkit-border-radius: 20px;
+	overflow: hidden;
 }
 
+div#contents ul, div#navigation ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+	margin-bottom: 0.2em;
+	padding-left: 0.8em;
+}
+
+div#contents ul li, div#navigation ul li
+{
+	margin-top: 0.4em;
+}
 
 div#navigation h1
 {
@@ -37,23 +101,9 @@ div#navigation h1
 
 div#navigation hr
 {
-	width: 180px;
-	margin-left: -1em;
-/*
-
-	margin-right: -4em;
-*/
+	width: 100%;
+	margin: 0; padding: 0;
 }
-
-
-div#navigation ul
-{
-	list-style-type: none;
-	list-style-position: outside;
-	margin-bottom: 20px; margin-left: 0;
-	padding-left: 10px;
-}
-
 
 div#navigation ul li
 {
@@ -67,45 +117,12 @@ div#navigation a
 	text-decoration: none;
 }
 
-
-div#navigation a:link, a:visited
-{
-	color: #9e8100;
-}
-
-
-div#navigation a:hover
-{
-	color: #a40000;
-}
-
-
-div#content
+div.section, div#content
 {
 	overflow: auto;
 }
 
-
-div#content ul
-{
-	list-style-position: inside;
-}
-
-
-div#content a:link, a:visited
-{
-	color: #9e8100;
-	text-decoration: none;
-}
-
-
-div#content a:hover
-{
-	color: #a40000;
-	text-decoration: underline;
-}
-
-code, blockquote, pre.literal-block
+code, pre.literal-block
 {
 	display: block;
 	padding-left: 4px;
@@ -116,24 +133,6 @@ code, blockquote, pre.literal-block
 	border-top-width: 0; border-bottom-width: 0;
 	border-style: solid; border-color: #babdb6;
 	overflow-x: auto;
-}
-
-
-hr
-{
-	border-style: solid;
-	border-color: #babdb6;
-}
-
-table
-{
-	margin-top: 20px;
-}
-
-table, th, td
-{
-	border-style:1px solid;
-	border-color: #babdb6;
 }
 
 
