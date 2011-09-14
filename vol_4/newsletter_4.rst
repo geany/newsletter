@@ -16,6 +16,14 @@ More information about Geany can be found at
 `geany.org <http://www.geany.org/>`_.
 
 
+Geany 0.21 has been released
+============================
+
+
+Geany-Plugins 0.21 has been released
+====================================
+
+
 About this newsletter
 =====================
 
