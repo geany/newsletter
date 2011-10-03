@@ -19,6 +19,29 @@ More information about Geany can be found at
 Geany 0.21 has been released
 ============================
 
+After about 6 month of developing, at 2011-10-02 Geany 0.21 has been
+released. There have been a lot of changes where only the highights
+are listed below:
+
+ * Add support for real-time symbol parsing.
+ * Fix loading of non-UTF-8 templates.
+ * Update Scintilla to version 2.25.
+ * Add Scala custom filetype (werg).
+ * Add Cython custom filetype (Matthew Brush).
+ * Add support for separate single and multiline comments.
+ * Add support for filetype-specific indentation settings.
+ * Add filetype Cobol (Seth Keiper).
+ * SplitWindow plugin now works on Windows too.
+ * Add translations: fa.
+ * Update translations: ca, cs, de, en_GB, es, fi, fr, gl, it, ja, nl,
+   pt, pt_BR, sl, sv, tr, vi, zh_CN, zh_TW.
+
+A more complete list can be found on
+http://www.geany.org/Documentation/ReleaseNotes
+
+Source tarballs as well as Windows binaries can be found as always on
+http://download.geany.org.
+
 
 Geany-Plugins 0.21 has been released
 ====================================
