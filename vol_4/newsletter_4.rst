@@ -143,6 +143,15 @@ Internationalisation
 * Update translations: de, pt, ru, tr
 
 
+Geany-Plugins 0.21.1 has been released
+======================================
+
+Short after the major release Geany-Plugins 0.21 an issue with build
+system has been captured which blocked installation of source
+tarball using waf-build system. This has been fixed inside a minor
+source release. The Windows binary release isn't effected by this
+issue.
+
 
 About this newsletter
 =====================
