@@ -153,6 +153,21 @@ source release. The Windows binary release isn't effected by this
 issue.
 
 
+Geany moved to git
+==================
+
+After a long discussion on mailing list Geany finally moved to git
+as main version control system. The goal is to be more flexible and
+including patchsets from non-core-developers as well as making usage
+of a number of other features of git. The new home of the git
+repository is http://github.com where you can asses Geany's
+sources at https://github.com/geany/geany
+
+During this switch also other resources for Geany-releated sources
+has been moved to github and can be found at overview page at
+https://github.com/geany
+
+
 About this newsletter
 =====================
 
