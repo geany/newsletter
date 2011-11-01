@@ -269,13 +269,13 @@ Change of leadership
 
 If have been using Geany for a while and read the announcement of 
 Geany 0.21's release, you might have noticed something important. 
-The leadership of the Geany project has changed from Enrico FIXME to 
-Columban Wendling, a current member of the development team. 
+The leadership of the Geany project has changed from Enrico Tröger to 
+Colomban Wendling, a current member of the development team. 
 Enrico's priorities had changed so he decided it would be best if 
 someone else took on the leadership role. During Enrico's time as 
 leader, Geany has continued to gained in popularity and improve, 
 while staying true to its original design goals. Thankyou to Enrico 
-for all that you have done and we welcome Columban.
+for all that you have done and we welcome Colomban.
 
 
 Plugin Focus
