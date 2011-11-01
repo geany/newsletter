@@ -46,7 +46,7 @@ http://download.geany.org.
 Geany-Plugins 0.21 has been released
 ====================================
 
-At 2011-10-23, about three weeks after Geany 0.21, Geany-Plugiins in
+At 2011-10-23, about three weeks after Geany 0.21, Geany-Plugins in
 its fitting version has been released. As seen in former newsletters
 it has been a quiet active time on plugin development so we are
 trying to give you an overview on the first hand as well as digging
