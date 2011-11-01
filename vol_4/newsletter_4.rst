@@ -187,8 +187,9 @@ More colour schemes are listed on the Geany Add-ons web page. For
 the individual schemes, follow the instructions given by their 
 creator. One of the biggest set of schemes was created by Matthew 
 Brush (known as codebrainz in Geany's IRC channel). Matthew's 
-collection is listed on the add-ons page but is hosted here: FIXME. 
-Follow the installation instructions given on the page, then restart
+collection is listed on the add-ons page but is hosted at 
+https://github.com/codebrainz/geany-themes 
+Follow the installation instructions given on the page, then restart 
 Geany and all schemes will then be listed in the Colour Schemes menu.
 
 How Colour Schemes Work
@@ -252,9 +253,9 @@ maintain, when compared with the old format. Another advantage to
 the new scheme is that it makes the task of porting colour schemes 
 from other applications easier. Matthew Brush (AKA Codebrainz), a 
 Geany contributor, has ported a wide range of colour schemes from 
-other editors and they're all available from FIXME_URL. Other colour 
+other editors and they're all available from . Other colour 
 schemes, mainly in the legacy scheme format, are also available from 
-FIXME_URL.
+http://www.geany.org/Download/Extras.
 
 Colour schemes are defined in files named <COLOUR_SCHEME>.conf and 
 are stored in the 'colourschemes' directory in Geany's personal data 
