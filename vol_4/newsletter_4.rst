@@ -167,6 +167,134 @@ During this switch also other resources for Geany-releated sources
 has been moved to github and can be found at overview page at
 https://github.com/geany
 
+Col(o)ur Schemes
+================
+
+Introduction
+^^^^^^^^^^^^
+
+Geany supports colour schemes which allow you to change the colours
+applied to various code elements. Two color schemes are provided with
+Geany: Default and Alternate but many more are available. To change
+the colour scheme, select from the menu View > Editor > Colour Schemes
+> PREFERRED_COLOUR_SCHEME. The colour scheme change is immediate but
+the list of available schemes is only loaded when Geany starts.
+
+Adding Colour Schemes
+^^^^^^^^^^^^^^^^^^^^^
+
+More colour schemes are listed on the Geany Add-ons web page. For 
+the individual schemes, follow the instructions given by their 
+creator. One of the biggest set of schemes was created by Matthew 
+Brush (known as codebrainz in Geany's IRC channel). Matthew's 
+collection is listed on the add-ons page but is hosted here: FIXME. 
+Follow the installation instructions given on the page, then restart
+Geany and all schemes will then be listed in the Colour Schemes menu.
+
+How Colour Schemes Work
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Geany's colour schemes' format has changed over time so there's a
+"legacy" format and the current, preferred format. Schemes in the
+different formats can be mixed but the current format is easier to
+maintain and modify.
+
+Legacy colour scheme format features a section named "[named_styles]".
+
+Current colour scheme format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The current colour scheme format works by first defining the colours 
+to be applied to a file type's elements. This is an extract from a 
+colour scheme named "Oblivion2":
+
+    default=0xffffff;0x2e3436;false;false
+    tag=0x729fcf;0x2e3436;true;false
+    tag_unknown=0xffffff;0x8C0101;true;false
+
+File types and their elements are defined in a file named 
+filetypes.<FILETYPE>: e.g. filetypes.xml, filetypes.html. All 
+filetype files are stored in the 'filedef' directory in Geany's 
+personal data directory. This is an extract from the file type file 
+for HTML:
+
+    [styling]
+    # Edit these in the colorscheme .conf file instead
+    html_default=default
+    html_tag=tag
+    html_tagunknown=tag_unknown
+
+When Geany apply syntax highlighting to a file which matches a filetype,
+it matches the element (defined in the filetype's file) with the
+matching colour (defined in the colour scheme's file). The advantage of
+this scheme over the legacy version is that modifying a colour scheme
+requires changes to just one file.
+
+Legacy colour scheme format
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The legacy colour scheme format works slightly differently to the 
+new colour scheme format. The colours to be applied to a matching
+filetype are defined in the filetype's definition file itself. This is
+an extract of a
+
+The problem with this scheme format is that if you want to make a 
+change which applies to all filetypes, you need to change _all_
+filetypes. If for example you have 40 file types defined and you want
+to change the background colour which applies to all of them, you
+need to change the background colour's value in all 40 files.
+
+Colour scheme formats compared
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The new colour scheme format is simply much easier to manage and 
+maintain, when compared with the old format. Another advantage to 
+the new scheme is that it makes the task of porting colour schemes 
+from other applications easier. Matthew Brush (AKA Codebrainz), a 
+Geany contributor, has ported a wide range of colour schemes from 
+other editors and they're all available from FIXME_URL. Other colour 
+schemes, mainly in the legacy scheme format, are also available from 
+FIXME_URL.
+
+Colour schemes are defined in files named <COLOUR_SCHEME>.conf and 
+are stored in the 'colourschemes' directory in Geany's personal data 
+directory.
+
+HINT: Use Geany's own colour picker when modifying an existing colour
+scheme.
+
+
+Change of leadership
+====================
+
+If have been using Geany for a while and read the announcement of 
+Geany 0.21's release, you might have noticed something important. 
+The leadership of the Geany project has changed from Enrico FIXME to 
+Columban Wendling, a current member of the development team. 
+Enrico's priorities had changed so he decided it would be best if 
+someone else took on the leadership role. During Enrico's time as 
+leader, Geany has continued to gained in popularity and improve, 
+while staying true to its original design goals. Thankyou to Enrico 
+for all that you have done and we welcome Columban.
+
+
+Plugin Focus
+============
+
+Split Window
+^^^^^^^^^^^^
+
+The Split Window plugin provides a feature which is so useful you'll 
+never want to be without it. When enabled, choose Tools > Split 
+Window > Side by side | Top and bottom from the main menu and the 
+active window is split into two editing panes. Each pane can be 
+navigated independently of the other, complete with its own 
+scrollbar. When you want to return to "normal" view, choose Tools > 
+Split Window > Unsplit from the main menu.
+
+When editing a file it's often necessary to navigate from one section
+to another, usually because of a reference between them.
+
 
 About this newsletter
 =====================
