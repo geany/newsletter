@@ -23,18 +23,18 @@ After about 6 month of developing, at 2011-10-02 Geany 0.21 has been
 released. There have been a lot of changes where only the highlights
 are listed below:
 
- * Add support for real-time symbol parsing.
- * Fix loading of non-UTF-8 templates.
- * Update Scintilla to version 2.25.
- * Add Scala custom filetype (werg).
- * Add Cython custom filetype (Matthew Brush).
- * Add support for separate single and multiline comments.
- * Add support for filetype-specific indentation settings.
- * Add filetype Cobol (Seth Keiper).
- * SplitWindow plugin now works on Windows too.
- * Add translations: fa.
- * Update translations: ca, cs, de, en_GB, es, fi, fr, gl, it, ja, nl,
-   pt, pt_BR, sl, sv, tr, vi, zh_CN, zh_TW.
+* Add support for real-time symbol parsing.
+* Fix loading of non-UTF-8 templates.
+* Update Scintilla to version 2.25.
+* Add Scala custom filetype (werg).
+* Add Cython custom filetype (Matthew Brush).
+* Add support for separate single and multiline comments.
+* Add support for filetype-specific indentation settings.
+* Add filetype Cobol (Seth Keiper).
+* SplitWindow plugin now works on Windows too.
+* Add translations: fa.
+* Update translations: ca, cs, de, en_GB, es, fi, fr, gl, it, ja, nl,
+  pt, pt_BR, sl, sv, tr, vi, zh_CN, zh_TW.
 
 A more complete list can be found on
 http://www.geany.org/Documentation/ReleaseNotes
@@ -219,7 +219,7 @@ Current colour scheme format
 
 The current colour scheme format works by first defining the colours 
 to be applied to a file type's elements. This is an extract from a 
-colour scheme named "Oblivion2":
+colour scheme named "Oblivion2"::
 
     default=0xffffff;0x2e3436;false;false
     tag=0x729fcf;0x2e3436;true;false
@@ -229,7 +229,7 @@ File types and their elements are defined in a file named
 filetypes.<FILETYPE>: e.g. filetypes.xml, filetypes.html. All 
 filetype files are stored in the 'filedef' directory in Geany's 
 personal data directory. This is an extract from the file type file 
-for HTML:
+for HTML::
 
     [styling]
     # Edit these in the colorscheme .conf file instead
@@ -252,7 +252,7 @@ filetype are defined in the filetype's definition file itself. This is
 an extract of a
 
 The problem with this scheme format is that if you want to make a 
-change which applies to all filetypes, you need to change _all_
+change which applies to all filetypes, you need to change *all*
 filetypes. If for example you have 40 file types defined and you want
 to change the background colour which applies to all of them, you
 need to change the background colour's value in all 40 files.
