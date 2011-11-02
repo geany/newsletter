@@ -20,7 +20,7 @@ Geany 0.21 has been released
 ============================
 
 After about 6 month of developing, at 2011-10-02 Geany 0.21 has been
-released. There have been a lot of changes where only the highights
+released. There have been a lot of changes where only the highlights
 are listed below:
 
  * Add support for real-time symbol parsing.
@@ -48,9 +48,9 @@ Geany-Plugins 0.21 has been released
 
 At 2011-10-23, about three weeks after Geany 0.21, Geany-Plugins in
 its fitting version has been released. As seen in former newsletters
-it has been a quiet active time on plugin development so we are
+it has been a quite active time on plugin development so we are
 trying to give you an overview on the first hand as well as digging
-into bigger changes have been done.
+into bigger changes that happened.
 
 
 New Plugins
@@ -60,8 +60,8 @@ Most of the new plugins have been already described in one of the
 previous editions of this newsletter. However, a short overview is
 needed.
 
-* **Debugger**: A plugin to integrate debugger like GDB. This is replacing 
-  geanyGDB in many places.
+* **Debugger**: A plugin to integrate debuggers like GDB. This is replacing
+  GeanyGDB in many places.
 * **Devhelp**: Integration for GNOME's Devhelp and google code search.
 * **GeanyPG**: Encryption, decryption, signing etc. from within Geany via GnuPG.
 * **GeanyMacro**: A plugin to record and apply macros.
@@ -79,11 +79,11 @@ t.b.p.s.
 Update and Bugfixes
 ^^^^^^^^^^^^^^^^^^^
 
-Generell
-########
+General
+#######
 
-Rework done on autootls build system as well as some maintenance
-work on waf-build system has been done.
+Rework done on Autotools build system as well as some maintenance
+work on Waf-build system has been done.
 
 
 Addons
@@ -99,15 +99,15 @@ GeanyLaTeX
 ##########
 
 * Moved LaTeX-menu to a separate menu inside Geany main menu
-* Added a feature to autocapetlise letters on typing on begin of a
+* Added a feature to autocapitalise letters on typing at the begin of a
   sentence
-* Added a way to put a icon for \LaTeX{}-wizard into Geany's main
+* Added a way to put an icon for \LaTeX{}-wizard into Geany's main
   toolbar
 * Added a dialog for inserting BibTeX references based on available \*.bib-files
 * Upgrade plugin API to version 199
 * Ensure to don't insert {} after \^ and \_
 * Adding a keystroke to toggle inserting {} after ^ and _
-* Fix an issue with wrong inserted formating using a keybinding
+* Fix an issue with wrong inserted formatting using a keybinding
 * Small update to enable i18n also on Geany >= 0.21
 * Various bugfixes and memory leak fixes.
 
@@ -115,17 +115,18 @@ GeanyLaTeX
 GeanySendMail
 #############
 
-* Some minore cleaning up of code
-* Fix for an issue with replacing of command string in case of %r has not being used
-* Don't double free a variable which might ended up inside a segmentation fault when using plugin function more than once.
+* Some minor cleaning up of code
+* Fix for an issue with replacing of command string when %r was not used
+* Don't double free a variable which might ended up in a segmentation fault
+  when using plugin function more than once.
 * Small update to enable i18n also on Geany >= 0.21
 
 
 Spell Check
 ###########
 
-* Reduce artifacts on partially checked words
-* Improve 'Check as you type' feature, make it more reliably
+* Reduce artefacts on partially checked words
+* Improve 'Check as you type' feature, making it more reliable
 
 
 Updatechecker
@@ -134,7 +135,7 @@ Updatechecker
 * Fix an issue with init threads for older GTK/glib versions by
   updating to Geany API version 203.
 * Small update to enable i18n also on Geany >= 0.21
-* Fix a typo inside waf-build system
+* Fix a typo inside Waf-build system
 
 
 WebHelper
@@ -159,23 +160,23 @@ Geany-Plugins 0.21.1 has been released
 
 Short after the major release Geany-Plugins 0.21 an issue with build
 system has been captured which blocked installation of source
-tarball using waf-build system. This has been fixed inside a minor
+tarball using Waf-build system. This has been fixed inside a minor
 source release. The Windows binary release isn't effected by this
 issue.
 
 
-Geany moved to git
+Geany moved to Git
 ==================
 
-After a long discussion on mailing list Geany finally moved to git
-as main version control system. The goal is to be more flexible and
+After a long discussion on mailing list Geany finally moved to Git
+as main version control system. The goal is to be more flexible on
 including patchsets from non-core-developers as well as making usage
-of a number of other features of git. The new home of the git
-repository is http://github.com where you can asses Geany's
+of a number of other features of Git. The new home of the Git
+repository is http://github.com where you can access Geany's
 sources at https://github.com/geany/geany
 
-During this switch also other resources for Geany-releated sources
-has been moved to github and can be found at overview page at
+During this switch sources of other Geany-related resources have been
+moved to GitHub as well and can be found on the overview page at
 https://github.com/geany
 
 Col(o)ur Schemes
@@ -185,7 +186,7 @@ Introduction
 ^^^^^^^^^^^^
 
 Geany supports colour schemes which allow you to change the colours
-applied to various code elements. Two color schemes are provided with
+applied to various code elements. Two colour schemes are provided with
 Geany: Default and Alternate but many more are available. To change
 the colour scheme, select from the menu View > Editor > Colour Schemes
 > PREFERRED_COLOUR_SCHEME. The colour scheme change is immediate but
@@ -196,7 +197,7 @@ Adding Colour Schemes
 
 More colour schemes are listed on the Geany Add-ons web page. For 
 the individual schemes, follow the instructions given by their 
-creator. One of the biggest set of schemes was created by Matthew 
+authors. One of the biggest set of schemes was created by Matthew
 Brush (known as codebrainz in Geany's IRC channel). Matthew's 
 collection is listed on the add-ons page but is hosted at 
 https://github.com/codebrainz/geany-themes 
@@ -279,7 +280,7 @@ scheme.
 Change of leadership
 ====================
 
-If have been using Geany for a while and read the announcement of 
+If you have been using Geany for a while and read the announcement of
 Geany 0.21's release, you might have noticed something important. 
 The leadership of the Geany project has changed from Enrico Tröger to 
 Colomban Wendling, a current member of the development team. 
