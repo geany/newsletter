@@ -263,10 +263,10 @@ Colour scheme formats compared
 The new colour scheme format is simply much easier to manage and 
 maintain, when compared with the old format. Another advantage to 
 the new scheme is that it makes the task of porting colour schemes 
-from other applications easier. Matthew Brush (AKA Codebrainz), a 
-Geany contributor, has ported a wide range of colour schemes from 
-other editors and they're all available from . Other colour 
-schemes, mainly in the legacy scheme format, are also available from 
+from other applications easier. Matthew Brush has ported a wide range
+of colour schemes from other editors and they're all available from
+https://github.com/codebrainz/geany-themes. Other colour schemes,
+mainly in the legacy scheme format, are also available from
 http://www.geany.org/Download/Extras.
 
 Colour schemes are defined in files named <COLOUR_SCHEME>.conf and 
