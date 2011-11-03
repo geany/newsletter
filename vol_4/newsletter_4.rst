@@ -20,7 +20,7 @@ Geany 0.21 has been released
 ============================
 
 After about 6 month of developing, at 2011-10-02 Geany 0.21 has been
-released. There have been a lot of changes where only the highlights
+released. There have been a lot of changes so only the highlights
 are listed below:
 
 * Add support for real-time symbol parsing.
@@ -47,18 +47,18 @@ Geany-Plugins 0.21 has been released
 ====================================
 
 At 2011-10-23, about three weeks after Geany 0.21, Geany-Plugins in
-its fitting version has been released. As seen in former newsletters
-it has been a quite active time on plugin development so we are
-trying to give you an overview on the first hand as well as digging
-into bigger changes that happened.
+its final version has been released. As seen in former newsletters
+it has been a quite active time on plugin development, so we are
+trying to give you an overview on one hand as well as digging
+into some of the bigger changes that have happened.
 
 
 New Plugins
 ^^^^^^^^^^^
 
 Most of the new plugins have been already described in one of the
-previous editions of this newsletter. However, a short overview is
-needed.
+previous editions of this newsletter. However, so only a short overview is
+provided here.
 
 * **Debugger**: A plugin to integrate debuggers like GDB. This is replacing
   GeanyGDB in many places.
@@ -82,8 +82,8 @@ Update and Bugfixes
 General
 #######
 
-Rework done on Autotools build system as well as some maintenance
-work on Waf-build system has been done.
+Significant rework has been done on the Autotools build system as well as some maintenance
+work on the Waf-build system.
 
 
 Addons
@@ -99,7 +99,7 @@ GeanyLaTeX
 ##########
 
 * Moved LaTeX-menu to a separate menu inside Geany main menu
-* Added a feature to autocapitalise letters on typing at the begin of a
+* Added a feature to autocapitalise letters on typing at the begining of a
   sentence
 * Added a way to put an icon for \LaTeX{}-wizard into Geany's main
   toolbar
@@ -158,9 +158,9 @@ Internationalisation
 Geany-Plugins 0.21.1 has been released
 ======================================
 
-Short after the major release Geany-Plugins 0.21 an issue with build
-system has been captured which blocked installation of source
-tarball using Waf-build system. This has been fixed inside a minor
+Shortly after the major release of Geany-Plugins 0.21, an issue with the build
+system was found which blocked installation of source
+tarballs using the Waf-build system. This has been fixed inside a minor
 source release. The Windows binary release isn't effected by this
 issue.
 
@@ -168,9 +168,9 @@ issue.
 Geany moved to Git
 ==================
 
-After a long discussion on mailing list Geany finally moved to Git
-as main version control system. The goal is to be more flexible on
-including patchsets from non-core-developers as well as making usage
+After a long discussion on the mailing list Geany finally moved to Git
+as the main version control system. The goal is to be more flexible on
+including patchsets from non-core-developers as well as making use
 of a number of other features of Git. The new home of the Git
 repository is http://github.com where you can access Geany's
 sources at https://github.com/geany/geany
@@ -179,7 +179,7 @@ During this switch sources of other Geany-related resources have been
 moved to GitHub as well and can be found on the overview page at
 https://github.com/geany
 
-Col(o)ur Schemes
+Colo(u)r Schemes
 ================
 
 Introduction
@@ -187,7 +187,7 @@ Introduction
 
 Geany supports colour schemes which allow you to change the colours
 applied to various code elements. Two colour schemes are provided with
-Geany: Default and Alternate but many more are available. To change
+Geany: Default and Alternate but many more are available (see below). To change
 the colour scheme, select from the menu View > Editor > Colour Schemes
 > PREFERRED_COLOUR_SCHEME. The colour scheme change is immediate but
 the list of available schemes is only loaded when Geany starts.
@@ -237,11 +237,11 @@ for HTML::
     html_tag=tag
     html_tagunknown=tag_unknown
 
-When Geany apply syntax highlighting to a file which matches a filetype,
+When Geany applies syntax highlighting to a file which matches a filetype,
 it matches the element (defined in the filetype's file) with the
 matching colour (defined in the colour scheme's file). The advantage of
 this scheme over the legacy version is that modifying a colour scheme
-requires changes to just one file.
+for all filetypes requires changes to just one file.
 
 Legacy colour scheme format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -250,6 +250,8 @@ The legacy colour scheme format works slightly differently to the
 new colour scheme format. The colours to be applied to a matching
 filetype are defined in the filetype's definition file itself. This is
 an extract of a
+
+MISSING EXAMPLE
 
 The problem with this scheme format is that if you want to make a 
 change which applies to all filetypes, you need to change *all*
@@ -286,8 +288,8 @@ The leadership of the Geany project has changed from Enrico Tröger to
 Colomban Wendling, a current member of the development team. 
 Enrico's priorities had changed so he decided it would be best if 
 someone else took on the leadership role. During Enrico's time as 
-leader, Geany has continued to gained in popularity and improve, 
-while staying true to its original design goals. Thankyou to Enrico 
+leader, Geany has continued to gain in popularity and improve, 
+whilst staying true to its original design goals. Thankyou to Enrico 
 for all that you have done and we welcome Colomban.
 
 
