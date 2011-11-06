@@ -19,7 +19,7 @@ More information about Geany can be found at
 Geany 0.21 has been released
 ============================
 
-After about 6 month of developing, at 2011-10-02 Geany 0.21 has been
+After about 6 months of developing, at 2011-10-02 Geany 0.21 has been
 released. There have been a lot of changes so only the highlights
 are listed below:
 
@@ -65,7 +65,7 @@ provided here.
 * **Devhelp**: Integration for GNOME's Devhelp and google code search.
 * **GeanyPG**: Encryption, decryption, signing etc. from within Geany via GnuPG.
 * **GeanyMacro**: A plugin to record and apply macros.
-* **GeanyNumberedBookmarks**: A plugin to store bookmarks to files and 
+* **GeanyNumberedBookmarks**: A plugin to store bookmarks to files and
   access them easily via a number.
 * **Tableconvert**: A plugin to convert lists into tables.
 * **XMLSnippets**: Helps on inserting (common) XML-snippets.
@@ -179,6 +179,7 @@ During this switch sources of other Geany-related resources have been
 moved to GitHub as well and can be found on the overview page at
 https://github.com/geany
 
+
 Colo(u)r Schemes
 ================
 
@@ -195,13 +196,13 @@ the list of available schemes is only loaded when Geany starts.
 Adding Colour Schemes
 ^^^^^^^^^^^^^^^^^^^^^
 
-More colour schemes are listed on the Geany Add-ons web page. For 
-the individual schemes, follow the instructions given by their 
+More colour schemes are listed on the Geany Add-ons web page. For
+the individual schemes, follow the instructions given by their
 authors. One of the biggest set of schemes was created by Matthew
-Brush (known as codebrainz in Geany's IRC channel). Matthew's 
-collection is listed on the add-ons page but is hosted at 
-https://github.com/codebrainz/geany-themes 
-Follow the installation instructions given on the page, then restart 
+Brush (known as codebrainz in Geany's IRC channel). Matthew's
+collection is listed on the add-ons page but is hosted at
+https://github.com/codebrainz/geany-themes
+Follow the installation instructions given on the page, then restart
 Geany and all schemes will then be listed in the Colour Schemes menu.
 
 How Colour Schemes Work
@@ -217,18 +218,18 @@ Legacy colour scheme format features a section named "[named_styles]".
 Current colour scheme format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The current colour scheme format works by first defining the colours 
-to be applied to a file type's elements. This is an extract from a 
+The current colour scheme format works by first defining the colours
+to be applied to a file type's elements. This is an extract from a
 colour scheme named "Oblivion2"::
 
     default=0xffffff;0x2e3436;false;false
     tag=0x729fcf;0x2e3436;true;false
     tag_unknown=0xffffff;0x8C0101;true;false
 
-File types and their elements are defined in a file named 
-filetypes.<FILETYPE>: e.g. filetypes.xml, filetypes.html. All 
-filetype files are stored in the 'filedef' directory in Geany's 
-personal data directory. This is an extract from the file type file 
+File types and their elements are defined in a file named
+filetypes.<FILETYPE>: e.g. filetypes.xml, filetypes.html. All
+filetype files are stored in the 'filedef' directory in Geany's
+personal data directory. This is an extract from the file type file
 for HTML::
 
     [styling]
@@ -246,14 +247,14 @@ for all filetypes requires changes to just one file.
 Legacy colour scheme format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The legacy colour scheme format works slightly differently to the 
+The legacy colour scheme format works slightly differently to the
 new colour scheme format. The colours to be applied to a matching
 filetype are defined in the filetype's definition file itself. This is
 an extract of a
 
 MISSING EXAMPLE
 
-The problem with this scheme format is that if you want to make a 
+The problem with this scheme format is that if you want to make a
 change which applies to all filetypes, you need to change *all*
 filetypes. If for example you have 40 file types defined and you want
 to change the background colour which applies to all of them, you
@@ -262,17 +263,17 @@ need to change the background colour's value in all 40 files.
 Colour scheme formats compared
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The new colour scheme format is simply much easier to manage and 
-maintain, when compared with the old format. Another advantage to 
-the new scheme is that it makes the task of porting colour schemes 
+The new colour scheme format is simply much easier to manage and
+maintain, when compared with the old format. Another advantage to
+the new scheme is that it makes the task of porting colour schemes
 from other applications easier. Matthew Brush has ported a wide range
 of colour schemes from other editors and they're all available from
 https://github.com/codebrainz/geany-themes. Other colour schemes,
 mainly in the legacy scheme format, are also available from
 http://www.geany.org/Download/Extras.
 
-Colour schemes are defined in files named <COLOUR_SCHEME>.conf and 
-are stored in the 'colourschemes' directory in Geany's personal data 
+Colour schemes are defined in files named <COLOUR_SCHEME>.conf and
+are stored in the 'colourschemes' directory in Geany's personal data
 directory.
 
 HINT: Use Geany's own colour picker when modifying an existing colour
@@ -283,13 +284,13 @@ Change of leadership
 ====================
 
 If you have been using Geany for a while and read the announcement of
-Geany 0.21's release, you might have noticed something important. 
-The leadership of the Geany project has changed from Enrico Tröger to 
-Colomban Wendling, a current member of the development team. 
-Enrico's priorities had changed so he decided it would be best if 
-someone else took on the leadership role. During Enrico's time as 
-leader, Geany has continued to gain in popularity and improve, 
-whilst staying true to its original design goals. Thankyou to Enrico 
+Geany 0.21's release, you might have noticed something important.
+The leadership of the Geany project has changed from Enrico Tröger to
+Colomban Wendling, a current member of the development team.
+Enrico's priorities changed so he decided it would be best if
+someone else took on the leadership role. During Enrico's time as
+leader, Geany has continued to gain in popularity and improve,
+whilst staying true to its original design goals. Thank you Enrico
 for all that you have done and we welcome Colomban.
 
 
@@ -299,12 +300,12 @@ Plugin Focus
 Split Window
 ^^^^^^^^^^^^
 
-The Split Window plugin provides a feature which is so useful you'll 
-never want to be without it. When enabled, choose Tools > Split 
-Window > Side by side | Top and bottom from the main menu and the 
-active window is split into two editing panes. Each pane can be 
-navigated independently of the other, complete with its own 
-scrollbar. When you want to return to "normal" view, choose Tools > 
+The Split Window plugin provides a feature which is so useful you'll
+never want to be without it. When enabled, choose Tools > Split
+Window > Side by side | Top and bottom from the main menu and the
+active window is split into two editing panes. Each pane can be
+navigated independently of the other, complete with its own
+scrollbar. When you want to return to "normal" view, choose Tools >
 Split Window > Unsplit from the main menu.
 
 When editing a file it's often necessary to navigate from one section
