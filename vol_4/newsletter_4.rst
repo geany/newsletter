@@ -312,6 +312,20 @@ When editing a file it's often necessary to navigate from one section
 to another, usually because of a reference between them.
 
 
+Geany local
+===========
+
+
+Geany at OpenRheinRuhr 2011
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Upcoming weekend (November 12th, 13th) Geany will be present at the
+OpenRheinRuhr 2011, a convention about FLOSS located at Oberhausen,
+Germany. Together with some guys of Xfce Geany will have a little
+booth. Details for this convention can be find on their homepage at
+http://openrheinruhr.de
+
+
 About this newsletter
 =====================
 
