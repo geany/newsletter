@@ -99,7 +99,7 @@ GeanyLaTeX
 ##########
 
 * Moved LaTeX-menu to a separate menu inside Geany main menu
-* Added a feature to autocapitalise letters on typing at the begining of a
+* Added a feature to autocapitalise letters on typing at the beginning of a
   sentence
 * Added a way to put an icon for \LaTeX{}-wizard into Geany's main
   toolbar
@@ -125,7 +125,7 @@ GeanySendMail
 Spell Check
 ###########
 
-* Reduce artefacts on partially checked words
+* Reduce artifacts on partially checked words
 * Improve 'Check as you type' feature, making it more reliable
 
 
@@ -144,7 +144,7 @@ WebHelper
 * Fix creation of configuration directory in some cases.
 * Fix missing update of navigation buttons on anchor links.
 * Fix thread initialization problem.
-* Fix some issues with keybingins on secondary windows.
+* Fix some issues with keybindings on secondary windows.
 * Add a keybinding to show/hide web view's window (bug #3156262).
 * Allow for better configuration of secondary windows.
 
@@ -161,7 +161,7 @@ Geany-Plugins 0.21.1 has been released
 Shortly after the major release of Geany-Plugins 0.21, an issue with the build
 system was found which blocked installation of source
 tarballs using the Waf-build system. This has been fixed inside a minor
-source release. The Windows binary release isn't effected by this
+source release. The Windows binary release isn't affected by this
 issue.
 
 
@@ -198,9 +198,8 @@ Adding Colour Schemes
 
 More colour schemes are listed on the Geany Add-ons web page. For
 the individual schemes, follow the instructions given by their
-authors. One of the biggest set of schemes was created by Matthew
-Brush (known as codebrainz in Geany's IRC channel). Matthew's
-collection is listed on the add-ons page but is hosted at
+authors. One of the biggest set of schemes was created by codebrainz.
+The collection is listed on the add-ons page but is hosted at
 https://github.com/codebrainz/geany-themes
 Follow the installation instructions given on the page, then restart
 Geany and all schemes will then be listed in the Colour Schemes menu.
@@ -270,11 +269,20 @@ never want to be without it. When enabled, choose Tools > Split
 Window > Side by side | Top and bottom from the main menu and the
 active window is split into two editing panes. Each pane can be
 navigated independently of the other, complete with its own
-scrollbar. When you want to return to "normal" view, choose Tools >
-Split Window > Unsplit from the main menu.
+scrollbar. In each window you can edit separate parts of the same file, with
+each pane updated instantly with the changes made in the other. When you want
+to return to "normal" view, choose Tools > Split Window > Unsplit from the main
+menu. It's not possible to again split the active window, only unsplit.
 
-When editing a file it's often necessary to navigate from one section
-to another, usually because of a reference between them.
+The plugin was intended to allow you to work on the *same* file but thanks to a
+"hidden" feature you can work on two different files loaded in the split view.
+If you open a file while in split window mode, it's loaded in the inactive pane.
+You can then switch between the split view of the same file or the different
+files via the file tabs (under the menu bar) as normal. Note that it's not
+possible to change the file shown in the right-hand pane when Split Window
+is active.
+
+.. image:: ../img/issue4_splitwindowplugin.png
 
 
 People behind Geany -- Interview
@@ -367,8 +375,7 @@ achieve those goals?*
   and to read other people's code and learn from it.
 
 
-*Are there particular improvements/change/features of which you're
-  proud?*
+*Are there particular improvements/change/features of which you're proud?*
 
   The community. Ok, the community is not an improvement, change
   or feature :). But this is what Geany makes Geany. Without the many
@@ -377,9 +384,7 @@ achieve those goals?*
   Thank you all for using and improving Geany, keep up!
 
 
-*How does a FLOSS project balance welcoming contributions with keeping
-  within the project's original goals and scope? In other words, avoid
-  scope creep?*
+*How does a FLOSS project balance welcoming contributions with keeping within the project's original goals and scope? In other words, avoid scope creep?*
 
   In Geany's case, luckily there were not much conflicts in accepting
   new features and the overall goal to keep fast and lightweight. However,
@@ -391,7 +396,7 @@ achieve those goals?*
   Nevertheless, denying a feature request, especially when it was obvious
   that it would actually help the user who requested it but still doesn't
   fit into Geany, was hard for me. It's like
-  'I decide that you will not get this functionality.'. Not a nice job.
+  "I decide that you will not get this functionality". Not a nice job.
   As said, luckily this didn't happen so often.
 
 
@@ -426,5 +431,5 @@ This newsletter has been created in cooperation by people from
 Geany's international community. Contributors to this newsletter and
 the infrastructure behind it, ordered by alphabet:
 
-Frank Lanitz,
-Russell Dickenson
+* Frank Lanitz
+* Russell Dickenson
