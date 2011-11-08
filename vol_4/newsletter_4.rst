@@ -211,9 +211,9 @@ How Colour Schemes Work
 Geany's colour schemes' format has changed over time so there's a
 "legacy" format and the current, preferred format. Schemes in the
 different formats can be mixed but the current format is easier to
-maintain and modify.
-
-Legacy colour scheme format features a section named "[named_styles]".
+maintain and modify. In this issue the focus is on the new format
+but if readers want it, the legacy format could also be
+featured in a future newsletter.
 
 Current colour scheme format
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -243,41 +243,6 @@ it matches the element (defined in the filetype's file) with the
 matching colour (defined in the colour scheme's file). The advantage of
 this scheme over the legacy version is that modifying a colour scheme
 for all filetypes requires changes to just one file.
-
-Legacy colour scheme format
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The legacy colour scheme format works slightly differently to the
-new colour scheme format. The colours to be applied to a matching
-filetype are defined in the filetype's definition file itself. This is
-an extract of a
-
-MISSING EXAMPLE
-
-The problem with this scheme format is that if you want to make a
-change which applies to all filetypes, you need to change *all*
-filetypes. If for example you have 40 file types defined and you want
-to change the background colour which applies to all of them, you
-need to change the background colour's value in all 40 files.
-
-Colour scheme formats compared
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The new colour scheme format is simply much easier to manage and
-maintain, when compared with the old format. Another advantage to
-the new scheme is that it makes the task of porting colour schemes
-from other applications easier. Matthew Brush has ported a wide range
-of colour schemes from other editors and they're all available from
-https://github.com/codebrainz/geany-themes. Other colour schemes,
-mainly in the legacy scheme format, are also available from
-http://www.geany.org/Download/Extras.
-
-Colour schemes are defined in files named <COLOUR_SCHEME>.conf and
-are stored in the 'colourschemes' directory in Geany's personal data
-directory.
-
-HINT: Use Geany's own colour picker when modifying an existing colour
-scheme.
 
 
 Change of leadership
@@ -310,6 +275,134 @@ Split Window > Unsplit from the main menu.
 
 When editing a file it's often necessary to navigate from one section
 to another, usually because of a reference between them.
+
+
+People behind Geany -- Interview
+=================================
+
+This is the second in a series of interviews with Geany's
+contributors: core developers, plugin developers, translators, wiki
+maintainers and any other job we can think of. The purpose of the
+interviews is to get to know each of these people a little better:
+their hopes, dreams, plans and favourite Geany plugin.
+
+
+Enrico Tröger
+^^^^^^^^^^^^^
+
+As is mentioned above, Enrico Tröger recently stepped down as leader
+of the Geany project. In this interview he talks about his history
+with the project.
+
+*What motivates you to develop or contribute to FLOSS projects?*
+
+  There are different reasons.
+  Most often it is that I want to improve existing software by fixing
+  bugs, adding features I'd like to use and so on. So this is a rather
+  pragmatic reason.
+  Nevertheless, I believe in Free Software and this is another reason
+  why I contribute to Free Software. Free Software allows people to
+  read and modify the source code to their needs, so in theory everyone
+  can make the software or change it to his/her needs. Based on my
+  experience, most people push back their changes and so the developers
+  can include them if appropriate.
+  This is only one of the advantages of Free Software. I doubt this would
+  be possible with paid software projects, at least not as long as they
+  are not free.
+
+
+*How did you become Geany's project leader?*
+
+  This was much simpler than you might imagine: I created the project :).
+
+
+*What is involved in being Geany's project leader?*
+
+  Many different things. It all starts with knowing the project, knowing
+  the people involved and ideally knowing the code base :).
+  I think the project leader should coordinate the development and
+  communicate with the community, making the project a project and not
+  just a bunch of lines of code.
+  Also, at least in the Geany case in the past, the project leader makes
+  the releases though this is not necessarily a project leader task.
+
+  Users, package maintainers and other external people often contact
+  the project leader directly via mail or on IRC to say 'thank you',
+  ask questions about Geany or to discuss project related topics. So
+  this is another task for the project leader.
+
+  And certainly there are many other aspects which I forgot to list.
+
+
+*What goals did you have when you started as project leader? Did you
+achieve those goals?*
+
+  As I didn't explicitly start as project leader but instead just started
+  the project, I didn't have any specific goals to achieve as project
+  leader however I did have goals to achieve with Geany as project.
+  These goals mostly were to create an editor which fits my needs so
+  that I can use it to write code and other text documents without
+  thinking about the editor, how it behaves, why it is so slow or doesn't
+  do what I want. As you see, these were quite personal goals. In the
+  meantime, as those goals basically were achieved with Geany 0.1,
+  the goals changed to be more general:
+  a light and fast editor with basic features of an IDE, without
+  unnecessary dependencies to other libraries yet with useful features.
+  Oh, and we achieved these goals as well though that doesn't mean Geany
+  can't get better anymore. There is always room for improvements and
+  new useful features.
+
+
+*What were some of the highlights of your time as project leader?*
+
+  Hard to name particular highlights.
+  One great thing which kept from the beginning to now is to receive mails
+  from users who just say 'thank you, Geany is great program'. This is
+  always great to read and always increases motivation to continue working
+  on Geany (in whatever way). I didn't experience anything like this
+  before and would have never expected it. But it's really nice.
+  Maybe another highlight worth mentioning is the many things I learned
+  during time working on Geany. This includes learning how other people
+  use Geany or certain features of Geany, to work with the community
+  and to read other people's code and learn from it.
+
+
+*Are there particular improvements/change/features of which you're
+  proud?*
+
+  The community. Ok, the community is not an improvement, change
+  or feature :). But this is what Geany makes Geany. Without the many
+  users and contributors, Geany would not be as cool and as stable
+  and as feature-rich as it is now.
+  Thank you all for using and improving Geany, keep up!
+
+
+*How does a FLOSS project balance welcoming contributions with keeping
+  within the project's original goals and scope? In other words, avoid
+  scope creep?*
+
+  In Geany's case, luckily there were not much conflicts in accepting
+  new features and the overall goal to keep fast and lightweight. However,
+  I think a few times we had to deny a feature request for such reasons or
+  because it the requested feature didn't fit into Geany.
+  This went much better since Nick introduced the plugin interface so that
+  features which don't fit into Geany's core, can be easily implemented as
+  a plugin.
+  Nevertheless, denying a feature request, especially when it was obvious
+  that it would actually help the user who requested it but still doesn't
+  fit into Geany, was hard for me. It's like
+  'I decide that you will not get this functionality.'. Not a nice job.
+  As said, luckily this didn't happen so often.
+
+
+*Do you have any hopes or dreams for Geany's future?*
+
+  Of course:
+  Geany should stay on its road it has been all the time. This is, keeping
+  fast and lightweight while offering many useful features to the user.
+  Moreover, I really hope and wish, the current fast and intense
+  development in the community keeps going so that Geany will evolve
+  further and get even better than it is already :).
 
 
 Geany local
