@@ -76,8 +76,8 @@ Removed Plugins
 t.b.p.s.
 
 
-Update and Bugfixes
-^^^^^^^^^^^^^^^^^^^
+Updates and Bugfixes
+^^^^^^^^^^^^^^^^^^^^
 
 General
 #######
@@ -237,7 +237,7 @@ files via the file tabs (under the menu bar) as normal. Note that it's not
 possible to change the file shown in the right-hand pane when Split Window
 is active.
 
-.. image:: ../img/issue4_splitwindowplugin.png
+.. image:: ../img/issue4_splitwindow.png
 
 
 Feature Focus
