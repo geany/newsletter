@@ -451,5 +451,10 @@ This newsletter has been created in cooperation by people from
 Geany's international community. Contributors to this newsletter and
 the infrastructure behind it, ordered by alphabet:
 
+* Colomban Wendling 
+* Enrico Tröger
 * Frank Lanitz
+* Lex Trotman
 * Russell Dickenson
+
+
