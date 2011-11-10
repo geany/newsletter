@@ -20,7 +20,7 @@ Geany 0.21 has been released
 ============================
 
 After about 6 months of development, on 2 October 2011 Geany 0.21 was been
-released. There have been a lot of changes so only the highlights
+released. There have been a lot of changes, so only the highlights
 are listed below:
 
 * Add support for real-time symbol parsing.
@@ -98,16 +98,16 @@ Addons
 GeanyLaTeX
 ##########
 
-* Moved LaTeX-menu to a separate menu inside Geany main menu
+* Moved LaTeX menu to a separate menu inside Geany main menu
 * Added a feature to autocapitalise letters on typing at the beginning of a
   sentence
-* Added a way to put an icon for \LaTeX{}-wizard into Geany's main
+* Added a way to put an icon for LaTeX wizard into Geany's main
   toolbar
 * Added a dialog for inserting BibTeX references based on available \*.bib-files
 * Upgrade plugin API to version 199
-* Ensure to don't insert {} after \^ and \_
+* Ensure not to insert {} after \^ and \_
 * Adding a keystroke to toggle inserting {} after ^ and _
-* Fix an issue with wrong inserted formatting using a keybinding
+* Fixed an issue with wrong inserted formatting using a keybinding
 * Small update to enable i18n also on Geany >= 0.21
 * Various bugfixes and memory leak fixes.
 
@@ -117,7 +117,7 @@ GeanySendMail
 
 * Some minor cleaning up of code
 * Fix for an issue with replacing of command string when %r was not used
-* Don't double free a variable which might ended up in a segmentation fault
+* Don't double free a variable which might end up in a segmentation fault
   when using plugin function more than once.
 * Small update to enable i18n also on Geany >= 0.21
 
@@ -141,12 +141,12 @@ Updatechecker
 WebHelper
 #########
 
-* Fix creation of configuration directory in some cases.
-* Fix missing update of navigation buttons on anchor links.
-* Fix thread initialization problem.
-* Fix some issues with keybindings on secondary windows.
-* Add a keybinding to show/hide web view's window (bug #3156262).
-* Allow for better configuration of secondary windows.
+* Fix creation of configuration directory in some cases
+* Fix missing update of navigation buttons on anchor links
+* Fix thread initialization problem
+* Fix some issues with keybindings on secondary windows
+* Add a keybinding to show/hide web view's window (bug #3156262)
+* Allow for better configuration of secondary windows
 
 
 Internationalisation
@@ -158,11 +158,11 @@ Internationalisation
 Geany-Plugins 0.21.1 has been released
 ======================================
 
-Shortly after the major release of Geany-Plugins 0.21, an issue with the build
-system was found which blocked installation of source
-tarballs using the Waf-build system. This has been fixed inside a minor
-source release. The Windows binary release isn't affected by this
-issue.
+Shortly after the major release of Geany-Plugins 0.21, an issue with 
+the build system was found which blocked installation of source 
+tarballs using the Waf-build system. This has been fixed inside a 
+minor source release. The Windows binary release isn't affected by 
+this issue.
 
 
 Geany moved to Git
@@ -175,7 +175,7 @@ of a number of other features of Git. The new home of the Git
 repository is http://github.com where you can access Geany's
 sources at https://github.com/geany/geany
 
-During this switch sources of other Geany-related resources have been
+During this switch, sources of other Geany-related resources have been
 moved to GitHub as well and can be found on the overview page at
 https://github.com/geany
 
@@ -190,8 +190,10 @@ Colomban Wendling, a current member of the development team.
 Enrico's priorities changed so he decided it would be best if
 someone else took on the leadership role. During Enrico's time as
 leader, Geany has continued to gain in popularity and improve,
-whilst staying true to its original design goals. Thank you Enrico
-for all that you have done and we welcome Colomban.
+whilst staying true to its original design goals.
+
+Thank you, Enrico, for all that you have done, and thanks for taking 
+over Colomban.
 
 
 Geany local
@@ -219,23 +221,27 @@ Plugin Focus
 Split Window
 ############
 
-The Split Window plugin provides a feature which is so useful you'll
-never want to be without it. When enabled, choose Tools > Split
-Window > Side by side | Top and bottom from the main menu and the
-active window is split into two editing panes. Each pane can be
-navigated independently of the other, complete with its own
-scrollbar. In each window you can edit separate parts of the same file, with
-each pane updated instantly with the changes made in the other. When you want
-to return to "normal" view, choose Tools > Split Window > Unsplit from the main
-menu. It's not possible to again split the active window, only unsplit.
+The Split Window plugin provides a feature which is so useful you'll 
+never want to be without it. When enabled, choose Tools > Split 
+Window > Side by side | Top and bottom from the main menu and the 
+active window is split into two editing panes. Each pane can be 
+navigated independently of the other, complete with its own 
+scrollbar. 
 
-The plugin was intended to allow you to work on the *same* file but thanks to a
-"hidden" feature you can work on two different files loaded in the split view.
-If you open a file while in split window mode, it's loaded in the inactive pane.
-You can then switch between the split view of the same file or the different
-files via the file tabs (under the menu bar) as normal. Note that it's not
-possible to change the file shown in the right-hand pane when Split Window
-is active.
+In each window you can edit separate parts of the same file, with 
+each pane updated instantly with the changes made in the other. When 
+you want to return to "normal" view, choose Tools > Split Window > 
+Unsplit from the main menu. It's not possible to again split the 
+active window, only unsplit.
+
+The plugin was intended to allow you to work on the *same* file but 
+thanks to a "hidden" feature you can work on two different files 
+loaded in the split view. If you open a file while in split window 
+mode, it's loaded in the inactive pane. You can then switch between 
+the split view of the same file or the different files via the file 
+tabs (under the menu bar) as normal. Note that it's not possible to 
+change the file shown in the right-hand pane when Split Window is 
+active.
 
 .. image:: ../img/issue4_splitwindow.png
 
@@ -243,8 +249,10 @@ is active.
 Feature Focus
 ^^^^^^^^^^^^^
 
-Colo(u)r Schemes
+
+Colour Schemes
 ################
+
 
 Introduction
 ++++++++++++
@@ -255,6 +263,7 @@ Geany: Default and Alternate but many more are available (see below). To change
 the colour scheme, select from the menu View > Editor > Colour Schemes
 > PREFERRED_COLOUR_SCHEME. The colour scheme change is immediate but
 the list of available schemes is only loaded when Geany starts.
+
 
 Adding Colour Schemes
 +++++++++++++++++++++
@@ -267,15 +276,17 @@ https://github.com/codebrainz/geany-themes
 Follow the installation instructions given on the page, then restart
 Geany and all schemes will then be listed in the Colour Schemes menu.
 
+
 How Colour Schemes Work
 +++++++++++++++++++++++
 
-Geany's colour schemes' format has changed over time so there's a
+Geany's colour schemes' format has changed over time, so there's a
 "legacy" format and the current, preferred format. Schemes in the
 different formats can be mixed but the current format is easier to
 maintain and modify. In this issue the focus is on the new format
 but if readers want it, the legacy format could also be
 featured in a future newsletter.
+
 
 Current colour scheme format
 ++++++++++++++++++++++++++++
