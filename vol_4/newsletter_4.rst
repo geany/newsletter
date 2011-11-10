@@ -122,8 +122,8 @@ GeanySendMail
 * Small update to enable i18n also on Geany >= 0.21
 
 
-Spell Check
-###########
+Spell Check Plugin
+##################
 
 * Reduce artifacts on partially checked words
 * Improve \`Check as you type' feature, making it more reliable
