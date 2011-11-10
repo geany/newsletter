@@ -126,7 +126,7 @@ Spell Check
 ###########
 
 * Reduce artifacts on partially checked words
-* Improve 'Check as you type' feature, making it more reliable
+* Improve \`Check as you type' feature, making it more reliable
 
 
 Updatechecker
