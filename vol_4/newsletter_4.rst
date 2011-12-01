@@ -202,11 +202,12 @@ Geany local
 Geany at OpenRheinRuhr 2011
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-On the upcoming weekend, 12 and 13 November 2011, Geany will be present at the
-OpenRheinRuhr 2011, a convention about FLOSS located at Oberhausen,
-Germany. Together with some guys from Xfce, Geany will have a little
-booth. Details for this convention can be find on their homepage at
-http://openrheinruhr.de
+Together with the guys of Xfce, Geany was presented with another 
+booth at the annual OpenRheinRuhr in Oberhausen, Germany -- A 
+convention about all topics around Linux, BSD and free software in 
+general. The booth was again well visited and people came not only 
+to ask for help, but also just for having a little chat with Enrico 
+and Frank and discuss about Geany releated topics. 
 
 
 Let us introduce you...
