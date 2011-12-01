@@ -71,11 +71,6 @@ provided here.
 * **XMLSnippets**: Helps on inserting (common) XML-snippets.
 
 
-Removed Plugins
-^^^^^^^^^^^^^^^
-t.b.p.s.
-
-
 Updates and Bugfixes
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -203,11 +198,12 @@ Geany at OpenRheinRuhr 2011
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Together with the guys of Xfce, Geany was presented with another 
-booth at the annual OpenRheinRuhr in Oberhausen, Germany -- A 
-convention about all topics around Linux, BSD and free software in 
-general. The booth was again well visited and people came not only 
-to ask for help, but also just for having a little chat with Enrico 
-and Frank and discuss about Geany releated topics. 
+booth at the annual OpenRheinRuhr at November, 11th and 12th in 
+Oberhausen, Germany -- A convention about all topics around Linux, 
+BSD and free software in general. The booth was again well visited 
+and people came not only to ask for help, but also just for having a 
+little chat with Enrico and Frank and discuss about Geany releated 
+topics. 
 
 
 Let us introduce you...
