@@ -38,9 +38,9 @@ clean:
 	maxpasses=5; \
 	file=`basename $< .tex`; \
 	cd `dirname $<` || exit 1; \
-	pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 1; \
+	pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 2; \
 	while test $$maxpasses -gt 0 && grep -q -i 'rerun' $$file.log; do \
-		pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 1; \
+		pdflatex $(PDFLATEX_FLAGS) "$$file.tex" >/dev/null || exit 3; \
 		maxpasses=`expr $$maxpasses - 1`; \
 	done; \
 	rm -f "$$file.log" "$$file.toc" "$$file.out" "$$file.aux"
