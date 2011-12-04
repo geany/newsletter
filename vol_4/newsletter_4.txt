@@ -397,7 +397,7 @@ with the project.
 
 
 *What goals did you have when you started as project leader? Did you
-achieve those goals?*
+ achieve those goals?*
 
   As I didn't explicitly start as project leader but instead just started
   the project, I didn't have any specific goals to achieve as project
@@ -438,7 +438,9 @@ achieve those goals?*
   Thank you all for using and improving Geany, keep up!
 
 
-*How does a FLOSS project balance welcoming contributions with keeping within the project's original goals and scope? In other words, avoid scope creep?*
+*How does a FLOSS project balance welcoming contributions with keeping
+ within the project's original goals and scope? In other words, avoid
+ scope creep?*
 
   In Geany's case, luckily there were not much conflicts in accepting
   new features and the overall goal to keep fast and lightweight. However,
@@ -462,8 +464,6 @@ achieve those goals?*
   Moreover, I really hope and wish, the current fast and intense
   development in the community keeps going so that Geany will evolve
   further and get even better than it is already :).
-
-
 
 About this newsletter
 =====================
