@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.8.1: http://docutils.sourceforge.net/" />
+<title>Geany Newsletter #4</title>
+<style type="text/css">
+
+html { font-family: sans-serif; }
+
+
+body
+{
+	font-family: sans-serif;
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+	margin-top: 2%;
+}
+
+
+h1 { font-size: 1.4em }
+h2 { font-size: 1.3em }
+h3 { font-size: 1.2em }
+h4 { font-size: 1.1em }
+h5 { font-size: 1.0em }
+h6 { font-size: 0.9em }
+
+
+a:link, a:visited
+{
+	color: #9e8100;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #a40000;
+	text-decoration: underline;
+}
+
+
+img { border-width: 0; }
+
+
+hr
+{
+	border-style: solid;
+	border-color: #babdb6;
+}
+
+
+table
+{
+	margin-top: 20px;
+}
+
+table, th, td
+{
+	border-style:1px solid;
+	border-color: #babdb6;
+}
+
+
+div.document
+{
+	width: 80%;
+	margin-left: auto; margin-right: auto;
+}
+
+
+div#header
+{
+	line-height: 48px;
+}
+
+
+div#contents, div#navigation
+{
+	width: 30%; float: left;
+	margin-bottom: 10px; margin-right: 1em;
+	padding: 1.5em;
+	background-color: #F2F2F3;
+	font-size: 10pt;
+	position: static;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	overflow: hidden;
+}
+
+div#contents ul, div#navigation ul
+{
+	list-style-type: none;
+	list-style-position: outside;
+	margin-bottom: 0.2em;
+	padding-left: 0.8em;
+}
+
+div#contents ul li, div#navigation ul li
+{
+	margin-top: 0.4em;
+}
+
+div#navigation h1
+{
+	font-size: 1em;
+}
+
+
+div#navigation hr
+{
+	width: 100%;
+	margin: 0; padding: 0;
+}
+
+div#navigation ul li
+{
+	margin-bottom: 4px;
+}
+
+
+div#navigation a
+{
+	display: block;
+	text-decoration: none;
+}
+
+div.section, div#content
+{
+	overflow: auto;
+}
+
+code, pre.literal-block
+{
+	display: block;
+	padding-left: 4px;
+	margin-left: 25px; margin-top: 5px;
+	font-family: monospace;
+	background-color: #eeeeef;
+	border-left-width: 2px; border-right-width: 0;
+	border-top-width: 0; border-bottom-width: 0;
+	border-style: solid; border-color: #babdb6;
+	overflow-x: auto;
+}
+
+
+/*
+ * This is for the pages with a content section. The heading of the content
+ * generated from rst2html looks like this:
+ * <p class="topic-title first">
+ *		Contents
+ *	</p>
+ * So we format it as general h3 headers look like in the browser (tested with
+ * Midori, Firefox and Opera, all work fine).
+ * FIXME: ideally the mentioned code block should be a h3 header instead
+ */
+p.topic-title
+{
+	font-size: 1.17em;
+	font-weight: bold;
+	margin: 1em 0px;
+}
+
+
+div#footer
+{
+	clear: both;
+	text-align: center;
+	font-size: smaller;
+	margin-top: 3em;
+}
+
+</style>
+</head>
+<body>
+<div class="document" id="geany-newsletter-4">
+<h1 class="title">Geany Newsletter #4</h1>
+
+<div class="contents topic" id="contents">
+<p class="topic-title first">Contents</p>
+<ul class="simple">
+<li><a class="reference internal" href="#about-geany" id="id1">About Geany</a></li>
+<li><a class="reference internal" href="#geany-0-21-has-been-released" id="id2">Geany 0.21 has been released</a></li>
+<li><a class="reference internal" href="#geany-plugins-0-21-has-been-released" id="id3">Geany-Plugins 0.21 has been released</a><ul>
+<li><a class="reference internal" href="#new-plugins" id="id4">New Plugins</a></li>
+<li><a class="reference internal" href="#updates-and-bugfixes" id="id5">Updates and Bugfixes</a><ul>
+<li><a class="reference internal" href="#general" id="id6">General</a></li>
+<li><a class="reference internal" href="#addons" id="id7">Addons</a></li>
+<li><a class="reference internal" href="#geanylatex" id="id8">GeanyLaTeX</a></li>
+<li><a class="reference internal" href="#geanysendmail" id="id9">GeanySendMail</a></li>
+<li><a class="reference internal" href="#spell-check-plugin" id="id10">Spell Check Plugin</a></li>
+<li><a class="reference internal" href="#updatechecker" id="id11">Updatechecker</a></li>
+<li><a class="reference internal" href="#webhelper" id="id12">WebHelper</a></li>
+<li><a class="reference internal" href="#internationalisation" id="id13">Internationalisation</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#geany-plugins-0-21-1-has-been-released" id="id14">Geany-Plugins 0.21.1 has been released</a></li>
+<li><a class="reference internal" href="#geany-moved-to-git" id="id15">Geany moved to Git</a></li>
+<li><a class="reference internal" href="#change-of-project-leadership" id="id16">Change of project leadership</a></li>
+<li><a class="reference internal" href="#geany-local" id="id17">Geany local</a><ul>
+<li><a class="reference internal" href="#geany-at-openrheinruhr-2011" id="id18">Geany at OpenRheinRuhr 2011</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#let-us-introduce-you" id="id19">Let us introduce you...</a><ul>
+<li><a class="reference internal" href="#plugin-focus" id="id20">Plugin Focus</a><ul>
+<li><a class="reference internal" href="#split-window" id="id21">Split Window</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#feature-focus" id="id22">Feature Focus</a><ul>
+<li><a class="reference internal" href="#colour-schemes" id="id23">Colour Schemes</a><ul>
+<li><a class="reference internal" href="#introduction" id="id24">Introduction</a></li>
+<li><a class="reference internal" href="#adding-colour-schemes" id="id25">Adding Colour Schemes</a></li>
+<li><a class="reference internal" href="#how-colour-schemes-work" id="id26">How Colour Schemes Work</a></li>
+<li><a class="reference internal" href="#current-colour-scheme-format" id="id27">Current colour scheme format</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#people-behind-geany-interview" id="id28">People behind Geany -- Interview</a><ul>
+<li><a class="reference internal" href="#enrico-troger" id="id29">Enrico Tröger</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#about-this-newsletter" id="id30">About this newsletter</a></li>
+</ul>
+</div>
+<div class="section" id="about-geany">
+<h1><a class="toc-backref" href="#contents">About Geany</a></h1>
+<p>Geany is a small and lightweight Integrated Development Environment.
+It was developed to provide a small and fast IDE, which has only a
+few dependencies from other packages. Another goal was to be as
+independent as possible from a special Desktop Environment like KDE
+or GNOME - Geany only requires the GTK2 runtime libraries.</p>
+<p>More information about Geany can be found at
+<a class="reference external" href="http://www.geany.org/">geany.org</a>.</p>
+</div>
+<div class="section" id="geany-0-21-has-been-released">
+<h1><a class="toc-backref" href="#contents">Geany 0.21 has been released</a></h1>
+<p>After about 6 months of development, on 2 October 2011 Geany 0.21 was been
+released. There have been a lot of changes, so only the highlights
+are listed below:</p>
+<ul class="simple">
+<li>Add support for real-time symbol parsing.</li>
+<li>Fix loading of non-UTF-8 templates.</li>
+<li>Update Scintilla to version 2.25.</li>
+<li>Add Scala custom filetype (werg).</li>
+<li>Add Cython custom filetype (Matthew Brush).</li>
+<li>Add support for separate single and multiline comments.</li>
+<li>Add support for filetype-specific indentation settings.</li>
+<li>Add filetype Cobol (Seth Keiper).</li>
+<li>SplitWindow plugin now works on Windows too.</li>
+<li>Add translations: fa.</li>
+<li>Update translations: ca, cs, de, en_GB, es, fi, fr, gl, it, ja, nl,
+pt, pt_BR, sl, sv, tr, vi, zh_CN, zh_TW.</li>
+</ul>
+<p>A more complete list can be found on
+<a class="reference external" href="http://www.geany.org/Documentation/ReleaseNotes">http://www.geany.org/Documentation/ReleaseNotes</a></p>
+<p>Source tarballs as well as Windows binaries can be found as always on
+<a class="reference external" href="http://download.geany.org">http://download.geany.org</a>.</p>
+</div>
+<div class="section" id="geany-plugins-0-21-has-been-released">
+<h1><a class="toc-backref" href="#contents">Geany-Plugins 0.21 has been released</a></h1>
+<p>On 23 October 2011, about three weeks after Geany 0.21, Geany-Plugins in
+its final version has been released. As seen in former newsletters
+it has been a quite active time on plugin development, so we are
+trying to give you an overview on one hand as well as digging
+into some of the bigger changes that have happened.</p>
+<div class="section" id="new-plugins">
+<h2><a class="toc-backref" href="#contents">New Plugins</a></h2>
+<p>Most of the new plugins have been already described in one of the
+previous editions of this newsletter. However, so only a short overview is
+provided here.</p>
+<ul class="simple">
+<li><strong>Debugger</strong>: A plugin to integrate debuggers like GDB. This is replacing
+GeanyGDB in many places.</li>
+<li><strong>Devhelp</strong>: Integration for GNOME's Devhelp and google code search.</li>
+<li><strong>GeanyPG</strong>: Encryption, decryption, signing etc. from within Geany via GnuPG.</li>
+<li><strong>GeanyMacro</strong>: A plugin to record and apply macros.</li>
+<li><strong>GeanyNumberedBookmarks</strong>: A plugin to store bookmarks to files and
+access them easily via a number.</li>
+<li><strong>Tableconvert</strong>: A plugin to convert lists into tables.</li>
+<li><strong>XMLSnippets</strong>: Helps on inserting (common) XML-snippets.</li>
+</ul>
+</div>
+<div class="section" id="updates-and-bugfixes">
+<h2><a class="toc-backref" href="#contents">Updates and Bugfixes</a></h2>
+<div class="section" id="general">
+<h3><a class="toc-backref" href="#contents">General</a></h3>
+<p>Significant rework has been done on the Autotools build system as well as some maintenance
+work on the Waf-build system.</p>
+</div>
+<div class="section" id="addons">
+<h3><a class="toc-backref" href="#contents">Addons</a></h3>
+<ul class="simple">
+<li>DocList addon: Add preference to define the order of the documents
+in the list (#3204573)</li>
+<li>Tasks addon: Activate and update the task list when the Tasks
+addon is enabled</li>
+</ul>
+</div>
+<div class="section" id="geanylatex">
+<h3><a class="toc-backref" href="#contents">GeanyLaTeX</a></h3>
+<ul class="simple">
+<li>Moved LaTeX menu to a separate menu inside Geany main menu</li>
+<li>Added a feature to autocapitalise letters on typing at the beginning of a
+sentence</li>
+<li>Added a way to put an icon for LaTeX wizard into Geany's main
+toolbar</li>
+<li>Added a dialog for inserting BibTeX references based on available *.bib-files</li>
+<li>Upgrade plugin API to version 199</li>
+<li>Ensure not to insert {} after ^ and _</li>
+<li>Adding a keystroke to toggle inserting {} after ^ and _</li>
+<li>Fixed an issue with wrong inserted formatting using a keybinding</li>
+<li>Small update to enable i18n also on Geany &gt;= 0.21</li>
+<li>Various bugfixes and memory leak fixes.</li>
+</ul>
+</div>
+<div class="section" id="geanysendmail">
+<h3><a class="toc-backref" href="#contents">GeanySendMail</a></h3>
+<ul class="simple">
+<li>Some minor cleaning up of code</li>
+<li>Fix for an issue with replacing of command string when %r was not used</li>
+<li>Don't double free a variable which might end up in a segmentation fault
+when using plugin function more than once.</li>
+<li>Small update to enable i18n also on Geany &gt;= 0.21</li>
+</ul>
+</div>
+<div class="section" id="spell-check-plugin">
+<h3><a class="toc-backref" href="#contents">Spell Check Plugin</a></h3>
+<ul class="simple">
+<li>Reduce artifacts on partially checked words</li>
+<li>Improve `Check as you type' feature, making it more reliable</li>
+</ul>
+</div>
+<div class="section" id="updatechecker">
+<h3><a class="toc-backref" href="#contents">Updatechecker</a></h3>
+<ul class="simple">
+<li>Fix an issue with init threads for older GTK/glib versions by
+updating to Geany API version 203.</li>
+<li>Small update to enable i18n also on Geany &gt;= 0.21</li>
+<li>Fix a typo inside Waf-build system</li>
+</ul>
+</div>
+<div class="section" id="webhelper">
+<h3><a class="toc-backref" href="#contents">WebHelper</a></h3>
+<ul class="simple">
+<li>Fix creation of configuration directory in some cases</li>
+<li>Fix missing update of navigation buttons on anchor links</li>
+<li>Fix thread initialization problem</li>
+<li>Fix some issues with keybindings on secondary windows</li>
+<li>Add a keybinding to show/hide web view's window (bug #3156262)</li>
+<li>Allow for better configuration of secondary windows</li>
+</ul>
+</div>
+<div class="section" id="internationalisation">
+<h3><a class="toc-backref" href="#contents">Internationalisation</a></h3>
+<ul class="simple">
+<li>Updated translations: de, pt, ru, tr</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="geany-plugins-0-21-1-has-been-released">
+<h1><a class="toc-backref" href="#contents">Geany-Plugins 0.21.1 has been released</a></h1>
+<p>Shortly after the major release of Geany-Plugins 0.21, an issue with
+the build system was found which blocked installation of source
+tarballs using the Waf-build system. This has been fixed inside a
+minor source release. The Windows binary release isn't affected by
+this issue.</p>
+</div>
+<div class="section" id="geany-moved-to-git">
+<h1><a class="toc-backref" href="#contents">Geany moved to Git</a></h1>
+<p>After a long discussion on the mailing list Geany finally moved to Git
+as the main version control system. The goal is to be more flexible on
+including patchsets from non-core-developers as well as making use
+of a number of other features of Git. The new home of the Git
+repository is <a class="reference external" href="http://github.com">http://github.com</a> where you can access Geany's
+sources at <a class="reference external" href="https://github.com/geany/geany">https://github.com/geany/geany</a></p>
+<p>During this switch, sources of other Geany-related resources have been
+moved to GitHub as well and can be found on the overview page at
+<a class="reference external" href="https://github.com/geany">https://github.com/geany</a></p>
+</div>
+<div class="section" id="change-of-project-leadership">
+<h1><a class="toc-backref" href="#contents">Change of project leadership</a></h1>
+<p>If you have been using Geany for a while and read the announcement of
+Geany 0.21's release, you might have noticed something important.
+The leadership of the Geany project has changed from Enrico Tröger to
+Colomban Wendling, a current member of the development team.
+Enrico's priorities changed so he decided it would be best if
+someone else took on the leadership role. During Enrico's time as
+leader, Geany has continued to gain in popularity and improve,
+whilst staying true to its original design goals.</p>
+<p>Thank you, Enrico, for all that you have done, and thanks for taking
+over Colomban.</p>
+</div>
+<div class="section" id="geany-local">
+<h1><a class="toc-backref" href="#contents">Geany local</a></h1>
+<div class="section" id="geany-at-openrheinruhr-2011">
+<h2><a class="toc-backref" href="#contents">Geany at OpenRheinRuhr 2011</a></h2>
+<p>Together with the guys of Xfce, Geany was presented with another
+booth at the annual OpenRheinRuhr at November, 11th and 12th in
+Oberhausen, Germany -- A convention about all topics around Linux,
+BSD and free software in general. The booth was again well visited
+and people came not only to ask for help, but also just for having a
+little chat with Enrico and Frank and discuss about Geany releated
+topics.</p>
+</div>
+</div>
+<div class="section" id="let-us-introduce-you">
+<h1><a class="toc-backref" href="#contents">Let us introduce you...</a></h1>
+<p>This section is intended to introduce particular plugins or features
+on a regular basis.</p>
+<div class="section" id="plugin-focus">
+<h2><a class="toc-backref" href="#contents">Plugin Focus</a></h2>
+<div class="section" id="split-window">
+<h3><a class="toc-backref" href="#contents">Split Window</a></h3>
+<p>The Split Window plugin provides a feature which is so useful you'll
+never want to be without it. When enabled, choose Tools &gt; Split
+Window &gt; Side by side | Top and bottom from the main menu and the
+active window is split into two editing panes. Each pane can be
+navigated independently of the other, complete with its own
+scrollbar.</p>
+<p>In each window you can edit separate parts of the same file, with
+each pane updated instantly with the changes made in the other. When
+you want to return to &quot;normal&quot; view, choose Tools &gt; Split Window &gt;
+Unsplit from the main menu. It's not possible to again split the
+active window, only unsplit.</p>
+<p>The plugin was intended to allow you to work on the <em>same</em> file but
+thanks to a &quot;hidden&quot; feature you can work on two different files
+loaded in the split view. If you open a file while in split window
+mode, it's loaded in the inactive pane. You can then switch between
+the split view of the same file or the different files via the file
+tabs (under the menu bar) as normal. Note that it's not possible to
+change the file shown in the right-hand pane when Split Window is
+active.</p>
+<img alt="../img/issue4_splitwindow.png" src="../img/issue4_splitwindow.png" />
+</div>
+</div>
+<div class="section" id="feature-focus">
+<h2><a class="toc-backref" href="#contents">Feature Focus</a></h2>
+<div class="section" id="colour-schemes">
+<h3><a class="toc-backref" href="#contents">Colour Schemes</a></h3>
+<div class="section" id="introduction">
+<h4><a class="toc-backref" href="#contents">Introduction</a></h4>
+<p>Geany supports colour schemes which allow you to change the colours
+applied to various code elements. Two colour schemes are provided with
+Geany: Default and Alternate but many more are available (see below). To change
+the colour scheme, select from the menu View &gt; Editor &gt; Colour Schemes
+&gt; PREFERRED_COLOUR_SCHEME. The colour scheme change is immediate but
+the list of available schemes is only loaded when Geany starts.</p>
+</div>
+<div class="section" id="adding-colour-schemes">
+<h4><a class="toc-backref" href="#contents">Adding Colour Schemes</a></h4>
+<p>More colour schemes are listed on the Geany Add-ons web page. For
+the individual schemes, follow the instructions given by their
+authors. One of the biggest set of schemes was created by codebrainz.
+The collection is listed on the add-ons page but is hosted at
+<a class="reference external" href="https://github.com/codebrainz/geany-themes">https://github.com/codebrainz/geany-themes</a>
+Follow the installation instructions given on the page, then restart
+Geany and all schemes will then be listed in the Colour Schemes menu.</p>
+</div>
+<div class="section" id="how-colour-schemes-work">
+<h4><a class="toc-backref" href="#contents">How Colour Schemes Work</a></h4>
+<p>Geany's colour schemes' format has changed over time, so there's a
+&quot;legacy&quot; format and the current, preferred format. Schemes in the
+different formats can be mixed but the current format is easier to
+maintain and modify. In this issue the focus is on the new format
+but if readers want it, the legacy format could also be
+featured in a future newsletter.</p>
+</div>
+<div class="section" id="current-colour-scheme-format">
+<h4><a class="toc-backref" href="#contents">Current colour scheme format</a></h4>
+<p>The current colour scheme format works by first defining the colours
+to be applied to a file type's elements. This is an extract from a
+colour scheme named &quot;Oblivion2&quot;:</p>
+<pre class="literal-block">
+default=0xffffff;0x2e3436;false;false
+tag=0x729fcf;0x2e3436;true;false
+tag_unknown=0xffffff;0x8C0101;true;false
+</pre>
+<p>File types and their elements are defined in a file named
+filetypes.&lt;FILETYPE&gt;: e.g. filetypes.xml, filetypes.html. All
+filetype files are stored in the 'filedef' directory in Geany's
+personal data directory. This is an extract from the file type file
+for HTML:</p>
+<pre class="literal-block">
+[styling]
+# Edit these in the colorscheme .conf file instead
+html_default=default
+html_tag=tag
+html_tagunknown=tag_unknown
+</pre>
+<p>When Geany applies syntax highlighting to a file which matches a filetype,
+it matches the element (defined in the filetype's file) with the
+matching colour (defined in the colour scheme's file). The advantage of
+this scheme over the legacy version is that modifying a colour scheme
+for all filetypes requires changes to just one file.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="people-behind-geany-interview">
+<h1><a class="toc-backref" href="#contents">People behind Geany -- Interview</a></h1>
+<p>This is the second in a series of interviews with Geany's
+contributors: core developers, plugin developers, translators, wiki
+maintainers and any other job we can think of. The purpose of the
+interviews is to get to know each of these people a little better:
+their hopes, dreams, plans and favourite Geany plugin.</p>
+<div class="section" id="enrico-troger">
+<h2><a class="toc-backref" href="#contents">Enrico Tröger</a></h2>
+<p>As is mentioned above, Enrico Tröger recently stepped down as leader
+of the Geany project. In this interview he talks about his history
+with the project.</p>
+<p><em>What motivates you to develop or contribute to FLOSS projects?</em></p>
+<blockquote>
+There are different reasons.
+Most often it is that I want to improve existing software by fixing
+bugs, adding features I'd like to use and so on. So this is a rather
+pragmatic reason.
+Nevertheless, I believe in Free Software and this is another reason
+why I contribute to Free Software. Free Software allows people to
+read and modify the source code to their needs, so in theory everyone
+can make the software or change it to his/her needs. Based on my
+experience, most people push back their changes and so the developers
+can include them if appropriate.
+This is only one of the advantages of Free Software. I doubt this would
+be possible with paid software projects, at least not as long as they
+are not free.</blockquote>
+<p><em>How did you become Geany's project leader?</em></p>
+<blockquote>
+This was much simpler than you might imagine: I created the project :).</blockquote>
+<p><em>What is involved in being Geany's project leader?</em></p>
+<blockquote>
+<p>Many different things. It all starts with knowing the project, knowing
+the people involved and ideally knowing the code base :).
+I think the project leader should coordinate the development and
+communicate with the community, making the project a project and not
+just a bunch of lines of code.
+Also, at least in the Geany case in the past, the project leader makes
+the releases though this is not necessarily a project leader task.</p>
+<p>Users, package maintainers and other external people often contact
+the project leader directly via mail or on IRC to say 'thank you',
+ask questions about Geany or to discuss project related topics. So
+this is another task for the project leader.</p>
+<p>And certainly there are many other aspects which I forgot to list.</p>
+</blockquote>
+<p><em>What goals did you have when you started as project leader? Did you
+achieve those goals?</em></p>
+<blockquote>
+As I didn't explicitly start as project leader but instead just started
+the project, I didn't have any specific goals to achieve as project
+leader however I did have goals to achieve with Geany as project.
+These goals mostly were to create an editor which fits my needs so
+that I can use it to write code and other text documents without
+thinking about the editor, how it behaves, why it is so slow or doesn't
+do what I want. As you see, these were quite personal goals. In the
+meantime, as those goals basically were achieved with Geany 0.1,
+the goals changed to be more general:
+a light and fast editor with basic features of an IDE, without
+unnecessary dependencies to other libraries yet with useful features.
+Oh, and we achieved these goals as well though that doesn't mean Geany
+can't get better anymore. There is always room for improvements and
+new useful features.</blockquote>
+<p><em>What were some of the highlights of your time as project leader?</em></p>
+<blockquote>
+Hard to name particular highlights.
+One great thing which kept from the beginning to now is to receive mails
+from users who just say 'thank you, Geany is great program'. This is
+always great to read and always increases motivation to continue working
+on Geany (in whatever way). I didn't experience anything like this
+before and would have never expected it. But it's really nice.
+Maybe another highlight worth mentioning is the many things I learned
+during time working on Geany. This includes learning how other people
+use Geany or certain features of Geany, to work with the community
+and to read other people's code and learn from it.</blockquote>
+<p><em>Are there particular improvements/change/features of which you're proud?</em></p>
+<blockquote>
+The community. Ok, the community is not an improvement, change
+or feature :). But this is what Geany makes Geany. Without the many
+users and contributors, Geany would not be as cool and as stable
+and as feature-rich as it is now.
+Thank you all for using and improving Geany, keep up!</blockquote>
+<p><em>How does a FLOSS project balance welcoming contributions with keeping within the project's original goals and scope? In other words, avoid scope creep?</em></p>
+<blockquote>
+In Geany's case, luckily there were not much conflicts in accepting
+new features and the overall goal to keep fast and lightweight. However,
+I think a few times we had to deny a feature request for such reasons or
+because it the requested feature didn't fit into Geany.
+This went much better since Nick introduced the plugin interface so that
+features which don't fit into Geany's core, can be easily implemented as
+a plugin.
+Nevertheless, denying a feature request, especially when it was obvious
+that it would actually help the user who requested it but still doesn't
+fit into Geany, was hard for me. It's like
+&quot;I decide that you will not get this functionality&quot;. Not a nice job.
+As said, luckily this didn't happen so often.</blockquote>
+<p><em>Do you have any hopes or dreams for Geany's future?</em></p>
+<blockquote>
+Of course:
+Geany should stay on its road it has been all the time. This is, keeping
+fast and lightweight while offering many useful features to the user.
+Moreover, I really hope and wish, the current fast and intense
+development in the community keeps going so that Geany will evolve
+further and get even better than it is already :).</blockquote>
+</div>
+</div>
+<div class="section" id="about-this-newsletter">
+<h1><a class="toc-backref" href="#contents">About this newsletter</a></h1>
+<p>This newsletter has been created in cooperation by people from
+Geany's international community. Contributors to this newsletter and
+the infrastructure behind it, ordered by alphabet:</p>
+<ul class="simple">
+<li>Colomban Wendling</li>
+<li>Enrico Tröger</li>
+<li>Frank Lanitz</li>
+<li>Lex Trotman</li>
+<li>Russell Dickenson</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
