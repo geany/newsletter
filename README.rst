@@ -32,10 +32,25 @@ How to compile
 Compiling the newsletter is as simple as is couldn't be. Just define an
 evironment variable named VOL and run make either wihtout parameters to
 compile all, or with one of the parameters html, pdf, latex, odt to compile
-just that file. 
+just that file.
 
 Examples:
 
  VOL=2 make                                  # compile all newsletters for vol_2
  VOL=2 make pdf                              # compile pdf from vol_2
  VOL=2 make html                             # compile html file for vol_2
+
+
+How to release
+==============
+
+Things to do when releasing a new newsletter:
+
+* tag the release
+* merge the tag into branch website
+* adjust the index.html link
+* push that stuff and update it on the webserver
+* check if http://newsletter.geany.org/ points to the new release
+* check if http://newsletter.geany.org/newsletters.php lists everything correctly
+* update the wiki page at https://wiki.geany.org/newsletter/start
+* actually send out the newsletter to the mailing lists
