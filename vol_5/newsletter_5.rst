@@ -3,6 +3,21 @@ Geany Newsletter #5
 
 .. contents::
 
+
+Wiki available
+==============
+
+We set up a wiki for additional documentation and resources related
+to Geany at http://wiki.geany.org. Anyone can contribute to the wiki
+simply by registering and then logging in.
+
+In the wiki you can find configuration snippets and tips, snippets
+for various programming languages and many additional tags files to
+enhance Geany's autocompletion features.
+
+Everybody is welcome to add additional useful content to the wiki.
+
+
 About Geany
 ===========
 
