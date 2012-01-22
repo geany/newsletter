@@ -18,6 +18,19 @@ enhance Geany's autocompletion features.
 Everybody is welcome to add additional useful content to the wiki.
 
 
+Geany local
+^^^^^^^^^^^
+
+Geany at Chemnitzer Linuxtage 2012 (March 17th, 18th)
+*****************************************************
+
+As known from the last years, in March (17th, 18th) there will be a
+local Linux and FOSS convention in Chemnitz, Germany. Some of the
+Geany guys will be around and have a little booth at the event. So
+if you are nearby, come join us for a chat. Most likely you will
+find us next to the Xfce guys. Details for this convention can be
+find on their homepage at http://chemnitzer.linux-tage.de/2012/
+
 About Geany
 ===========
 
