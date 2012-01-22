@@ -19,7 +19,7 @@ Everybody is welcome to add additional useful content to the wiki.
 
 
 Geany local
-^^^^^^^^^^^
+===========
 
 Geany at Chemnitzer Linuxtage 2012 (March 17th, 18th)
 *****************************************************
