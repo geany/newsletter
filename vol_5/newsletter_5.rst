@@ -44,9 +44,9 @@ of Geany only. A x86_64 package from the current Git master as well as an
 SRPM for rebuilding is also available at [3].
 
 The geany-tags package is split into subpackages containing the tags for
-each programming language. Currently these are: geany-tags-c,
-geany-tags-php, geany-tags-php and geany-tags-python. They can be installed
-independently from each other, of course.
+each programming language. Currently these are: geany-tags-c, geany-tags-php
+and geany-tags-python. They can be installed independently from each other,
+of course.
 
 Contact Dominic if you have suggestions for improvements.
 
