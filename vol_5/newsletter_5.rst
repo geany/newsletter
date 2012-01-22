@@ -7,13 +7,13 @@ Geany Newsletter #5
 Wiki available
 ==============
 
-We set up a wiki for additional documentation and resources related
-to Geany at http://wiki.geany.org. Anyone can contribute to the wiki
-simply by registering and then logging in.
+We set up a wiki for additional documentation and resources related to Geany
+at http://wiki.geany.org. Anyone can contribute to the wiki simply by
+registering and then logging in.
 
-In the wiki you can find configuration snippets and tips, snippets
-for various programming languages and many additional tags files to
-enhance Geany's autocompletion features.
+In the wiki you can find configuration snippets and tips, snippets for
+various programming languages and many additional tags files to enhance
+Geany's autocompletion features.
 
 Everybody is welcome to add additional useful content to the wiki.
 
@@ -24,12 +24,12 @@ Geany local
 Geany at Chemnitzer Linuxtage 2012 (March 17th, 18th)
 *****************************************************
 
-As known from the last years, in March (17th, 18th) there will be a
-local Linux and FOSS convention in Chemnitz, Germany. Some of the
-Geany guys will be around and have a little booth at the event. So
-if you are nearby, come join us for a chat. Most likely you will
-find us next to the Xfce guys. Details for this convention can be
-find on their homepage at http://chemnitzer.linux-tage.de/2012/
+As known from the last years, in March (17th, 18th) there will be a local
+Linux and FOSS convention in Chemnitz, Germany. Some of the Geany guys will
+be around and have a little booth at the event. So if you are nearby, come
+join us for a chat. Most likely you will find us next to the Xfce guys.
+Details for this convention can be find on their homepage at
+http://chemnitzer.linux-tage.de/2012/
 
 
 Geany Packages
@@ -44,9 +44,9 @@ of Geany only. A x86_64 package from the current Git master as well as an
 SRPM for rebuilding is also available at [3].
 
 The geany-tags package is splitted into subpackages containing the tags for
-each programming language. Currently these are: geany-tags-c, geany-tags-php,
-geany-tags-php and geany-tags-python. They can be installed independently from
-each other, of course.
+each programming language. Currently these are: geany-tags-c,
+geany-tags-php, geany-tags-php and geany-tags-python. They can be installed
+independently from each other, of course.
 
 Contact Dominic if you have suggestions for improvements.
 
@@ -72,6 +72,6 @@ More information about Geany can be found at
 About this newsletter
 =====================
 
-This newsletter has been created in cooperation by people from
-Geany's international community. Contributors to this newsletter and
-the infrastructure behind it, ordered by alphabet:
+This newsletter has been created in cooperation by people from Geany's
+international community. Contributors to this newsletter and the
+infrastructure behind it, ordered by alphabet:
