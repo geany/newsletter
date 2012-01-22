@@ -51,9 +51,9 @@ independently from each other, of course.
 Contact Dominic if you have suggestions for improvements.
 
 
-[1] http://codebrainz.github.com/geany-themes/
-[2] http://wiki.geany.org/tags/start
-[3] http://dmaphy.fedorapeople.org/
+1. http://codebrainz.github.com/geany-themes/
+2. http://wiki.geany.org/tags/start
+3. http://dmaphy.fedorapeople.org/
 
 
 About Geany
