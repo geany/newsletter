@@ -31,6 +31,31 @@ if you are nearby, come join us for a chat. Most likely you will
 find us next to the Xfce guys. Details for this convention can be
 find on their homepage at http://chemnitzer.linux-tage.de/2012/
 
+
+Geany Packages
+==============
+
+There are new packages inofficially available for Fedora. One is containing
+the Geany Themes Matthew maintains at GitHub [1], the other one provides the
+tags files listed in the Geany Wiki [2]. The packages are not yet in Fedoras
+official repositories but available at Dominic's Fedora People space [3].
+Note the geany-themes package is intended to work with current Git versions
+of Geany only. A x86_64 package from the current Git master as well as an
+SRPM for rebuilding is also available at [3].
+
+The geany-tags package is splitted into subpackages containing the tags for
+each programming language. Currently these are: geany-tags-c, geany-tags-php,
+geany-tags-php and geany-tags-python. They can be installed independently from
+each other, of course.
+
+Contact Dominic if you have suggestions for improvements.
+
+
+[1] http://codebrainz.github.com/geany-themes/
+[2] http://wiki.geany.org/tags/start
+[3] http://dmaphy.fedorapeople.org/
+
+
 About Geany
 ===========
 
