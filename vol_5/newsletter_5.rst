@@ -4,6 +4,22 @@ Geany Newsletter #5
 .. contents::
 
 
+New translations and updates
+============================
+
+Since our last newsletter a number of translations has been updated
+or newly added to Geany. New translations are:
+
+* Arabian
+* Indonesian
+* Lithuanian
+* Mongolian (back in 2011)
+
+But also translations like German, Kazakh, Traditional Chinese and
+Swedish translations have been updated during the last roughly three
+month.
+
+
 Wiki available
 ==============
 
