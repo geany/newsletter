@@ -37,15 +37,18 @@ Everybody is welcome to add additional useful content to the wiki.
 Geany local
 ===========
 
+
 Geany at Chemnitzer Linuxtage 2012 (March 17th, 18th)
 *****************************************************
 
-As known from the last years, in March (17th, 18th) there will be a local
-Linux and FOSS convention in Chemnitz, Germany. Some of the Geany guys will
-be around and have a little booth at the event. So if you are nearby, come
-join us for a chat. Most likely you will find us next to the Xfce guys.
-Details for this convention can be find on their homepage at
-http://chemnitzer.linux-tage.de/2012/
+As last year, Geany had a booth a Chemnitzer Linuxtage 2012 in
+German city Chemnitz. Our booth was again located next to the guys
+of Xfce as well as next (that was different to last year) to 2
+lecture rooms. Even though the event wasn't as much crowded as last
+year, a lot of people were passing by asking some question or just
+saying hello. So Enrico and Frank had a lot of questions to answer
+and a lot of feedback to respond to.
+
 
 
 Geany Packages
