@@ -15,9 +15,9 @@ or newly added to Geany. New translations are:
 * Lithuanian
 * Mongolian (back in 2011)
 
-But also translations like German, Kazakh, Hungarian, Traditional Chinese and
-Swedish translations have been updated during the last roughly three
-month.
+But also translations like German, Kazakh, Hungarian, Italian,
+Traditional Chinese and Swedish translations have been updated
+during the last roughly three month.
 
 
 Wiki available
