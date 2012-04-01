@@ -116,6 +116,12 @@ to C++::
 		dialogs_show_msgbox(GTK_MESSAGE_INFO, "%s", hello_message);
 	}
 
+It's important to note that the dynamic library loading mechanism that loads
+plugins is C functionality and does not know about C++ constructors. This means
+that global and static objects in the plugin will *not* have their constructors
+called when the plugin is loaded. Use dynamically created objects as show in the
+above example.
+
 These changes will be available in the next Geany release but you can start using
 them right away in your C++ plugins if you Build Geany From Git [3].
 
