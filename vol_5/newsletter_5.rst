@@ -34,6 +34,96 @@ Geany's autocompletion features.
 Everybody is welcome to add additional useful content to the wiki.
 
 
+C++ plugins supported
+=====================
+
+Geany's public plugin API headers have been updated to support inclusion into
+C++ code. Most of the changes involve adding `extern "C" {...}` blocks around
+the public headers' code (by way of GLIB's `G_BEGIN_DECLS` and `G_END_DECLS`
+macros) to make them easier to include, so the C++ code doesn't need to do this.
+
+You can now write plugins in C++ and they will be loadable by Geany at run-time.
+Of course using Geany's API will still involve using C in your code, but the
+rest of your plugin can use whatever C++ features you want. You can even use
+gtkmm [1] in your plugin if you want.
+
+Any of the symbols Geany looks up at run-time must not have their names mangled
+by the compiler. To avoid this, put that code inside an `extern "C"` block.
+
+Here's an example of Geany's Hello World plugin from the Plugin HowTo [2] ported
+to C++::
+
+	#include <geanyplugin.h>
+
+	class HelloWorld
+	{
+		private:
+			gchar *hello_message;
+			GtkWidget *main_menu_item;
+
+		public:
+			HelloWorld(const gchar *message);
+			~HelloWorld();
+			void SayHelloWorld();
+	};
+
+	static HelloWorld *hello;
+
+	extern "C"
+	{
+		GeanyPlugin     *geany_plugin;
+		GeanyData       *geany_data;
+		GeanyFunctions  *geany_functions;
+
+		PLUGIN_VERSION_CHECK(211)
+		PLUGIN_SET_INFO("HelloWorld C++",
+						"Just another tool to say hello world, this time in C++",
+						"1.0", "John Doe <john.doe@example.org>");
+
+		void plugin_init(GeanyData *data)
+		{
+			hello = new HelloWorld("Hello C++ World");
+		}
+
+		void plugin_cleanup(void)
+		{
+			delete hello;
+		}
+
+		static void on_menu_item_clicked(GtkMenuItem *item, gpointer user_data)
+		{
+			hello->SayHelloWorld();
+		}
+	}
+
+	HelloWorld::HelloWorld(const gchar *message)
+	{
+		hello_message = g_strdup(message);
+		main_menu_item = gtk_menu_item_new_with_mnemonic("Hello World");
+		gtk_widget_show(main_menu_item);
+		gtk_container_add(GTK_CONTAINER(geany->main_widgets->tools_menu), main_menu_item);
+		g_signal_connect(main_menu_item, "activate", G_CALLBACK(on_menu_item_clicked), NULL);
+	}
+
+	HelloWorld::~HelloWorld()
+	{
+		g_free(hello_message);
+		gtk_widget_destroy(main_menu_item);
+	}
+
+	void HelloWorld::SayHelloWorld()
+	{
+		dialogs_show_msgbox(GTK_MESSAGE_INFO, "%s", hello_message);
+	}
+
+These changes will be available in the next Geany release but you can start using
+them right away in your C++ plugins if you Build Geany From Git [3].
+
+1. http://developer.gnome.org/gtkmm-tutorial/2.24/sec-basics-gobj-and-wrap.html.en
+2. http://www.geany.org/manual/reference/howto.html
+3. http://www.geany.org/Download/Git
+
+
 Geany local
 ===========
 
