@@ -130,9 +130,25 @@ them right away in your C++ plugins if you Build Geany From Git [3].
 3. http://www.geany.org/Download/Git
 
 
+Plugins
+=======
+
+GeanyPyflakes
+*************
+
+Pyflakes is a command line tool that statically analyzes python
+program and detects two kinds of errors: unused imports and undefined
+symbols. geany-pyflakes runs pyflakes in the background and parses its
+output. Afterwards puts markers on lines with errors and adds the
+output to the panel at the bottom of editor (the one with console,
+todo, etc.). Geany-pyflakes is available at [1].
+
+
+[1] http://code.google.com/p/geany-pyflakes/
+
+
 Geany local
 ===========
-
 
 Geany at Chemnitzer Linuxtage 2012 (March 17th, 18th)
 *****************************************************
