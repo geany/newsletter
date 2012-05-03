@@ -181,6 +181,27 @@ syntax of your code and paste it with syntax highlighting enabled.
 Once this is done it is also able to redirect you to the pasted code
 opening a new browser tab.
 
+GeanyPG
+*******
+
+GeanyPG is a plugin that allows the user to encrypt, decrypt text
+and verify signatures with GnuPG from inside Geany. It's created by
+Hans Alves and is part of the geany-plugins project.
+
+After the plugin has been installed successfully, it can be loaded
+from inside Geany's plugin manager which will add a new menu item
+into the Tools menu offering functions of the plugin..
+
+To decrypt or encrypt, just select the interesting parts and choose
+the function you wish -- If none text has been selected, the whole
+document will be processed. In case you like to verify a signature
+obviously you will have to select the whole block.
+
+When encrypting a message you can choose to sign at the same time.
+If a passphrase is needed, the GPGME library will decide how the
+user is prompted. Usually this will use gpg-agent. If gpg-agent is
+disabled, pinentry (see man 1 pinentry) will be used.
+
 
 Geany local
 ===========
