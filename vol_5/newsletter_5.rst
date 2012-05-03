@@ -160,6 +160,24 @@ todo, etc.). Geany-pyflakes is available at [1].
 
 [1] http://code.google.com/p/geany-pyflakes/
 
+GeniusPaste
+***********
+
+GeniusPaste is a plugin which is adding the possibility to paste
+your code from Geany into different pastebins. It supports this
+services:
+
+ * codepad.org
+ * pastebin.com
+ * pastebin.geany.org
+ * dpaste.de
+ * sprunge.us
+
+During the paste process GeniusPaste detects automatically the
+syntax of your code and paste it with syntax highlighting enabled.
+Once this is done it is also able to redirect you to the pasted code
+opening a new browser tab.
+
 
 Geany local
 ===========
