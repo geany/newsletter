@@ -147,8 +147,11 @@ them right away in your C++ plugins if you Build Geany From Git [3].
 Plugins
 =======
 
+New Plugins
+***********
+
 GeanyPyflakes
-*************
+#############
 
 Pyflakes is a command line tool that statically analyzes python
 program and detects two kinds of errors: unused imports and undefined
@@ -161,7 +164,7 @@ todo, etc.). Geany-pyflakes is available at [1].
 [1] http://code.google.com/p/geany-pyflakes/
 
 GeniusPaste
-***********
+###########
 
 GeniusPaste is a plugin which is adding the possibility to paste
 your code from Geany into different pastebins. It supports this
