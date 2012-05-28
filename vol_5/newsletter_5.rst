@@ -37,9 +37,9 @@ during the last roughly three month.
 Wiki available
 ==============
 
-We set up a wiki for additional documentation and resources related to Geany
-at http://wiki.geany.org. Anyone can contribute to the wiki simply by
-registering and then logging in.
+We set up a wiki for additional documentation and resources related 
+to Geany at http://wiki.geany.org. Anyone can contribute to the wiki 
+simply by registering and then logging in.
 
 In the wiki you can find configuration snippets and tips, snippets for
 various programming languages and many additional tags files to enhance
@@ -51,21 +51,24 @@ Everybody is welcome to add additional useful content to the wiki.
 C++ plugins supported
 =====================
 
-Geany's public plugin API headers have been updated to support inclusion into
-C++ code. Most of the changes involve adding `extern "C" {...}` blocks around
-the public headers' code (by way of GLIB's `G_BEGIN_DECLS` and `G_END_DECLS`
-macros) to make them easier to include, so the C++ code doesn't need to do this.
+Geany's public plugin API headers have been updated to support 
+inclusion into C++ code. Most of the changes involve adding `extern 
+"C" {...}` blocks around the public headers' code (by way of GLIB's 
+`G_BEGIN_DECLS` and `G_END_DECLS` macros) to make them easier to 
+include, so the C++ code doesn't need to do this.
 
-You can now write plugins in C++ and they will be loadable by Geany at run-time.
-Of course using Geany's API will still involve using C in your code, but the
-rest of your plugin can use whatever C++ features you want. You can even use
-gtkmm [1] in your plugin if you want.
+You can now write plugins in C++ and they will be loadable by Geany 
+at run-time. Of course using Geany's API will still involve using C 
+in your code, but the rest of your plugin can use whatever C++ 
+features you want. You can even use gtkmm [1] in your plugin if you 
+want.
 
-Any of the symbols Geany looks up at run-time must not have their names mangled
-by the compiler. To avoid this, put that code inside an `extern "C"` block.
+Any of the symbols Geany looks up at run-time must not have their 
+names mangled by the compiler. To avoid this, put that code inside 
+an `extern "C"` block.
 
-Here's an example of Geany's Hello World plugin from the Plugin HowTo [2] ported
-to C++::
+Here's an example of Geany's Hello World plugin from the Plugin 
+HowTo [2] ported to C++::
 
 	#include <geanyplugin.h>
 
@@ -130,14 +133,15 @@ to C++::
 		dialogs_show_msgbox(GTK_MESSAGE_INFO, "%s", hello_message);
 	}
 
-It's important to note that the dynamic library loading mechanism that loads
-plugins is C functionality and does not know about C++ constructors. This means
-that global and static objects in the plugin will *not* have their constructors
-called when the plugin is loaded. Use dynamically created objects as show in the
-above example.
+It's important to note that the dynamic library loading mechanism 
+that loads plugins is C functionality and does not know about C++ 
+constructors. This means that global and static objects in the 
+plugin will *not* have their constructors called when the plugin is 
+loaded. Use dynamically created objects as show in the above example.
 
-These changes will be available in the next Geany release but you can start using
-them right away in your C++ plugins if you Build Geany From Git [3].
+These changes will be available in the next Geany release but you 
+can start using them right away in your C++ plugins if you Build 
+Geany From Git [3].
 
 1. http://developer.gnome.org/gtkmm-tutorial/2.24/sec-basics-gobj-and-wrap.html.en
 2. http://www.geany.org/manual/reference/howto.html
@@ -153,12 +157,12 @@ New Plugins
 GeanyPyflakes
 #############
 
-Pyflakes is a command line tool that statically analyzes python
-program and detects two kinds of errors: unused imports and undefined
-symbols. geany-pyflakes runs pyflakes in the background and parses its
-output. Afterwards puts markers on lines with errors and adds the
-output to the panel at the bottom of editor (the one with console,
-todo, etc.). Geany-pyflakes is available at [1].
+Pyflakes is a command line tool that statically analyzes python 
+program and detects two kinds of errors: unused imports and 
+undefined symbols. geany-pyflakes runs pyflakes in the background 
+and parses its output. Afterwards puts markers on lines with errors 
+and adds the output to the panel at the bottom of editor (the one 
+with console, todo, etc.). Geany-pyflakes is available at [1].
 
 
 [1] http://code.google.com/p/geany-pyflakes/
@@ -166,8 +170,8 @@ todo, etc.). Geany-pyflakes is available at [1].
 GeniusPaste
 ###########
 
-GeniusPaste is a plugin which is adding the possibility to paste
-your code from Geany into different pastebins. It supports this
+GeniusPaste is a plugin which is adding the possibility to paste 
+your code from Geany into different pastebins. It supports this 
 services:
 
  * codepad.org
@@ -176,9 +180,9 @@ services:
  * dpaste.de
  * sprunge.us
 
-During the paste process GeniusPaste detects automatically the
-syntax of your code and paste it with syntax highlighting enabled.
-Once this is done it is also able to redirect you to the pasted code
+During the paste process GeniusPaste detects automatically the 
+syntax of your code and paste it with syntax highlighting enabled. 
+Once this is done it is also able to redirect you to the pasted code 
 opening a new browser tab.
 
 GeanyPG
@@ -222,18 +226,19 @@ and a lot of feedback to respond to.
 Geany Packages
 ==============
 
-There are new packages unofficially available for Fedora. One is containing
-the Geany Themes Matthew maintains at GitHub [1], the other one provides the
-tags files listed in the Geany Wiki [2]. The packages are not yet in Fedoras
-official repositories but available at Dominic's Fedora People space [3].
-Note the geany-themes package is intended to work with current Git versions
-of Geany only. A x86_64 package from the current Git master as well as an
-SRPM for rebuilding is also available at [3].
+There are new packages unofficially available for Fedora. One is 
+containing the Geany Themes Matthew maintains at GitHub [1], the 
+other one provides the tags files listed in the Geany Wiki [2]. The 
+packages are not yet in Fedoras official repositories but available 
+at Dominic's Fedora People space [3]. Note the geany-themes package 
+is intended to work with current Git versions of Geany only. A 
+x86_64 package from the current Git master as well as an SRPM for 
+rebuilding is also available at [3].
 
-The geany-tags package is split into subpackages containing the tags for
-each programming language. Currently these are: geany-tags-c, geany-tags-php
-and geany-tags-python. They can be installed independently from each other,
-of course.
+The geany-tags package is split into subpackages containing the tags 
+for each programming language. Currently these are: geany-tags-c, 
+geany-tags-php and geany-tags-python. They can be installed 
+independently from each other, of course.
 
 Contact Dominic if you have suggestions for improvements.
 
@@ -246,10 +251,10 @@ Contact Dominic if you have suggestions for improvements.
 About Geany
 ===========
 
-Geany is a small and lightweight Integrated Development Environment.
-It was developed to provide a small and fast IDE, which has only a
-few dependencies from other packages. Another goal was to be as
-independent as possible from a special Desktop Environment like KDE
+Geany is a small and lightweight Integrated Development Environment. 
+It was developed to provide a small and fast IDE, which has only a 
+few dependencies from other packages. Another goal was to be as 
+independent as possible from a special Desktop Environment like KDE 
 or GNOME - Geany only requires the GTK2 runtime libraries.
 
 More information about Geany can be found at
