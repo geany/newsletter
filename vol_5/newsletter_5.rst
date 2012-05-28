@@ -162,10 +162,12 @@ program and detects two kinds of errors: unused imports and
 undefined symbols. geany-pyflakes runs pyflakes in the background 
 and parses its output. Afterwards puts markers on lines with errors 
 and adds the output to the panel at the bottom of editor (the one 
-with console, todo, etc.). Geany-pyflakes is available at [1].
+with console, todo, etc.). Geany-pyflakes is available at its project 
+pages at http://code.google.com/p/geany-pyflakes/
 
+Another way to check your Python code is described inside the wiki at 
+http://wiki.geany.org/howtos/check_python_code
 
-[1] http://code.google.com/p/geany-pyflakes/
 
 GeniusPaste
 ###########
