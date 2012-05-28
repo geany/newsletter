@@ -259,3 +259,9 @@ About this newsletter
 This newsletter has been created in cooperation by people from Geany's
 international community. Contributors to this newsletter and the
 infrastructure behind it, ordered by alphabet:
+
+* Dominic Hopf
+* Enrico Tröger
+* Frank Lanitz
+* Lex Trotman
+* Matthew Brush
