@@ -151,6 +151,9 @@ Geany From Git [3].
 Plugins
 =======
 
+Notes from the plugin section. 
+
+
 New Plugins
 ***********
 
