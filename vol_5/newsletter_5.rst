@@ -226,8 +226,8 @@ and a lot of feedback to respond to.
 
 
 
-Geany Packages
-==============
+Geany Packages for Fedora
+=========================
 
 There are new packages unofficially available for Fedora. One is 
 containing the Geany Themes Matthew maintains at GitHub [1], the 
@@ -244,7 +244,6 @@ geany-tags-php and geany-tags-python. They can be installed
 independently from each other, of course.
 
 Contact Dominic if you have suggestions for improvements.
-
 
 1. http://codebrainz.github.com/geany-themes/
 2. http://wiki.geany.org/tags/start
