@@ -16,6 +16,24 @@ or GNOME - Geany only requires the GTK2 runtime libraries.
 More information about Geany can be found at
 `geany.org <http://www.geany.org/>`_.
 
+Geany 1.22 has been released
+============================
+
+Geany-Plugins 1.22 have been released
+=====================================
+
+Plugins
+=======
+
+Notes from the plugin section. 
+
+
+New Plugins
+***********
+
+Commander
+^^^^^^^^^
+
 
 About this newsletter
 =====================
