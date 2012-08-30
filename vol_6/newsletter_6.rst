@@ -34,6 +34,9 @@ New Plugins
 Commander
 ^^^^^^^^^
 
+Markdown
+^^^^^^^^
+
 
 About this newsletter
 =====================
