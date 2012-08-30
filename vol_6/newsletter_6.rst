@@ -37,6 +37,16 @@ Commander
 Markdown
 ^^^^^^^^
 
+The Markdown-plugi is providing a real-time preview of rendered Markdown.
+For doing this, it's, converted to HTML, inserted into an HTML template 
+and loaded into a WebKit view. While doing this, the main features of the
+plugin are:
+
+* Allows placing the preview in the sidebar or message window areas
+* Updates the preview on-the-fly as you type, automatically.
+* Allows simple customization of fonts and colours and complete control
+  with custom template files.
+
 
 About this newsletter
 =====================
